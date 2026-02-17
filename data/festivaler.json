@@ -1,0 +1,2889 @@
+{
+  "meta": {
+    "beskrivelse": "Norske festivaler – importert fra OCR av Broadcast-liste 2026.",
+    "oppdatert": "2026-02-17",
+    "totalt": 480
+  },
+  "festivaler": [
+    {
+      "navn": "100 dagar (Stord)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "2830 Sommertestivalen (Raufoss)",
+      "region": "Innlandet",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "ASDF Halden",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Ålesund Gatefestival",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Ålesund Kammermusikkfestival",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "All Ears Festivalen Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Jazz"
+    },
+    {
+      "navn": "Alperocken(Øsfjord)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "AltaLive (Alta)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Alvik Rock (Alvik)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "American festival (Farsund)",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Ankerfest (Kulleseidkanalen Gjestehamn)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "ANT Arrangørkonferansen - Arrangørnettverk Trøndelag",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Arendalsuka Arendal",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Amemoen (Ringebu) - mulig avviklet",
+      "region": "Innlandet",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "AsaneFest Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Asker Live (Asker)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Audunbakken (Odalen)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Bajazzfestivalen Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Jazz"
+    },
+    {
+      "navn": "BAKgården (Harstad)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Bakgården Live (Mosjøen)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Bakgårdsfestivalen (Levanger)",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Balestrand Badeklubb Festival",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Barents spektakel (Kirkenes)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Beatlesfestivalen Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Bergen Internasjonale Musikkfestival Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Bergen International Organ Festival Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Bergen kirkeautunnale Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Bergenfest Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Bergtattfestivalen (Luster)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Beskån Luossa Rock (Karasjok)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "% Beyond The Gates Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Metal"
+    },
+    {
+      "navn": "Bjørnsonfestivalen Molde / Kr Sund",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Jnaresteanen Fogn)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Blømingsfestivalen (Kinsarvik)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Blow Out Festivalen Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "% fonestvnemanet Varde)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Blues in Hell (Hell) Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Blues"
+    },
+    {
+      "navn": "Bodø Jazz Open Bodø",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Jazz"
+    },
+    {
+      "navn": "Bodøfestivalen Bodø ”",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Borealis Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Brynerocken (Bryne)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Bugøynesfestivalen (Bugøynes)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Buktafestivalen Tromsø",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "bylam Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "BYfesten 2025 (Hammerfest)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Byfjordfestivalen Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Bygdalarm (Nordheimsund)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Bygderampen Moss",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Bykalas (Haugesund)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Bysommer Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "CAERIMONIA NIDROSIÆ PT. 3 Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Canal Street (Arendal)",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Chrisfestivalen (Kjøllefjord)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Gospel/Kristen"
+    },
+    {
+      "navn": "Codstock (Henningsvær)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Coming Home Countryfestival (Grimstad)",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Dalane Bluesfestival (Egersund) Stavanger",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "De små scener (Kongsvinger)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Den forvitnelege countryfestivalen (Voss)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Den lille bluesfestivalen (Madam Felle) Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Desertfest Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Metal"
+    },
+    {
+      "navn": "Djangofestivalen Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Jazz"
+    },
+    {
+      "navn": "Em Ho",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Dragefjellet Minifestival (Bergen)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Drammen Jazzfestival Drammen",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Jazz"
+    },
+    {
+      "navn": "Drammen Metalfest Drammen",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Metal"
+    },
+    {
+      "navn": "Dråpefestivalen Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Drøbak Havnefestival",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Drøbakfestivalen",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Eddemannak (Varangerbotn) | I] ”",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Egersund Visefestival (Tideless 2026)",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Folk/Roots"
+    },
+    {
+      "navn": "Eggstockfestivalen Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Eiker Rock (Drammen)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Ekkofestivalen Bergen [ Hav",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Ekstremsportveko i Voss",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "£2. Elvebris (Elverum)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Elvefestival (Drammen)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Engelsviken Brygge Festivalen Fredrikstad",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Farsund Folk Festival (Farsund)",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Folk/Roots"
+    },
+    {
+      "navn": "Feelings Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Festi Valen (Kvinnherad)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Fest Vest (Sagvåg)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Festidalen (Uskedalen)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Festival Bohem (Kongsvinger)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Festivali Hagen (Lørenskog)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Festivalen Sin (Moss)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Festningen Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Festspela i Geiranger",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "% Festspillene Helgeland (Helgeland)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "% Festspillene i Bergen Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Festspillene i Elverum [0",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Festspillene i Kristiansund Molde / Kr Sund",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Festspillene i Nord-Norge (Harstad)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Findingsfestivalen Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Finnsnesi fest (Finnsnes)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Fjellparkfestivalen (Flekkefjord)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Fjord Cadenza",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Fjord Classics (Sandefjord)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Fjordbrøl (Herefoss)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Fjordfesten (Sandefjord)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Fjording (Halden)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Fjordjazzfestivalen (Sandefjord)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Jazz"
+    },
+    {
+      "navn": "Fløyveifestivalen (Moi)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Folkelarm Oslo [hav",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Folk/Roots"
+    },
+    {
+      "navn": "Folkemusikkveka (Ål)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Folk/Roots"
+    },
+    {
+      "navn": "Førdefestivalen (Førde)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Folk/Roots"
+    },
+    {
+      "navn": "Fornebu music and arts festival (FOMA) Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Framfestivalen (Nesodden) Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Fredvika (Gjøvik)",
+      "region": "Innlandet",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Fres (Fresvik)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Frøyafestivalen (Frøya)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Frysjastock Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Gamalostfestivalen (Vik i Sogn)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Gamlebyen Gatefestival Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Gamlebyen Jazzfestival Fredrikstad",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Jazz"
+    },
+    {
+      "navn": "Garasjefestivalen (Reinsvoll) 1] m",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Gatafestivalen (Fauske)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "GBfestivalen (Birkeland, Birkenes, Agder) | 0] ”",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Ghana Norway Music and Culture Festival Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Gjerstad Pønkråkkfestival [0",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Punk"
+    },
+    {
+      "navn": "Globus Matfestival Drammen",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Glogerfestspillene (Kongsera) Kongsberg",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Gloppen musikkfest (Sandane)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Goroso festivalen (Nordreisa)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Gras og rotfest Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Folk/Roots"
+    },
+    {
+      "navn": "Grenseløs vår (Kirkenes)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Grenseløsfestivalen (Kirkenes)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Gressvik Summerparty Fredrikstad",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Griegin Bergen Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Grieg International Choir Festival Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "GRLPWR FSTVL Fredrikstad",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Gudbrandsdal Musikkfest",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Gypsymusic festival Yagori Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Hærverki Parken Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Hagefestivalen (Sandefjord) [0",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Hagefestn Tromsø",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Hagenfest (Åkrehamn)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Haikjeften (Narvik)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Halden Internasjonale Musikkfilm Festival Halden mo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Halden litteraturfestival Halden",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Halvøya Kristiansand",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Halvøyen Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Hardanger Musikkfest",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Hardstyle DNA Outdoor Festival Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Elektronisk"
+    },
+    {
+      "navn": "Hårfestefestivalen (Rennesøy)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Jiang å rock Festva Fingesin Or",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Havblikk (Florø)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Havgapsrock (Haramøy)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Havstrøm Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "så kommet mm",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "HEIM (Hasselvika) Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Heimover - Åmli Musikkfestival (Amli)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Hellbotn Metalfest (Kolbotn)",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Metal"
+    },
+    {
+      "navn": "Helt på Vidda (Geilo)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Heme dine (Engerdal)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Hemnesjazz (Hemnes)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Jazz"
+    },
+    {
+      "navn": "Herfrafestivalen (Sokna)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Hilmarfestivalen (Steinkjer) EET",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Hjertebankfestivalen Bodø",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Hjort & Country (Siljanhjort)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Country"
+    },
+    {
+      "navn": "Høllafæst (Svolvær/L ofoten)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Horten Kammermusikkfest",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Høstsabbat Oslo oa",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Metal"
+    },
+    {
+      "navn": "Tast ts) - ME",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "HOTIHOTIHOT! Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Hove Rock Festival (Tromøya) [0",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Høydenfestivalen Bergen ”",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Huinndagan (Vestreålen)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Hunsfest (Vennesla)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Hva Skjer Oslo Festivalen Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Idyllfestivalen Fredrikstad",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "ILIOS-festivalen (Harstad)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "INZIT Internasjonale Dansefestival Molde / Kr Sund oa",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Indiefjord (Bjørke)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Inferno Metal Festival Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Metal"
+    },
+    {
+      "navn": "Innpuls- Innlandets Musikkfestival (Gjøvik)",
+      "region": "Innlandet",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Insomnia festival Tromsø",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Elektronisk"
+    },
+    {
+      "navn": "Interstate Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Into Campus - Oslo Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Into Campus Bergen Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Isfit Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Iskald Metalfest (Alta)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Metal"
+    },
+    {
+      "navn": "Jærnåttå (Bryne) Stavanger",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Jazzfest Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Jazz"
+    },
+    {
+      "navn": "Jeløyafestivalen (Moss)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Johan Halvorsen Musikkfest (Drammen)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Jordeplerock (Lærdal)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "%. Jørn Hilme-stemnet (Fagernes)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Folk/Roots"
+    },
+    {
+      "navn": "Juba Juba Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Jugend",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Jungelfest Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Juninatt (Skien)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Justivalen Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Kaktus Halden",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Kalottspel (Målselv) [0",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Kammermusikkfestivalen Stavanger",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Kanaldagane (Bømlo)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Kanalrock (Horten)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Karlsøyfestivalen (Karlsøy)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Karmøygeddon Metal Festival (Kopervik) Karmøy",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Metal"
+    },
+    {
+      "navn": "Katapult Future Fest Oslo ”",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Elektronisk"
+    },
+    {
+      "navn": "Kirsten Flagstad Festival (Hamar)",
+      "region": "Innlandet",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Kokelv Live (Kokelv)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Kon-Tiki Kammermusikkfestival Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Kongsberg Jazzfestival Kongsberg",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Jazz"
+    },
+    {
+      "navn": "Kønnbandfestivalen (Stange) ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Kopervik Festival",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Kråkeslottfestivalen (Senja)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Kristiania LIVE Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Kristiansand Fuzzfest Kristiansand",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Kristiansand Jazzfestival Kristiansand",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Jazz"
+    },
+    {
+      "navn": "Kristiansand Vinfestival Kristiansand",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Kryssover Jazzfest (Moss)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Jazz"
+    },
+    {
+      "navn": "Kubafestivalen (Svolvær/Lofoten)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Kulturdøgn Soon (Son)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Kultumatt i Halden Halden",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Kultumatt Trondheim Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Kultumatta Tromsø Tromsø",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Kutturytring Drammen",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Kunesdagan (Kunes)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Kystkulturuka (Furøya, Tvedestrand)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Laarfest (Drammen)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Laavfest",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Lake's On Fire (Lillehammer) | 0] ”",
+      "region": "Innlandet",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Langs Akerselva Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "oe Jrakoma areter) DE",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Legend Metalfest Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Metal"
+    },
+    {
+      "navn": "% Lilleaker Live Oslo ”",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Lillehammer Live (Lillehammer)",
+      "region": "Innlandet",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Lillehammer Rock Festival",
+      "region": "Innlandet",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Lilyhammericanafestivalen (Lillehammer)",
+      "region": "Innlandet",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "LiveiMarka Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Liverpoolfestivalen (Gjøvik)",
+      "region": "Innlandet",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Livestock (Alvdal)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Ljøsblått Oslo [Hov",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Løddepønk Wakestockfestival (Arendal)",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Punk"
+    },
+    {
+      "navn": "Lofoten Internasjonale Kammermusikkfest",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "LOVE & MERCY-fest Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Lyse Netter (Moss)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Mablis Stavanger",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Maijazz Stavanger",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Jazz"
+    },
+    {
+      "navn": "Main Street Music Festival / Lyden av Innlandet (Lillehammer)",
+      "region": "Innlandet",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Måkeskrik Kristiansand",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Malakoff Rockfestival Nordfjordeid",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Målrock (Årdal)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Malstrømfestivalen (Hønefoss)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Mandaljazz (Mandal)",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Jazz"
+    },
+    {
+      "navn": "Månefestivalen Fredrikstad",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Markomeannu (Evenes)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "MC Rock Fest (Eidsskog)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Midgardsblot (Horten)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Metal"
+    },
+    {
+      "navn": "Midnattrocken (Lakselv)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Midsundfestivalen (Midsund)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Midtåsen Kulturfestival (Sandefjord)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "MiniØya Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Mjøsparken Live (Brumunddal)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Molde Mundo (Molde) Molde / Kr Sund oa",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Moldejazz Molde / Kr Sund",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Jazz"
+    },
+    {
+      "navn": "Mono-log festivalen (Stord)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Monument Festival (Numedal) | I] ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Jvorumentesne Venn —",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Morellfestivalen (Lofthus/Ullensvang)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Morodalsfestivalen (Sagstua)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Mossfest (Moss)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Motvind i Middelalderskogen (Numedal)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Munkehagen festivalen Stavanger",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Music Tech Conferene Bergen (MTCB) Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Musikkfest Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Musikkfest Rogaland Stavanger",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Musikkfest Tromsø Tromsø",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Mylderfestivalen (Hamar)",
+      "region": "Innlandet",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Namnefestivalen (Voss)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Namsosfestivalen",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Nattjazz Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Jazz"
+    },
+    {
+      "navn": "Neon festivalen Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Nesodden jazzfestival Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Nesset Musikkfest Molde / Kr Sund",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "NidaRock Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Nidaros Blues Trondheim ”",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Blues"
+    },
+    {
+      "navn": "Nordaførr Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Nordic Wind Festival Oslo [Hav",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Nordiske Mediedager Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Nordland Musikkfestuke [0",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Nordlysfestivalen Tromsø",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Norsk Countrytreff (Breim)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Norway Global Piano Festival Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Notodden Blues Festival",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Blues"
+    },
+    {
+      "navn": "% NOVAFest Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Nyege Nyege Remix Oslo Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Odal Rock Festival (Austvatn )",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Oktoberfest Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Olavsfest Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Oldervik Countryfestival Tromsø",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Omstock (Husnes) [0",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Ond Sirkel Stavanger",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Only Connect Oslo Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Elektronisk"
+    },
+    {
+      "navn": "Only Connect Stavanger Stavanger",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Elektronisk"
+    },
+    {
+      "navn": "Only Connect Trondheim Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Elektronisk"
+    },
+    {
+      "navn": "Operafest (Røykenvik)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Operafest Røykenvik",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Operafestukene i Kristiansund",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Oppå Borgen Halden",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Opptur Bodø",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Orgelfest Trondheim Trondheim [ Hav",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Orgivm Satanicvm IV Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "sv odmaoeg — >",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Oslo African Pilgrimage Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Oslo Classics Oslo ”",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Oslo Deathfest Oslo [Hav",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Oslo Fjord Opera Festival Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Oslo Hard Rock Festival Oslo ”",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Oslo Humorfest Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Oslo Intemasjonale kirkemusikkfestival Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Gospel/Kristen"
+    },
+    {
+      "navn": "Oslo Jazzfestival Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Oslo Kammermusikkfestival Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Oslo kultumatt Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Oslo Mela Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Oslo Operafestival Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Oslo Orgelfestival Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Oslo Piano Festival Oslo ”",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Oslo Pride Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Oslo Rock Fest Oslo oa",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Oslo Swingjazz festival Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Oslo World Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "OverOslo Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Øyafest (Søre Øyane)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "% Øyafestivalen Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Øyhopp Stavanger",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Palmesus Kristiansand",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Parkenfestivalen Bodø",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Påskefestivalen (Karasjok)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "PIPFest/ Pikniki Parken Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Podium - Fartein Valen Internasjonale Musikkfest (Haugesund)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Poesifestivalen (Ulvik) ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Pomorfestivalen (Vardø)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Porsgrunn ska og reggae",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Positive Døgn (Odda)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Pstereo Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Punkt Kristiansand",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Rabalder Spektakel (Kirkenes) barnefestival",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Rabalderfestivalen Molde Molde / Kr Sund",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Rabalderfestivalen Tromsø Tromsø",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Rakettnatt Tromsø",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Ranglerock (Bryne)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Raumarock (Åndalsnes)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Ravnedalen Live Kristiansand",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Reconciliation Festival Stavanger",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Rekordfestivalen (Hovden) [0] ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Relentfest Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Rena Song Fest",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Riddu Riddu (Kåfjord)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Risør kammermusikkfest",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Rivera Rock (Larollen)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Riviera Rock Moss ”",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Rock Høyenhall Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "fosmatn aienes DE",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Rockholm (Harstad)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "RockOut-festivalen Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "RockStream Festival (Ramnes)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Rondaståk (Gålå)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Rootsfestivalen (Brønnøysund)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Rosendal Kammermusikkfestival (Kvinnherad)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Rossfjordrocken (Rossfjord)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Ruller Hardt Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Samisk påskefestival (Kautokeino)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "%. Sånafest (Vestby)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Sarpsborg Festivalen",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Seinsommarfest (Hareid)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Seinsommer (Kvaløyvågen )",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Seljord Countryfestival",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Senja Bamefestival",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Serendip Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Setesdal Folkemusikkfestival (Setesdal)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Folk/Roots"
+    },
+    {
+      "navn": "Sildajazz (Haugesund)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Skaidi festival (Skaidi)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Skånevik Bluesfestival",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Skeikampenfestivalen",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "SkenLive",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Slottsfjell Tønsberg",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Smalahovesleppet (Voss)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "oreiemdetieg Å",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "SMELTIVALEN Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Soddjazz (Inderøy)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Sommarljom (Ørsta)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Sommerbris Kristiansand",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Sommerfest Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Sommerfest i Bjørkvika",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Sommerfesten på Giske",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Sommernatt Tromsø Tromsø",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "SørøyRocken (Sørøya) [0",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Sørveiv Kristiansand",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Southern Discomfort Metal Festival Kristiansand",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Metal"
+    },
+    {
+      "navn": "Spetakkel Festivalen (Larvik) Larvik I Hov",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Spirefest",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Spomesfestivalen (Arendal)",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "fr Jopetresieen enes) TY",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Spydeberg Rock",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Staupshaugen Live (Levanger)",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Stavanger International Piano Festival Stavanger",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Stavanger kammermusikkfestival Stavanger",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Stavemfestivalen (Stavern)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Steinkjerfestivalen Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "StettevikFestivalen (Skodje)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Stiftelsen Kjell Holm | I] ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Stoppested Verden (Hamar)",
+      "region": "Innlandet",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Strandfestivalen (Refvik)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Strynefestivalen (Stryn)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Studentfestivalen Studio Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Sundreball (Al)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Sunnmøre Kammermsuikkfestival (Volda)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Sunshine Winter Festival (Honningsvåg)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Sus & Dus (Odda)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Svartistestivalen (Mo i Rana)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Svelvikdagene (Selvik)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "PE———",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Tahitifestivalen Molde / Kr Sund ”",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Tahitifestivalen (Kristiansund)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Telemarkfestivalen",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Terrassejazz (Evje)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Thalassic Bergen ”",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Tjuven Musikkfest (Hamar)",
+      "region": "Innlandet",
+      "måned": "Varierende",
+      "sjanger": "Pop"
+    },
+    {
+      "navn": "Tonsof Rock Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "fs frastsneskqieng DE",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Trænafestivalen (Træna)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Trandalrock (Trandal)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Treskofestivalen (Hovsheard)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Treungenfestival (Treungen)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Trevarefest (Henningsvær/Lofoten)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Trøkkn' Truck festival (Førde)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Trollkaukfestivalen (Åndalsnes)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Trollrock (Beitostølen)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Tromsø countryfestival Tromsø",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Tromsø internasjonale kirkefestival Tromsø",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Tromsø Jazzfestival Tromsø",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Tromsø world festival Tromsø",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Trondheim Calling Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Trondheim Kammermusikkfestival Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Trondheim Punkfestival Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Trondheim Rocks Trondheim",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Tysilfestivalen",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Tullinfest Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Tundra and Lightning Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Tynset jazzfestival",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Tysnesfest (Tysnes)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "UKA Trondheim mo",
+      "region": "Midt",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "ak — mm",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Uttimafestivalen Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Utafor (Siggerud)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Utfør Blårock Tromsø",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Utihavet (Mausund)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Utkant (Anneland)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Utopia Stavanger",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Valdres Sommersymfoni",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Klassisk"
+    },
+    {
+      "navn": "Valo Rock (Vadsø)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Vangenfestivalen (Haugesund)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Varangerfestivalen (Vadsø)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Vårlyd (Lakselv)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Varmere Våtere Villere Bergen",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Vårslepp",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Vaulen Open Air Stavanger",
+      "region": "Sør",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "VEKA (Volda)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Verdens Nordligste bryggefestival (Skarsvåg)",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Verket (Mo i Rana)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Vervenfestivalen (Horten)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Vestafor (Kvinnherad)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "VGJista Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Vikedal Roots Music Festival",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Folk/Roots"
+    },
+    {
+      "navn": "Vill Vill Vest Bergen [ Hav",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Vinjerock (Jotunheimen)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Vinterfestuka i Narvik",
+      "region": "Nord",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Vinterjazzfestivalen Fredrikstad",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Jazz"
+    },
+    {
+      "navn": "Vinterlysfestivalen (Mo i Rana)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "fs Jimeysteetaen (Mogen) FT",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Vintertreffet (Vaksdal)",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Vossa Jazz (Voss)",
+      "region": "Vest",
+      "måned": "Varierende",
+      "sjanger": "Jazz"
+    },
+    {
+      "navn": "Vulkan Open Air Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Warriors of Steel Festival",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Metal"
+    },
+    {
+      "navn": "We Låve Rock Festival (Asker) Oslo",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Rock"
+    },
+    {
+      "navn": "Working Class Hero Drammen",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "X9 Festivalen (Volda) [0",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Ypsilon (Drammen)",
+      "region": "Øst",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    }
+  ]
+}

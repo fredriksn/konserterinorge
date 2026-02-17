@@ -1,0 +1,2943 @@
+{
+  "meta": {
+    "beskrivelse": "Fra OCR av regnearksbilde",
+    "oppdatert": "2026-02-17",
+    "totalt": 489
+  },
+  "festivaler": [
+    {
+      "navn": "A B c",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "— Kontakt stine&broadcast events 958 66 985 for mer informasjon",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "> Broadcast sin liste over norkse musikkfestivaler i Norge 2026 Region",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "3 100 dagar (Stord) [| TT] 3 Mar",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "4 2830 Sommertestivalen (Raufoss) |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "5 ASDF Halden 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "4. Ålesund Gatefestival | Asuma] 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "7 Ålesund Kammermusikkfestival | Asuma | 2Feb",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "8. All Ears Festivalen Oslo 1 Jan",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "9 Alperocken(Øsfjord) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "10 AltaLive (Alta) Alta 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "11. Alvik Rock (Alvik) |] 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "12 American festival (Farsund) | 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Setene ETE",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "14. Ankerfest (Kulleseidkanalen Gjestehamn) | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "15. ANT Arrangørkonferansen - Arrangørnettverk Trøndelag | 0] 3 Mar",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "16 Arendalsuka Arendal 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "17 Amemoen (Ringebu) - mulig avviklet |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "| pene — |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "19 AsaneFest Bergen 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "20. Asker Live (Asker) |] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "21 Audunbakken (Odalen) | TT] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "2 Boamstena — Ea",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "23. Bajazzfestivalen Bergen 0 oa |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "24 BAKgården (Harstad) |] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "25. Bakgården Live (Mosjøen) | TT] 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "26. Bakgårdsfestivalen (Levanger) | TT] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "27. Balestrand Badeklubb Festival | I] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "28. Barents spektakel (Kirkenes) | 0] 2Feb",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "29. Beatlesfestivalen Bergen 5 mo |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "30. Bergen Internasjonale Musikkfestival Bergen 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "31 Bergen International Organ Festival Bergen 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "3 Bergen kirkeautunnale Bergen 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "33. Bergenfest Bergen 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "34 Bergtattfestivalen (Luster) |] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "35. Beskån Luossa Rock (Karasjok) | 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "3% Beyond The Gates Bergen 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "27. Bjørnsonfestivalen Molde / Kr Sund 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "5 Jnaresteanen Fogn) | TE",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "39. Blømingsfestivalen (Kinsarvik) | 0] 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "40 Blow Out Festivalen Oslo 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "% fonestvnemanet Varde) | OT",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "42. Blues in Hell (Hell) Trondheim 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "43. Bodø Jazz Open Bodø 1 Jan",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "44 Bodøfestivalen Bodø ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "45 Borealis Bergen 3 Mar",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "46. Brynerocken (Bryne) |] 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "47. Bugøynesfestivalen (Bugøynes) | 0] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "4 Buktafestivalen Tromsø 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "4 bylam Oslo 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "50. BYfesten 2025 (Hammerfest) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "5 Byfjordfestivalen Bergen 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "52 Bygdalarm (Nordheimsund) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "53 Bygderampen Moss 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "54. Bykalas (Haugesund) | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "55 Bysommer Oslo 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "56 CAERIMONIA NIDROSIÆ PT. 3 Trondheim 1 Jan",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "57. Canal Street (Arendal) Arendal 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "58. Chrisfestivalen (Kjøllefjord) |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "59 Codstock (Henningsvær) | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "40. Coming Home Countryfestival (Grimstad) [|]",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "4 Dalane Bluesfestival (Egersund) Stavanger 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "43. De små scener (Kongsvinger) | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "44. Den forvitnelege countryfestivalen (Voss) | 0] 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "45. Den lille bluesfestivalen (Madam Felle) Bergen 3 Mar",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "4 Desertfest Oslo 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "4 Djangofestivalen Oslo 1 Jan",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "Em Ho |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "—— [ae | 1]",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "7 Dragefjellet Minifestival (Bergen) Bergen 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "7 Drammen Jazzfestival Drammen 1 Jan",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "72 Drammen Metalfest Drammen 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "73 Dråpefestivalen Trondheim 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "74 Drøbak Havnefestival |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "75 Drøbakfestivalen | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "76 Eddemannak (Varangerbotn) | I] ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "77 Egersund Visefestival (Tideless 2026) | 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "78 Eggstockfestivalen Bergen 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "79 Eiker Rock (Drammen) Drammen 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "80. Ekkofestivalen Bergen [ Hav |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "81 Ekstremsportveko i Voss |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "£2. Elvebris (Elverum) | 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "83. Elvefestival (Drammen) Drammen 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "84 Engelsviken Brygge Festivalen Fredrikstad 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "8. Farsund Folk Festival (Farsund) [|] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "87 Feelings Bergen 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "88. Festi Valen (Kvinnherad) |] 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "89. Fest Vest (Sagvåg) | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "90. Festidalen (Uskedalen) | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "91 Festival Bohem (Kongsvinger) | TT] 2Feb",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "9 Festivali Hagen (Lørenskog) | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "93. Festivalen Sin (Moss) | 0] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "94 Festningen Trondheim 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "95 Festspela i Geiranger |] 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "9% Festspillene Helgeland (Helgeland) |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "% Festspillene i Bergen Bergen 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "9. Festspillene i Elverum [0] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "9 Festspillene i Kristiansund Molde / Kr Sund 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "100. Festspillene i Nord-Norge (Harstad) |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "101 Findingsfestivalen Oslo 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "102 Finnsnesi fest (Finnsnes) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "103. Fjellparkfestivalen (Flekkefjord) | 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "104. Fjord Cadenza | TT] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "105. Fjord Classics (Sandefjord) | I] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "106. Fjordbrøl (Herefoss) | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "107 Fjordfesten (Sandefjord) | 0] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "108 Fjording (Halden) Halden 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "109. Fjordjazzfestivalen (Sandefjord) Sandefjord 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "10. Fløyveifestivalen (Moi) | 0] 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "111. Folkelarm Oslo [hav |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "112 Folkemusikkveka (Ål) |] 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "113. Førdefestivalen (Førde) | 0] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "114. Fornebu music and arts festival (FOMA) Oslo 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "115 Framfestivalen (Nesodden) Oslo 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "116. Fredvika (Gjøvik) |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "17. Fres (Fresvik) | TT] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "18. Frøyafestivalen (Frøya) | 0] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "19. Frysjastock Oslo 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "120 Gamalostfestivalen (Vik i Sogn) |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "121 Gamlebyen Gatefestival Oslo 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "122 Gamlebyen Jazzfestival Fredrikstad 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "123. Garasjefestivalen (Reinsvoll) 1] m",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "124. Gatafestivalen (Fauske) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "125 GBfestivalen (Birkeland, Birkenes, Agder) | 0] ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "126 Ghana Norway Music and Culture Festival Oslo 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "127. Gjerstad Pønkråkkfestival [0] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "128 Globus Matfestival Drammen 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "129 Glogerfestspillene (Kongsera) Kongsberg 1 Jan",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "130. Gloppen musikkfest (Sandane) |] 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "131 Goroso festivalen (Nordreisa) | 0] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "132 Gras og rotfest Trondheim 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "133. Grenseløs vår (Kirkenes) |] 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "134. Grenseløsfestivalen (Kirkenes) | 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "135 Gressvik Summerparty Fredrikstad 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "136 Griegin Bergen Bergen 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "127. Grieg International Choir Festival Bergen 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "138 GRLPWR FSTVL Fredrikstad 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "139. Gudbrandsdal Musikkfest |] 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "140. Gypsymusic festival Yagori Oslo 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "141 Hærverki Parken Oslo 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "142. Hagefestivalen (Sandefjord) [0] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "143. Hagefestn Tromsø 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "144. Hagenfest (Åkrehamn) |] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "145 Haikjeften (Narvik) | 0] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "146. Halden Internasjonale Musikkfilm Festival Halden mo |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "147. Halden litteraturfestival Halden 2Feb",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "142 Halvøya Kristiansand 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "149. Halvøyen Bergen 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "150 Hardanger Musikkfest |] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "151. Hardstyle DNA Outdoor Festival Oslo 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "152. Hårfestefestivalen (Rennesøy) |] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "5 Jiang å rock Festva Fingesin Or",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "154. Havblikk (Florø) | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "155. Havgapsrock (Haramøy) | 0] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "P—",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "157. Havstrøm Oslo 3 Mar",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "så kommet mm]",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "159. HEIM (Hasselvika) Trondheim 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "160. Heimover - Åmli Musikkfestival (Amli) |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "161. Hellbotn Metalfest (Kolbotn) | TT] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "162. Helt på Vidda (Geilo) | TT] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "163. Heme dine (Engerdal) | TT] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "164 Hemnesjazz (Hemnes) |] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "165. Herfrafestivalen (Sokna) | 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "16. Hilmarfestivalen (Steinkjer) EET",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "147. Hjertebankfestivalen Bodø 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "168. Hjort & Country (Siljanhjort) |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "149. Høllafæst (Svolvær/L ofoten) | TT] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "170. Horten Kammermusikkfest | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "171 Høstsabbat Oslo oa |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "7 Tast ts) - ME",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "173. HOTIHOTIHOT! Bergen 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "174. Hove Rock Festival (Tromøya) [0] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "175. Høydenfestivalen Bergen ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "176 Huinndagan (Vestreålen) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "177. Hunsfest (Vennesla) | 0] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "178. Hva Skjer Oslo Festivalen Oslo 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "179 Idyllfestivalen Fredrikstad 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "180. ILIOS-festivalen (Harstad) |] 1 Jan",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "181 INZIT Internasjonale Dansefestival Molde / Kr Sund oa |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "182. Indiefjord (Bjørke) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "183. Inferno Metal Festival Oslo 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "184. Innpuls- Innlandets Musikkfestival (Gjøvik) | 0] 3 Mar",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "185 Insomnia festival Tromsø | mor |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "18 Interstate Oslo 2Feb",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "187 Into Campus - Oslo Oslo 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "188 Into Campus Bergen Bergen 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "199 Isfit Trondheim 3 Mar",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "190. Iskald Metalfest (Alta) Alta 2Feb",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "194 Jærnåttå (Bryne) Stavanger 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "192 Jazzfest Trondheim 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "193. Jeløyafestivalen (Moss) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "194. Johan Halvorsen Musikkfest (Drammen) Drammen 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "195. Jordeplerock (Lærdal) |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "19%. Jørn Hilme-stemnet (Fagernes) | 0] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "197 Juba Juba Trondheim 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "198 Jugend | Asuma] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "199 Jungelfest Bergen 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "200 Juninatt (Skien) |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "201 Justivalen Oslo 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "202. Kaktus Halden 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "203. Kalottspel (Målselv) [0] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "204. Kammermusikkfestivalen Stavanger 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "205. Kanaldagane (Bømlo) |] 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "206. Kanalrock (Horten) | TT] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "207. Karlsøyfestivalen (Karlsøy) | 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "208 Karmøygeddon Metal Festival (Kopervik) Karmøy 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "209. Katapult Future Fest Oslo ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "210. Kirsten Flagstad Festival (Hamar) |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "211. Kokelv Live (Kokelv) | 0] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "212 Kon-Tiki Kammermusikkfestival Oslo 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "213. Kongsberg Jazzfestival Kongsberg 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "214. Kønnbandfestivalen (Stange) |] ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "215 Kopervik Festival | 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "216. Kråkeslottfestivalen (Senja) | 0] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "27. Kristiania LIVE Oslo 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "218. Kristiansand Fuzzfest Kristiansand |]",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "219. Kristiansand Jazzfestival Kristiansand 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "220 Kristiansand Vinfestival Kristiansand 3 Mar",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "221. Kryssover Jazzfest (Moss) |] 2Feb",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "222. Kubafestivalen (Svolvær/Lofoten) | 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "223. Kulturdøgn Soon (Son) | 0] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "224 Kultumatt i Halden Halden 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "225 Kultumatt Trondheim Trondheim 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "226 Kultumatta Tromsø Tromsø 5 oa |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "227 Kutturytring Drammen 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "228. Kunesdagan (Kunes) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "229. Kystkulturuka (Furøya, Tvedestrand) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "230. Laarfest (Drammen) Drammen 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "251 Laavfest |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "232 Lake's On Fire (Lillehammer) | 0] ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "233. Langs Akerselva Oslo 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "oe Jrakoma areter) DE",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "235 Legend Metalfest Trondheim 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "23% Lilleaker Live Oslo ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "237 Lillehammer Live (Lillehammer) |] 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "238. Lillehammer Rock Festival | 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "239. Lilyhammericanafestivalen (Lillehammer) | ho |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "20. LiveiMarka Oslo 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "241. Liverpoolfestivalen (Gjøvik) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "242. Livestock (Alvdal) | 0] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "243. Ljøsblått Oslo [Hov |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "244. Løddepønk Wakestockfestival (Arendal) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "245. Lofoten Internasjonale Kammermusikkfest | 0] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "246. LOVE & MERCY-fest Oslo 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "247 Lyse Netter (Moss) |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "248. Mablis Stavanger 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "249 Maijazz Stavanger 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "250. Main Street Music Festival / Lyden av Innlandet (Lillehammer) | 0] 3 Mar",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "251 Måkeskrik Kristiansand 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "252 Malakoff Rockfestival Nordfjordeid 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "253. Målrock (Årdal) |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "254. Malstrømfestivalen (Hønefoss) | TT] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "255 Mandaljazz (Mandal) | 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "256 Månefestivalen Fredrikstad 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "257 Markomeannu (Evenes) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "258. MC Rock Fest (Eidsskog) | 1] 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "259. Midgardsblot (Horten) | TT] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "240. Midnattrocken (Lakselv) | TT] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "24 Midsundfestivalen (Midsund) | 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "262 Midtåsen Kulturfestival (Sandefjord) | 0] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "263. MiniØya Oslo 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "244. Mjøsparken Live (Brumunddal) |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "265. Molde Mundo (Molde) Molde / Kr Sund oa |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "266 Moldejazz Molde / Kr Sund 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "247 Mono-log festivalen (Stord) |] 2Feb",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "268. Monument Festival (Numedal) | I] ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "5 Jvorumentesne Venn —",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "270. Morellfestivalen (Lofthus/Ullensvang) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "271 Morodalsfestivalen (Sagstua) | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "272 Mossfest (Moss) | 0] 3 Mar",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "273. Motvind i Middelalderskogen (Numedal) | 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "274. Munkehagen festivalen Stavanger 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "275. Music Tech Conferene Bergen (MTCB) Bergen 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "276 Musikkfest Oslo 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "277 Musikkfest Rogaland Stavanger 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "278. Musikkfest Tromsø Tromsø 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "279. Mylderfestivalen (Hamar) |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "280. Namnefestivalen (Voss) | I] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "251 Namsosfestivalen | 0] 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "282. Nattjazz Bergen 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "283. Neon festivalen Trondheim 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "284. Nesodden jazzfestival Oslo 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "285 Nesset Musikkfest Molde / Kr Sund 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "286 NidaRock Trondheim 2Feb",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "287 Nidaros Blues Trondheim ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "288 Nordaførr Oslo 2Feb",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "289 Nordic Wind Festival Oslo [Hav |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "290 Nordiske Mediedager Bergen 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "291 Nordland Musikkfestuke [0] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "292 Nordlysfestivalen Tromsø 1 Jan",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "293. Norsk Countrytreff (Breim) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "294 Norway Global Piano Festival Oslo 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "295 Notodden Blues Festival |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "29% NOVAFest Oslo 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "297. Nyege Nyege Remix Oslo Oslo 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "298. Odal Rock Festival (Austvatn ) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "— — ME",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "300 Oktoberfest Oslo | mor |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "301 Olavsfest Trondheim 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "302. Oldervik Countryfestival Tromsø 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "303. Omstock (Husnes) [0] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "304 Ond Sirkel Stavanger 2Feb",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "305 Only Connect Oslo Oslo 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "306. Only Connect Stavanger Stavanger 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "307 Only Connect Trondheim Trondheim 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "308. Operafest (Røykenvik) |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "309. Operafest Røykenvik | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "30. Operafestukene i Kristiansund | 0] 2Feb",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "211 Oppå Borgen Halden 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "32 Opptur Bodø 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "313. Orgelfest Trondheim Trondheim [ Hav |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "314. Orgivm Satanicvm IV Oslo 1 Jan",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "sv odmaoeg — > |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "316. Oslo African Pilgrimage Oslo 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "317 Oslo Classics Oslo ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "318. Oslo Deathfest Oslo [Hav |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "319. Oslo Fjord Opera Festival Oslo 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "320. Oslo Hard Rock Festival Oslo ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "321. Oslo Humorfest Oslo |]",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "322. Oslo Intemasjonale kirkemusikkfestival Oslo 3 Mar",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "323. Oslo Jazzfestival Oslo 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "324. Oslo Kammermusikkfestival Oslo 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "225 Oslo kultumatt Oslo 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "326. Oslo Mela Oslo 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "327 Oslo Operafestival Oslo 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "328. Oslo Orgelfestival Oslo 5 oa |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "329 Oslo Piano Festival Oslo ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "330 Oslo Pride Oslo 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "331 Oslo Rock Fest Oslo oa |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "332. Oslo Swingjazz festival Oslo 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "333. Oslo World Oslo 5 oa |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "334 OverOslo Oslo 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "335 Øyafest (Søre Øyane) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "33% Øyafestivalen Oslo 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "337 Øyhopp Stavanger 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "338 Palmesus Kristiansand 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "339. Parkenfestivalen Bodø 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "340. Påskefestivalen (Karasjok) | 0] 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "341 PIPFest/ Pikniki Parken Oslo 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "342. Podium - Fartein Valen Internasjonale Musikkfest (Haugesund) |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "343. Poesifestivalen (Ulvik) |] ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "344. Pomorfestivalen (Vardø) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "345. Porsgrunn ska og reggae | TT] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "346. Positive Døgn (Odda) | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "27 Pstereo Trondheim 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "348 Punkt Kristiansand 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "349. Rabalder Spektakel (Kirkenes) barnefestival |] 2Feb",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "350. Rabalderfestivalen Molde Molde / Kr Sund 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "351 Rabalderfestivalen Tromsø Tromsø 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "352 Rakettnatt Tromsø 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "354. Ranglerock (Bryne) | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "355 Raumarock (Åndalsnes) | 0] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "356 Ravnedalen Live Kristiansand 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "357 Reconciliation Festival Stavanger 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "358. Rekordfestivalen (Hovden) [0] ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "359 Relentfest Trondheim 3 Mar",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "30 Rena Song Fest |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "361 Riddu Riddu (Kåfjord) | TT] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "32. Risør kammermusikkfest | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "363. Rivera Rock (Larollen) | TT] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "364 Riviera Rock Moss ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "365. Rock Høyenhall Oslo 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "54 fosmatn aienes DE",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "37. Rockholm (Harstad) | 0] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "38. RockOut-festivalen Bergen | mor |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "39. RockStream Festival (Ramnes) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "370. Rondaståk (Gålå) | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "271 Rootsfestivalen (Brønnøysund) | TT] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "372 Rosendal Kammermusikkfestival (Kvinnherad) | TT] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "373. Rossfjordrocken (Rossfjord) | 0] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "374 Ruller Hardt Bergen 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "375. Samisk påskefestival (Kautokeino) |] 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "37%. Sånafest (Vestby) | 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "377 Sarpsborg Festivalen | I] 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "378. Seinsommarfest (Hareid) | TT] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "379. Seinsommer (Kvaløyvågen ) | TT] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "380 Seljord Countryfestival | 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "381. Senja Bamefestival | 0] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "382 Serendip Oslo 2Feb",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "383. Setesdal Folkemusikkfestival (Setesdal) |] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "384 Sildajazz (Haugesund) |] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "385 Skaidi festival (Skaidi) | 0] 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "386 Skånevik Bluesfestival |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "387 Skeikampenfestivalen | TT] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "38. SkenLive | TT] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "390 Slottsfjell Tønsberg 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "391 Smalahovesleppet (Voss) |] 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "5 oreiemdetieg Å |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "393. SMELTIVALEN Oslo 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "394 Soddjazz (Inderøy) |] 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "295 Sommarljom (Ørsta) | 0] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "396 Sommerbris Kristiansand 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "297 Sommerfest Trondheim 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "398. Sommerfest i Bjørkvika |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "299. Sommerfesten på Giske | Asuma | 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "400 Sommernatt Tromsø Tromsø 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "401 SørøyRocken (Sørøya) [0] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "402 Sørveiv Kristiansand 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "403. Southern Discomfort Metal Festival Kristiansand | po |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "404. Spetakkel Festivalen (Larvik) Larvik I Hov |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "405 Spirefest | Asuma] 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "406 Spomesfestivalen (Arendal) Arendal 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "fr Jopetresieen enes) TY",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "408 Spydeberg Rock | 0] 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "409. Staupshaugen Live (Levanger) |] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "40. Stavanger International Piano Festival Stavanger 3 Mar",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "41. Stavanger kammermusikkfestival Stavanger 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "412. Stavemfestivalen (Stavern) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "413. Steinkjerfestivalen Trondheim 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "414 StettevikFestivalen (Skodje) |] 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "415 Stiftelsen Kjell Holm | I] ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "416. Stoppested Verden (Hamar) | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "417. Strandfestivalen (Refvik) | TT] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "418 Strynefestivalen (Stryn) | 0] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "419. Studentfestivalen Studio Oslo 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "420. Sundreball (Al) |] 1 Jan",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "421. Sunnmøre Kammermsuikkfestival (Volda) | 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "422 Sunshine Winter Festival (Honningsvåg) | TT] 1 Jan",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "423. Sus & Dus (Odda) | TT] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "424. Svartistestivalen (Mo i Rana) | TT] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "425. Svelvikdagene (Selvik) | TT] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "PE——— | ma",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "47 Tahitifestivalen Molde / Kr Sund ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "428. Tahitifestivalen (Kristiansund) |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "429 Telemarkfestivalen | TT] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "431 Terrassejazz (Evje) | 0] 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "432 Thalassic Bergen ”",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "433. Tjuven Musikkfest (Hamar) |] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "434 Tonsof Rock Oslo 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "fs frastsneskqieng DE",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "436 Trænafestivalen (Træna) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "437 Trandalrock (Trandal) | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "438. Treskofestivalen (Hovsheard) | TT] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "439 Treungenfestival (Treungen) | TT] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "440. Trevarefest (Henningsvær/Lofoten) | 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "441 Trøkkn' Truck festival (Førde) | 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "442 Trollkaukfestivalen (Åndalsnes) | 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "443. Trollrock (Beitostølen) | 0] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "444 Tromsø countryfestival Tromsø 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "445. Tromsø internasjonale kirkefestival Tromsø | mo |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "446. Tromsø Jazzfestival Tromsø 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "447 Tromsø world festival Tromsø 5 oa |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "448 Trondheim Calling Trondheim 1 Jan",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "449 Trondheim Kammermusikkfestival Trondheim 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "450. Trondheim Punkfestival Trondheim 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "451 Trondheim Rocks Trondheim 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "452 Tysilfestivalen |] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "453 Tullinfest Oslo 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "454 Tundra and Lightning Bergen 5 oa |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "455 Tynset jazzfestival |] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "456 Tysnesfest (Tysnes) | 0] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "457 UKA Trondheim mo |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "4 ak — mm",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "459 Uttimafestivalen Oslo 9Sep",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "460. Utafor (Siggerud) |] 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "441 Utfør Blårock Tromsø 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "462. Utihavet (Mausund) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "443. Utkant (Anneland) | 0] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "464 Utopia Stavanger 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "465 Valdres Sommersymfoni |] 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "446 Valo Rock (Vadsø) | 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "467 Vangenfestivalen (Haugesund) | TT] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "448. Varangerfestivalen (Vadsø) | TT] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "469 Vårlyd (Lakselv) | 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "470. Varmere Våtere Villere Bergen 3 Mar",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "4 Vårslepp | Asuma] 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "472 Vaulen Open Air Stavanger 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "473. VEKA (Volda) |] 2Feb",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "474. Verdens Nordligste bryggefestival (Skarsvåg) | 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "475. Verket (Mo i Rana) | TT] 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "476. Vervenfestivalen (Horten) | Hoen | 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "477 Vestafor (Kvinnherad) | 0] 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "478 VGJista Oslo 6 Jun",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "479. Vikedal Roots Music Festival |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "40 Vill Vill Vest Bergen [ Hav |",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "481 Vinjerock (Jotunheimen) |] 7 Jul",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "482 Vinterfestuka i Narvik | 0] 3 Mar",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "483. Vinterjazzfestivalen Fredrikstad 3 Mar",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "484. Vinterlysfestivalen (Mo i Rana) |] 2Feb",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "fs Jimeysteetaen (Mogen) FT",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "486. Vintertreffet (Vaksdal) | TT] 2Feb",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "487 Vossa Jazz (Voss) | 0] 3 Mar",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "488. Vulkan Open Air Oslo 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "489 Warriors of Steel Festival | Asuma] 5 May",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "490 We Låve Rock Festival (Asker) Oslo 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "491 Working Class Hero Drammen 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "492 X9 Festivalen (Volda) [0] 4 Apr",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    },
+    {
+      "navn": "493. Ypsilon (Drammen) Drammen 8 Aug",
+      "region": "Diverse",
+      "måned": "Varierende",
+      "sjanger": "Diverse/Kultur"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "meta": {
+    "kilde": "Google Suggest (autocomplete)",
+    "kjørt": "2026-02-17T22:20:26.871Z"
+  },
+  "venuer": [
+    {
+      "venue_slug": "oslo-spektrum",
+      "venue_navn": "Oslo Spektrum",
+      "by_slug": "oslo",
+      "prioritet": 1,
+      "søkefraser": [
+        {
+          "frase": "oslo spektrum 2026",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "oslo spektrum beste sitteplasser",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "oslo spektrum kapasitet",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "oslo spektrum konserter",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "oslo spektrum kryssord",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "oslo spektrum ombygging",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "oslo spektrum plasser",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "oslo spektrum program",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "oslo spektrum rives",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "oslo spektrum salkart",
+          "dekkes_av": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,632 @@
+{
+  "meta": {
+    "kilde": "Google Suggest (autocomplete)",
+    "kjørt": "2026-02-17T14:36:19.710Z"
+  },
+  "venuer": [
+    {
+      "venue_slug": "dnb-arena",
+      "venue_navn": "DNB Arena",
+      "by_slug": "stavanger",
+      "prioritet": 1,
+      "søkefraser": [
+        {
+          "frase": "bortesupporter dnb arena",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "clarion dnb arena",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "country dnb arena",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena 10 mai",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena 15 oktober",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena 18 oktober",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena 20 years",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena 25 oktober",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena 7 februar",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena 8 februar",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena 8 februar 2025",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena 9 november",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena abba",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena adresse",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena anmeldelser",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena antall",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena antall plasser",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena anthology",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena arrangement",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena awards",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena awards 2024",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena awards 2025",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena bar",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena bilder",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena billetter",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena boksekamp",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena boksing",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena busstopp",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena bygge�r",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena capacity",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena cd",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena demo",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena disney on ice",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena dj hype",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena documentary",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena doorman as",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena eier",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena events",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena felt",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena felt d",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena felt k",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena felt l",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena forum",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena frank l�ke",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena f�rste kamp",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena google maps",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena hans morten",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena hans morten hansen",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena hockey",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena hotell",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena hovedinngang",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena hvor",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena h�ndball",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena i dag",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena i kveld",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena i stavanger",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena inngang",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena instagram",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena isflate",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena ishall",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena ishockey",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena ishockeyveien 1 4021 stavanger",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena ishockeyveien stavanger",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena jobb",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena jordan peterson",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena kamp",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena kapasitet",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena kapasitet konsert",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena kart",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena kiosk",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena klemetsen",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena konsert",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena konsert 2025",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena konserter 2024",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena kontakt",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena legenden",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena logo",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena losje",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena l�ke",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena l�rdag",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena madla",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena mamma mia",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena maps",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena mat",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena merch",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena mix",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena morten abel",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena norge danmark",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena norway",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena oilers",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena ole klemetsen",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena oslo",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena oversikt",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena parkering",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena photos",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena plasser",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena podcast",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena pris",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena proff",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena program",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena publikum",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena restaurant",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena setekart",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena seter",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena show",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena sitteplasser",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena sk�yter",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena stavanger",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena stavanger capacity",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena stavanger disney on ice",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena stavanger events",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena stavanger hotell",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena stavanger h�ndball",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena stavanger i dag",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena stavanger kart",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena stavanger konsert",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena stavanger parkering",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena telia lounge",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena temperatur",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena tickets",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena til stavanger sentrum",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena tilskuere",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena tilskuertall",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena timeplan",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena trail",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena trial",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena tribune",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena veibeskrivelse",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena vip",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena vip inngang",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena wien",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena wiki",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena x trail",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena x trial",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena youtube",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena �ge aleksandersen",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena �pen n�",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena �pnet",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena �pning",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "dnb arena �pningstider",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "element dnb arena",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "element dnb arena wien",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "grease dnb arena",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "guttavibezzz dnb arena",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "hansen dnb arena",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "julebord dnb arena",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "mamma mia dnb arena billetter",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "mamma mia dnb arena varighet",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "n�r ble dnb arena �pnet",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "utsolgt dnb arena",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "vm dnb arena",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "�ge aleksandersen dnb arena billetter",
+          "dekkes_av": ""
+        },
+        {
+          "frase": "�ge dnb arena",
+          "dekkes_av": ""
+        }
+      ]
+    }
+  ]
+}

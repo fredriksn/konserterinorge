@@ -1,0 +1,1913 @@
+/* ============================================
+   Konserter i Norge – designsystem
+   Hvit bakgrunn, gul accent, ryddig layout
+   SEO-vennlig, tilgjengelig, mobilførst
+   ============================================ */
+
+/* Lys (hvit) tema */
+:root {
+  --bg: #ffffff;
+  --bg-card: #fafafa;
+  --bg-elevated: #f0f0f0;
+  --text: #1a1a1a;
+  --text-muted: #555;
+  --accent: #FFC107;
+  --accent-dark: #E6AC00;
+  --accent-hover: #FFD54F;
+  --accent-soft: rgba(255, 193, 7, 0.2);
+  --link: #1a1a1a;
+  --link-hover: #333;
+  --border: #e5e5e5;
+  --success: #2e7d32;
+  --radius: 8px;
+  --radius-lg: 12px;
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  --font-sans: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-display: "Outfit", var(--font-sans);
+  --footer-bg: #FFC107;
+  --footer-text: #1a1a1a;
+}
+
+/* Mørk (svart) tema – aktiveres med data-theme="dark" på html */
+[data-theme="dark"] {
+  --bg: #0c0e12;
+  --bg-card: #151922;
+  --bg-elevated: #1c2028;
+  --text: #e8eaef;
+  --text-muted: #8b92a3;
+  --accent: #ff6b35;
+  --accent-hover: #ff8555;
+  --accent-soft: rgba(255, 107, 53, 0.12);
+  --link: #5eb8ff;
+  --link-hover: #8ccaff;
+  --border: #2a303c;
+  --success: #34c759;
+  --shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+/* Typografi */
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+h1 { font-size: clamp(1.75rem, 4vw, 2.5rem); }
+h2 { font-size: clamp(1.35rem, 2.5vw, 1.75rem); margin-bottom: 0.75em; }
+h3 { font-size: 1.15rem; margin-bottom: 0.5em; }
+
+p {
+  margin: 0 0 1em;
+  color: var(--text-muted);
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+/* Layout */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header / Nav */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+}
+
+[data-theme="dark"] .site-header {
+  background: rgba(12, 14, 18, 0.92);
+}
+
+.site-header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 64px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.logo {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: var(--text);
+  letter-spacing: -0.02em;
+}
+
+.logo span {
+  background: var(--accent);
+  color: var(--text);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.nav-main {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+.nav-main a {
+  color: var(--text-muted);
+  padding: 8px 14px;
+  border-radius: var(--radius);
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.nav-main a:hover {
+  color: var(--text);
+  background: var(--bg-elevated);
+}
+
+.nav-main a[aria-current="page"] {
+  color: var(--text);
+  font-weight: 600;
+  background: var(--accent-soft);
+}
+
+/* Mobilmeny */
+/* Tema-knapp (lys/mørk) */
+.theme-toggle {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 12px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-size: 1.25rem;
+  line-height: 1;
+  margin-right: 8px;
+  transition: background 0.2s, color 0.2s;
+}
+
+.theme-toggle:hover {
+  background: var(--border);
+  color: var(--accent);
+}
+
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: var(--text);
+  padding: 8px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .nav-toggle { display: block; }
+  .nav-main {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border);
+    padding: 12px;
+    flex-direction: column;
+    align-items: stretch;
+    display: none;
+  }
+  .nav-main.is-open { display: flex; }
+}
+
+/* ============================================
+   HERO – TO SPALTER, STOR TYPOGRAFI
+   ============================================ */
+.hero {
+  padding: 80px 0 96px;
+  background: var(--bg);
+}
+
+.hero .container {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 64px;
+  align-items: center;
+  max-width: 1140px;
+}
+
+@media (max-width: 900px) {
+  .hero .container {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+}
+
+.hero-content {
+  order: 1;
+}
+
+.hero-eyebrow {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent-dark);
+  background: var(--accent-soft);
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  margin-bottom: 20px;
+  color: var(--text);
+  font-size: clamp(2.6rem, 6.5vw, 4.2rem);
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+
+.hero h1 .highlight {
+  background: linear-gradient(transparent 58%, var(--accent) 58%);
+  padding: 0 4px;
+}
+
+.hero .lead {
+  font-size: 1.15rem;
+  color: var(--text-muted);
+  margin-bottom: 28px;
+  line-height: 1.65;
+  max-width: 480px;
+}
+
+@media (max-width: 900px) {
+  .hero .lead {
+    max-width: none;
+  }
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+@media (max-width: 900px) {
+  .hero-actions {
+    justify-content: center;
+  }
+}
+
+.hero-sok {
+  position: relative;
+  max-width: 460px;
+}
+
+@media (max-width: 900px) {
+  .hero-sok {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.hero-image {
+  order: 2;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 12px 48px rgba(0,0,0,0.12);
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  aspect-ratio: 16/11;
+  object-fit: cover;
+}
+
+@media (max-width: 900px) {
+  .hero-image {
+    order: 0;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+}
+
+/* ============================================
+   STAT-STRIP: NØKKELTALL + TRUST
+   ============================================ */
+.stat-strip {
+  background: #1a1a1a;
+  padding: 28px 0;
+}
+
+.stat-strip .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.stat-strip-numbers {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0;
+}
+
+.stat-num-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 28px;
+  border-right: 1px solid rgba(255,255,255,0.1);
+}
+
+.stat-num-item:first-child {
+  padding-left: 0;
+}
+
+.stat-num-item:last-child {
+  border-right: none;
+}
+
+.stat-num-item strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--accent);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.stat-num-item span {
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.5);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+}
+
+.stat-strip-trust {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.45);
+  margin: 0;
+}
+
+.stat-strip-trust a {
+  color: rgba(255,255,255,0.7);
+  font-weight: 500;
+  transition: color 0.15s;
+}
+
+.stat-strip-trust a:hover {
+  color: var(--accent);
+}
+
+@media (max-width: 768px) {
+  .stat-strip .container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .stat-num-item {
+    align-items: flex-start;
+    padding: 0 20px 0 0;
+    border-right: none;
+  }
+  .stat-num-item:first-child {
+    padding-left: 0;
+  }
+  .stat-strip-numbers {
+    gap: 12px;
+    justify-content: flex-start;
+  }
+}
+
+.sok-input {
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 1rem;
+  font-family: var(--font-sans);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-card);
+  color: var(--text);
+}
+
+.sok-input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.sok-resultater {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  margin-top: 4px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  max-height: 320px;
+  overflow-y: auto;
+  z-index: 50;
+}
+
+.sok-resultater.is-open {
+  display: block;
+}
+
+.sok-liste {
+  list-style: none;
+  margin: 0;
+  padding: 8px 0;
+}
+
+.sok-liste a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 18px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.sok-liste a:hover {
+  background: var(--bg-elevated);
+  color: var(--accent);
+}
+
+.sok-type {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.sok-ingen {
+  margin: 0;
+  padding: 16px 18px;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+/* Kort-grid (byer, festivaler, etc.) */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 24px 0 48px;
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  transition: border-color 0.2s, transform 0.2s;
+}
+
+.card:hover {
+  border-color: var(--accent-soft);
+  transform: translateY(-2px);
+}
+
+.card h3 {
+  margin-bottom: 8px;
+}
+
+.card h3 a {
+  color: var(--text);
+}
+
+.card h3 a:hover {
+  color: var(--accent);
+}
+
+.card p {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+/* Knapper */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: var(--radius);
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-primary {
+  background: #1a1a1a;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #333;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--text);
+  border: 2px solid var(--text);
+}
+
+.btn-secondary:hover {
+  background: var(--text);
+  color: #fff;
+}
+
+/* Sidemal (innhold) */
+.page-content {
+  padding: 48px 0 72px;
+}
+
+.page-content h2 {
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+  padding-top: 0;
+  border-top: none;
+  margin-top: 0;
+}
+
+/* Separatorlinje mellom seksjoner (kun mellom to page-content) */
+.page-content + .page-content {
+  padding-top: 0;
+  border-top: 1px solid var(--border);
+}
+
+/* Billettselskaper: advarsel mot uoffisielle kanaler */
+.billett-advarsel {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 2px solid var(--border);
+}
+
+.billett-advarsel .section-badge,
+.billett-advarsel-badge {
+  background: rgba(150, 150, 150, 0.2);
+  color: var(--text-muted);
+}
+
+.billett-advarsel h2 {
+  font-size: clamp(1.4rem, 2.5vw, 1.85rem);
+  margin-bottom: 12px;
+}
+
+.billett-advarsel p {
+  margin-bottom: 16px;
+  max-width: 640px;
+}
+
+.billett-advarsel .card-grid {
+  margin-top: 20px;
+}
+
+.card--advarsel {
+  border-color: var(--border);
+  background: var(--bg);
+}
+
+.card--advarsel h3 a {
+  color: var(--text-muted);
+}
+
+.card--advarsel:hover {
+  border-color: var(--border);
+  transform: none;
+}
+
+.card--advarsel:hover h3 a {
+  color: var(--text);
+}
+
+/* Festival-side: bynavn som subheading under h1 */
+.festival-sted {
+  margin: -4px 0 16px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+/* Breadcrumb */
+.breadcrumb {
+  padding: 12px 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.breadcrumb a {
+  color: var(--text-muted);
+}
+
+.breadcrumb a:hover {
+  color: var(--text);
+}
+
+.breadcrumb span {
+  margin: 0 6px;
+  color: var(--border);
+}
+
+/* Partner-stripe: legacy, skjult */
+.partner-stripe { display: none; }
+
+/* Footer – gul bakgrunn */
+.site-footer {
+  margin-top: 64px;
+  padding: 48px 0 32px;
+  background: var(--footer-bg);
+  color: var(--footer-text);
+}
+
+.site-footer a {
+  color: var(--footer-text);
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 48px;
+  margin-bottom: 40px;
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+.footer-brand {
+  max-width: 280px;
+}
+
+.footer-brand .logo {
+  color: var(--footer-text);
+  margin-bottom: 12px;
+}
+
+.footer-brand .logo span {
+  background: var(--footer-text);
+  color: var(--footer-bg);
+}
+
+.footer-brand p {
+  font-size: 0.9rem;
+  color: var(--footer-text);
+  opacity: 0.9;
+  margin: 0;
+}
+
+.footer-grid h4 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--footer-text);
+  margin-bottom: 12px;
+  opacity: 0.9;
+}
+
+.footer-grid ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-grid li {
+  margin-bottom: 8px;
+}
+
+.footer-grid a {
+  color: var(--footer-text);
+  font-size: 0.95rem;
+}
+
+.footer-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.footer-gallery img {
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+  border-radius: var(--radius);
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .footer-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.footer-bottom {
+  padding-top: 24px;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  font-size: 0.9rem;
+  color: var(--footer-text);
+  text-align: center;
+  opacity: 0.9;
+}
+
+/* Scroll til topp */
+.scroll-top {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: none;
+  color: var(--text);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  z-index: 90;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s, visibility 0.2s, transform 0.2s;
+}
+
+.scroll-top.is-visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.scroll-top:hover {
+  background: var(--accent-hover);
+  transform: translateY(-2px);
+}
+
+.scroll-top:focus {
+  outline: 2px solid var(--text);
+  outline-offset: 2px;
+}
+
+/* Utility */
+.text-muted {
+  color: var(--text-muted);
+}
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ============================================
+   INNHOLDSSIDE-HERO (byer, generelle sider)
+   ============================================ */
+.page-hero {
+  padding: 32px 0 40px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.page-hero .container {
+  max-width: 720px;
+}
+
+.page-hero .breadcrumb {
+  padding-top: 0;
+  margin-bottom: 8px;
+}
+
+.page-hero .section-badge {
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.page-hero h1 {
+  margin-bottom: 12px;
+}
+
+.page-hero h1 .highlight {
+  background: linear-gradient(transparent 60%, var(--accent) 60%);
+  padding: 0 4px;
+}
+
+.page-hero .lead {
+  margin-bottom: 0;
+  font-size: 1.05rem;
+  color: var(--text-muted);
+}
+
+.page-hero .hero-meta {
+  margin: 12px 0 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+/* ============================================
+   FESTIVALER-SIDE: HERO MED BAKGRUNNSBILDE
+   ============================================ */
+.page-hero--festivals {
+  padding: 52px 0 60px;
+  background-color: #0d0d14;
+  background-image: url('https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1400&h=480&fit=crop');
+  background-size: cover;
+  background-position: center 35%;
+  position: relative;
+  border-bottom: none;
+}
+
+.page-hero--festivals::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(110deg, rgba(0,0,0,0.82) 45%, rgba(0,0,0,0.55) 100%);
+  pointer-events: none;
+}
+
+.page-hero--festivals .container {
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+}
+
+.page-hero--festivals .breadcrumb,
+.page-hero--festivals .breadcrumb a,
+.page-hero--festivals .breadcrumb span {
+  color: rgba(255,255,255,0.45);
+}
+
+.page-hero--festivals .section-badge {
+  display: inline-block;
+  background: var(--accent);
+  color: #000;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+.page-hero--festivals h1 {
+  color: #fff;
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+.page-hero--festivals h1 .highlight {
+  background: linear-gradient(transparent 55%, var(--accent) 55%);
+  color: #fff;
+  padding: 0 4px;
+}
+
+.page-hero--festivals .lead {
+  color: rgba(255,255,255,0.75);
+  font-size: 1.1rem;
+  max-width: 520px;
+  margin-bottom: 0;
+}
+
+.page-hero--festivals .hero-meta {
+  color: rgba(255,255,255,0.45);
+  font-size: 0.88rem;
+  margin-top: 20px;
+}
+
+/* ============================================
+   BY-SIDER: KOMPAKT HERO + SCENER-KORT
+   Inspirert av festival, men enklere (få scener)
+   ============================================ */
+.page-hero--by {
+  padding: 40px 0 36px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.page-hero--by .container {
+  max-width: 720px;
+}
+
+.page-hero--by .section-badge {
+  margin-bottom: 12px;
+}
+
+.page-hero--by h1 {
+  font-size: clamp(2rem, 4.5vw, 3rem);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+  margin-bottom: 12px;
+}
+
+.page-hero--by h1 .highlight {
+  background: linear-gradient(transparent 58%, var(--accent) 58%);
+  padding: 0 4px;
+}
+
+.page-hero--by .lead {
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* Scener-kort på bysider: kompakt, samme stil som festival-kort */
+.by-venues .card-grid {
+  padding-top: 8px;
+  padding-bottom: 0;
+  gap: 14px;
+}
+
+.by-venues .card {
+  padding: 16px 20px;
+}
+
+.by-venues .card h3 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.by-venues .card h3 a:hover {
+  color: var(--accent-dark);
+}
+
+.by-venues .card .card-meta {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+}
+
+.by-venues .card:hover {
+  border-color: var(--accent);
+  transform: none;
+}
+
+/* ============================================
+   VENUE-SIDER (arena / konsertscene)
+   Mal: formål tydelig, fakta strukturert, FAQ, én CTA
+   ============================================ */
+.venue-fakta,
+.venue-faq {
+  margin-top: 40px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
+}
+
+.venue-fakta .section-badge,
+.venue-faq .section-badge {
+  margin-bottom: 12px;
+}
+
+.venue-fakta h2,
+.venue-faq h2 {
+  font-size: clamp(1.4rem, 2.5vw, 1.75rem);
+  margin-bottom: 20px;
+}
+
+.venue-dl {
+  margin: 0 0 24px;
+  padding: 0;
+}
+
+.venue-dl dt {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--text);
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.venue-dl dt:first-child {
+  margin-top: 0;
+}
+
+.venue-dl dd {
+  margin: 0 0 0 0;
+  padding: 0;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.venue-dl dd a {
+  color: var(--accent-dark);
+  font-weight: 500;
+}
+
+.venue-dl dd a:hover {
+  text-decoration: underline;
+}
+
+.venue-fakta .btn {
+  margin-top: 8px;
+}
+
+/* To bokser: tekst venstre, lite kart høyre */
+.venue-map-wrap {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 20px;
+  align-items: start;
+  margin: 12px 0 20px;
+  padding: 12px 0 20px;
+  border-top: 1px solid var(--border);
+}
+
+.venue-map-left {
+  /* Tekstkolonne uten boks */
+}
+
+.venue-map-right {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.venue-map-frame {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  height: 160px;
+  min-width: 0;
+  background: var(--bg-card);
+}
+
+.venue-map-frame iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.venue-map-right .venue-map-link {
+  text-align: right;
+  font-size: 0.85rem;
+}
+
+.venue-map-link {
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.venue-map-link:hover {
+  color: var(--accent-dark);
+}
+
+@media (max-width: 640px) {
+  .venue-map-wrap {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  .venue-map-right {
+    order: -1;
+  }
+  .venue-map-frame {
+    height: 180px;
+    aspect-ratio: 16/9;
+  }
+}
+
+.venue-cta {
+  margin-top: 32px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  font-size: 0.95rem;
+}
+
+.venue-cta a {
+  font-weight: 600;
+}
+
+.venue-cta a:hover {
+  text-decoration: underline;
+}
+
+.venue-cta .btn {
+  color: var(--text);
+}
+
+.venue-cta .btn:hover {
+  text-decoration: none;
+}
+
+/* ============================================
+   FILTERBAR: REN HVIT STRIP, IKKE FLOATING CARD
+   ============================================ */
+.filter-bar {
+  padding: 0;
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+}
+
+.filter-bar-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 0;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+}
+
+.filter-label {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: 5px;
+}
+
+.filter-search-wrap,
+.filter-field {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.filter-search-wrap {
+  flex: 1;
+  min-width: 180px;
+  max-width: 280px;
+}
+
+.filter-search-input {
+  padding: 9px 13px;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--text);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  width: 100%;
+}
+
+.filter-search-input::placeholder {
+  color: var(--text-muted);
+}
+
+.filter-search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  background: var(--bg);
+}
+
+.filter-bar-inner select {
+  padding: 9px 13px;
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  color: var(--text);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  min-width: 148px;
+  appearance: auto;
+}
+
+.filter-bar-inner select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.filter-result-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+.result-count {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.result-count-zero {
+  color: var(--text-muted);
+}
+
+.filter-bar .btn-sm,
+.btn-sm {
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  flex-shrink: 0;
+}
+
+/* Mobil: «Vis filter»-knapp */
+.filter-toggle-btn {
+  display: none;
+}
+
+.filter-dropdown-fields {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .filter-toggle-btn {
+    display: inline-flex;
+  }
+  .filter-dropdown-fields {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    padding: 14px 0 4px;
+    border-top: 1px solid var(--border);
+    margin-top: 4px;
+  }
+  .filter-dropdown-fields.is-open {
+    display: flex;
+  }
+  .filter-bar-inner select {
+    width: 100%;
+  }
+}
+
+/* ============================================
+   HURTIGFILTRE: CHIPS MED GRUPPEOVERSKRIFT
+   ============================================ */
+.filter-chips {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 16px 0 4px;
+}
+
+.chip-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.chip-group-label {
+  font-size: 0.68rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--text-muted);
+  padding-right: 6px;
+  flex-shrink: 0;
+  white-space: nowrap;
+  min-width: 54px;
+}
+
+.filter-chip {
+  display: inline-block;
+  padding: 6px 12px;
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  cursor: pointer;
+  line-height: 1.4;
+  transition: border-color 0.15s, background 0.15s, color 0.15s;
+}
+
+.filter-chip:hover {
+  border-color: var(--text-muted);
+  color: var(--text);
+}
+
+.filter-chip.is-active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #000;
+  font-weight: 600;
+}
+
+/* ============================================
+   FESTIVALSEKSJONER: TYDELIGERE HIERARKI
+   ============================================ */
+.festival-section {
+  margin-top: 28px;
+  margin-bottom: 0;
+}
+
+.festival-section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+
+.festival-section-title::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+/* Gul prikk foran «Store festivaler» */
+#festival-featured-section .festival-section-title::before {
+  content: '';
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+}
+
+/* Card-grid inne i festivalseksjoner: ingen ekstra padding */
+.festival-section .card-grid {
+  padding-top: 0;
+  padding-bottom: 0;
+  gap: 14px;
+}
+
+/* ============================================
+   STORE FESTIVALER: FREMHEVEDE KORT
+   ============================================ */
+#festival-featured .card {
+  border-left: 4px solid var(--accent);
+  background: var(--bg);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  padding: 20px 22px;
+}
+
+#festival-featured .card h3 {
+  font-size: 1.05rem;
+  margin-bottom: 6px;
+}
+
+#festival-featured .card:hover {
+  border-left-color: var(--accent-dark);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+#festival-featured .card h3 a:hover {
+  color: var(--accent-dark);
+}
+
+/* ============================================
+   VANLIGE FESTIVALKORT: KOMPAKT OG RENT
+   ============================================ */
+#festival-list .card {
+  padding: 14px 18px;
+}
+
+#festival-list .card h3 {
+  font-size: 0.95rem;
+  margin-bottom: 3px;
+}
+
+#festival-list .card:hover {
+  border-color: var(--accent);
+  transform: none;
+  background: var(--bg-card);
+}
+
+#festival-list .card h3 a:hover {
+  color: var(--accent-dark);
+}
+
+/* Kort-meta (sted · region · sjanger) */
+.card-meta {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* ============================================
+   LAST INN FLERE
+   ============================================ */
+.load-more-wrap {
+  text-align: center;
+  margin: 28px 0 40px;
+}
+
+.load-more-wrap .btn {
+  min-width: 220px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text);
+  font-weight: 600;
+}
+
+.load-more-wrap .btn:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+/* ============================================
+   TOM TILSTAND
+   ============================================ */
+.festival-empty {
+  padding: 56px 24px;
+  text-align: center;
+  background: var(--bg-card);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-lg);
+  margin: 24px 0;
+}
+
+.festival-empty p {
+  margin: 0 0 20px;
+  font-size: 1rem;
+  color: var(--text-muted);
+}
+
+/* Tag (brukes på bysider m.m.) */
+.tag {
+  display: inline-block;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--text);
+}
+
+.tag.region { background: rgba(94, 184, 255, 0.15); color: var(--link); }
+.tag.sjanger { background: rgba(52, 199, 89, 0.15); color: var(--success); }
+
+/* Hurtignavigas jon under hero */
+.trust-stripe {
+  padding: 0;
+  background: var(--bg-card);
+  border-bottom: 2px solid var(--border);
+}
+
+.trust-stripe .container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  gap: 0;
+}
+
+.trust-stripe a {
+  display: inline-flex;
+  align-items: center;
+  padding: 14px 24px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--text-muted);
+  border-right: 1px solid var(--border);
+  transition: background 0.15s, color 0.15s;
+}
+
+.trust-stripe a:first-child {
+  border-left: 1px solid var(--border);
+}
+
+.trust-stripe a:hover {
+  color: var(--text);
+  background: var(--bg-elevated);
+}
+
+.trust-stripe .icon {
+  display: none;
+}
+
+/* Topic-pills (emneknapper) */
+.topic-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 24px 0;
+}
+.topic-pills a {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 999px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-muted);
+}
+.topic-pills a:hover {
+  border-color: var(--accent);
+  color: var(--text);
+  background: var(--accent-soft);
+}
+
+/* ============================================
+   FEATURE-BLOKK: BILDE + TEKST, TO SPALTER
+   ============================================ */
+.feature-block {
+  padding: 80px 0;
+  border-top: 1px solid var(--border);
+}
+
+.feature-block .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 72px;
+  align-items: center;
+  max-width: 1140px;
+}
+
+.feature-block.reverse .feature-block-img { order: 2; }
+.feature-block.reverse .feature-block-content { order: 1; }
+
+.feature-block-img {
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 12px 48px rgba(0,0,0,0.1);
+}
+
+.feature-block-img img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+  display: block;
+}
+
+.feature-block-content .section-badge {
+  margin-bottom: 16px;
+}
+
+.feature-block-content h2 {
+  border-top: 0;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: clamp(2rem, 4vw, 2.75rem);
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.feature-block-content h2 .highlight {
+  background: linear-gradient(transparent 58%, var(--accent) 58%);
+  padding: 0 4px;
+}
+
+.feature-block-content .lead {
+  font-size: 1.05rem;
+  margin-bottom: 24px;
+  line-height: 1.65;
+}
+
+@media (max-width: 900px) {
+  .feature-block {
+    padding: 56px 0;
+  }
+  .feature-block .container {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .feature-block-img,
+  .feature-block.reverse .feature-block-img { order: 0; }
+  .feature-block-content,
+  .feature-block.reverse .feature-block-content { order: 0; }
+}
+
+/* Liste med gul markør */
+.list-accent {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1em;
+}
+.list-accent li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 10px;
+  color: var(--text-muted);
+}
+.list-accent li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* Badge / eyebrow-label over overskrift */
+.section-badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--accent-dark);
+  background: var(--accent-soft);
+  padding: 4px 10px;
+  border-radius: 4px;
+  margin-bottom: 14px;
+}
+
+/* FAQ – to kolonner: temaer venstre, spørsmål høyre */
+.faq-section h2 {
+  margin-bottom: 24px;
+}
+.faq-section h2 .highlight {
+  background: linear-gradient(transparent 60%, var(--accent) 60%);
+  padding: 0 4px;
+}
+.faq-layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 40px;
+  align-items: start;
+}
+@media (max-width: 768px) {
+  .faq-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobil: knapp for å vise temaer */
+.faq-themes-toggle {
+  display: none;
+  width: 100%;
+  padding: 12px 16px;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+  background: var(--accent);
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  margin-bottom: 12px;
+  grid-column: 1;
+}
+.faq-themes-toggle:hover {
+  background: var(--accent-hover);
+}
+.faq-themes-toggle:focus {
+  outline: 2px solid var(--text);
+  outline-offset: 2px;
+}
+@media (max-width: 768px) {
+  .faq-themes-toggle {
+    display: block;
+  }
+  .faq-themes {
+    display: none;
+    grid-column: 1;
+  }
+  .faq-themes.is-open {
+    display: flex;
+  }
+  .faq-questions {
+    grid-column: 1;
+  }
+}
+@media (min-width: 769px) {
+  .faq-themes-toggle {
+    display: none !important;
+  }
+}
+
+/* Venstre kolonne – temaer */
+.faq-themes {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.faq-theme {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  padding: 12px 16px;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--text);
+  background: transparent;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.2s, color 0.2s;
+}
+.faq-theme:hover {
+  background: var(--bg-elevated);
+}
+.faq-theme.is-active {
+  background: var(--accent);
+  color: var(--text);
+}
+.faq-theme-icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--text);
+  color: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.75rem;
+  line-height: 1;
+}
+.faq-theme-icon::after {
+  content: "→";
+}
+.faq-theme.is-active .faq-theme-icon {
+  background: var(--text);
+  color: var(--accent);
+}
+
+/* Høyre kolonne – spørsmålspanel */
+.faq-questions {
+  min-width: 0;
+}
+.faq-panel {
+  display: none;
+}
+.faq-panel.is-visible {
+  display: block;
+}
+.faq-panel[hidden] {
+  display: none !important;
+}
+.faq-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.faq-item {
+  border-radius: var(--radius);
+  margin-bottom: 10px;
+  background: var(--bg-elevated);
+  overflow: hidden;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  border: 1px solid transparent;
+}
+.faq-item:hover {
+  border-color: var(--border);
+}
+.faq-item.is-open {
+  border-color: var(--accent-soft);
+  box-shadow: 0 2px 8px var(--accent-soft);
+}
+.faq-list dt {
+  margin: 0;
+}
+.faq-question {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  text-align: left;
+  padding: 16px 18px;
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1.4;
+  transition: color 0.2s;
+}
+.faq-question:hover {
+  color: var(--accent-dark);
+}
+.faq-question::after {
+  content: "▼";
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--text);
+  color: var(--bg);
+  font-size: 0.6rem;
+  line-height: 28px;
+  text-align: center;
+  transform: rotate(0deg);
+  transition: transform 0.25s ease;
+}
+.faq-item.is-open .faq-question::after {
+  transform: rotate(180deg);
+}
+.faq-list dd {
+  margin: 0;
+  padding: 0 18px;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease, visibility 0.2s, opacity 0.2s, padding 0.2s;
+}
+.faq-item:not(.is-open) dd {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.faq-item.is-open dd {
+  max-height: 30em;
+  padding: 0 18px 18px 18px;
+  visibility: visible;
+  opacity: 1;
+}
+.faq-list dd a {
+  color: var(--accent-dark);
+  font-weight: 500;
+}
+.faq-list dd a:hover {
+  text-decoration: underline;
+}
+
+/* CTA under FAQ */
+.faq-cta {
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+.faq-cta .btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}

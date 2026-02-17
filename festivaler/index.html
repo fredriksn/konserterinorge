@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Oversikt over norske festivaler – etter måned, region og sjanger. Øyafestivalen, Slottsfjell, Tons of Rock, jazzfestivaler og mer.">
+  <meta name="robots" content="index, follow">
+  <title>Festivaler i Norge – Måned, region og sjanger | Konserter i Norge</title>
+  <link rel="canonical" href="https://www.konserterinorge.no/festivaler/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.konserterinorge.no/festivaler/">
+  <meta property="og:title" content="Festivaler i Norge – Måned, region og sjanger">
+  <meta property="og:description" content="Oversikt over norske festivaler – Øyafestivalen, Slottsfjell, Tons of Rock, Bergenfest og mer. Filtrer på måned, region og sjanger.">
+  <meta property="og:image" content="https://www.konserterinorge.no/images/og-default.jpg">
+  <meta property="og:site_name" content="Konserter i Norge">
+  <meta property="og:locale" content="nb_NO">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Festivaler i Norge – Måned, region og sjanger">
+  <meta name="twitter:description" content="Oversikt over norske festivaler – Øyafestivalen, Slottsfjell, Tons of Rock, Bergenfest og mer.">
+  <meta name="twitter:image" content="https://www.konserterinorge.no/images/og-default.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a href="../index.html" class="logo">Konserter<span>iNorge</span>.no</a>
+      <nav class="nav-main" aria-label="Hovednavigasjon">
+        <a href="../index.html">Hjem</a>
+        <a href="../byer/">Byer</a>
+        <a href="index.html" aria-current="page">Festivaler</a>
+        <a href="../billettselskaper/">Billettselskaper</a>
+        <a href="../turneer/">Turneer</a>
+        <a href="../artister/">Artister</a>
+      </nav>
+      <button type="button" class="nav-toggle" aria-label="Åpne meny" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main id="main-content" role="main">
+    <section class="page-hero page-hero--festivals">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Brødsmule">
+          <a href="../index.html">Hjem</a>
+          <span>/</span>
+          <span>Festivaler</span>
+        </nav>
+        <span class="section-badge">Oversikt</span>
+        <h1>Festivaler i <span class="highlight">Norge</span></h1>
+        <p class="lead">Søk blant hundrevis av norske festivaler. Filtrer på region, sjanger og måned.</p>
+        <p class="hero-meta" id="hero-total"></p>
+      </div>
+    </section>
+
+    <div class="container page-content">
+      <div class="filter-bar" role="search" aria-label="Søk og filtrer festivaler">
+        <div class="filter-bar-inner">
+          <div class="filter-search-wrap">
+            <label for="filter-search" class="filter-label">Søk</label>
+            <input type="search" id="filter-search" class="filter-search-input" placeholder="Søk på navn, sted eller sjanger …" autocomplete="off" aria-label="Søk på navn, sted eller sjanger">
+          </div>
+          <button type="button" class="filter-toggle-btn btn btn-secondary btn-sm" id="filter-toggle" aria-expanded="false" aria-controls="filter-dropdown-fields">Vis filter</button>
+          <div class="filter-dropdown-fields" id="filter-dropdown-fields">
+            <div class="filter-field">
+              <label for="filter-month" class="filter-label">Måned</label>
+              <select id="filter-month" aria-label="Velg måned">
+                <option value="">Alle</option>
+                <option value="Varierende">Varierende</option>
+                <option value="Januar">Januar</option>
+                <option value="Februar">Februar</option>
+                <option value="Mars">Mars</option>
+                <option value="April">April</option>
+                <option value="Mai">Mai</option>
+                <option value="Juni">Juni</option>
+                <option value="Juli">Juli</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="Oktober">Oktober</option>
+                <option value="November">November</option>
+                <option value="Desember">Desember</option>
+              </select>
+            </div>
+            <div class="filter-field">
+              <label for="filter-region" class="filter-label">Område</label>
+              <select id="filter-region" aria-label="Velg område">
+                <option value="">Alle</option>
+                <option value="Øst">Øst (Oslo, Viken, Østfold)</option>
+                <option value="Vest">Vest (Vestland)</option>
+                <option value="Sør">Sør (Rogaland, Agder)</option>
+                <option value="Nord">Nord (Nord-Norge)</option>
+                <option value="Midt">Trøndelag</option>
+                <option value="Innlandet">Innlandet (Hedmark, Oppland)</option>
+                <option value="Diverse">Diverse</option>
+              </select>
+            </div>
+            <div class="filter-field">
+              <label for="filter-sjanger" class="filter-label">Sjanger</label>
+              <select id="filter-sjanger" aria-label="Velg sjanger">
+                <option value="">Alle</option>
+              </select>
+            </div>
+          </div>
+          <div class="filter-result-wrap">
+            <span id="result-count" class="result-count" aria-live="polite"></span>
+            <button type="button" class="btn btn-secondary btn-sm" id="reset-filters">Nullstill</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="filter-chips" class="filter-chips" aria-label="Hurtigfiltre"></div>
+
+      <div id="festival-empty" class="festival-empty" hidden aria-live="polite">
+        <p>Ingen festivaler matchet søk eller filter.</p>
+        <button type="button" class="btn btn-primary" id="empty-reset">Nullstill og vis alle</button>
+      </div>
+
+      <section id="festival-featured-section" class="festival-section" aria-labelledby="featured-heading" hidden>
+        <h2 id="featured-heading" class="festival-section-title">Store festivaler</h2>
+        <div class="card-grid" id="festival-featured"></div>
+      </section>
+
+      <section id="festival-other-section" class="festival-section" aria-labelledby="other-heading">
+        <h2 id="other-heading" class="festival-section-title">Andre festivaler</h2>
+        <div class="card-grid" id="festival-list" aria-label="Liste over festivaler"></div>
+        <div id="festival-load-more-wrap" class="load-more-wrap" hidden>
+          <button type="button" class="btn btn-secondary" id="load-more-btn">Last inn flere</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo">Konserter<span>iNorge</span>.no</a>
+          <p>Oversikt over konsertscener, festivaler og arrangementer i Norge. Finn arenaer, parkering og billetter.</p>
+        </div>
+        <div>
+          <h4>Nettside</h4>
+          <ul>
+            <li><a href="../index.html">Hjem</a></li>
+            <li><a href="../byer/">Byer</a></li>
+            <li><a href="index.html">Festivaler</a></li>
+            <li><a href="../billettselskaper/">Billettselskaper</a></li>
+            <li><a href="../turneer/">Turneer</a></li>
+            <li><a href="../artister/">Artister</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Informasjon</h4>
+          <ul>
+            <li><a href="../om-oss/">Om oss</a></li>
+            <li><a href="../kontakt/">Kontakt</a></li>
+            <li><a href="../blogg/">Blogg</a></li>
+            <li><a href="../sok/">Søk</a></li>
+            <li><a href="../personvern/">Personvern</a></li>
+            <li><a href="../vilkar/">Vilkår</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-gallery" aria-label="Bilder">
+        <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=280&h=180&fit=crop" width="280" height="180" alt="Konsert med scenelys" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=280&h=180&fit=crop" width="280" height="180" alt="Livekonsert på festival" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=280&h=180&fit=crop" width="280" height="180" alt="Konsertpublikum og scene" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=280&h=180&fit=crop" width="280" height="180" alt="Festival med scene" loading="lazy">
+      </div>
+      <div class="footer-bottom">
+        <p>© Konserter i Norge. Konsertscener, festivaler og arrangementer i Norge.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" class="scroll-top" aria-label="Scroll til toppen" title="Scroll til toppen">↑</button>
+
+  <script src="../js/main.js"></script>
+  <script src="../js/festivaler.js"></script>
+</body>
+</html>

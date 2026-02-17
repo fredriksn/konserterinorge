@@ -1,0 +1,189 @@
+{
+  "meta": {
+    "beskrivelse": "Norges største konsertarenaer. Én kilde for kapasitet, adresse, parkering og lenker. Brukes på forsiden og under Byer.",
+    "oppdatert": "2025-02-17",
+    "totalt": 15
+  },
+  "arenaer": [
+    {
+      "navn": "Oslo Spektrum",
+      "by": "Oslo",
+      "kapasitet": 9000,
+      "kapasitet_tekst": "ca. 9 000 (konsert)",
+      "adresse": "Sonja Henies plass 2, 0185 Oslo",
+      "nettside": "https://www.oslospektrum.no",
+      "slug": "oslo-spektrum",
+      "beskrivelse": "Norges mest brukte konsert- og arrangementarena, sentralt ved Youngstorget.",
+      "parkering": "Begrenset gateparkering. Parkeringshus i nærheten. Anbefales kollektivtransport.",
+      "kollektiv": "T-bane Stortinget/Jernbanetorget, trikk og buss til Youngstorget."
+    },
+    {
+      "navn": "Unity Arena",
+      "by": "Oslo",
+      "kapasitet": 15000,
+      "kapasitet_tekst": "ca. 15 000",
+      "adresse": "John Strandruds vei 16, 1366 Fornebu",
+      "nettside": "https://www.unityarena.no",
+      "slug": "unity-arena",
+      "beskrivelse": "Norges største innendørs arena. Store konserter og arrangementer på Fornebu.",
+      "parkering": "Stor parkeringsplass ved arenaen. Betaling.",
+      "kollektiv": "Buss fra Oslo S/Fornebu. Kollektiv anbefales ved store arrangementer."
+    },
+    {
+      "navn": "Rockefeller",
+      "by": "Oslo",
+      "kapasitet": 1350,
+      "kapasitet_tekst": "ca. 1 350",
+      "adresse": "Torggata 16, 0181 Oslo",
+      "nettside": "https://www.rockefeller.no",
+      "slug": "rockefeller",
+      "beskrivelse": "Konsertklubb i sentrum. Populær scene for norske og internasjonale artister.",
+      "parkering": "Gateparkering og parkeringshus i området.",
+      "kollektiv": "Trikk og T-bane nær Stortinget/Jernbanetorget."
+    },
+    {
+      "navn": "Sentrum Scene",
+      "by": "Oslo",
+      "kapasitet": 1750,
+      "kapasitet_tekst": "ca. 1 750",
+      "adresse": "Youngstorget 1, 0181 Oslo",
+      "nettside": "https://www.sentrumscene.no",
+      "slug": "sentrum-scene",
+      "beskrivelse": "Konsertscene ved Youngstorget. Store navn og klubbfølelse.",
+      "parkering": "Parkeringshus og gateparkering i nærheten.",
+      "kollektiv": "T-bane, trikk og buss til Youngstorget."
+    },
+    {
+      "navn": "Parkteateret",
+      "by": "Oslo",
+      "kapasitet": 500,
+      "kapasitet_tekst": "ca. 500",
+      "adresse": "Sørkedalsveien 45, 0378 Oslo",
+      "nettside": "",
+      "slug": "parkteateret",
+      "beskrivelse": "Teater og konserter i parkmiljø på Sørkedalen.",
+      "parkering": "Parkering ved anlegget.",
+      "kollektiv": "Buss fra Oslo sentrum."
+    },
+    {
+      "navn": "Blå",
+      "by": "Oslo",
+      "kapasitet": 400,
+      "kapasitet_tekst": "ca. 400",
+      "adresse": "Brenneriveien 9, 0182 Oslo",
+      "nettside": "https://www.blaaoslo.no",
+      "slug": "bla",
+      "beskrivelse": "Jazzklubb og konsertsted på Grünerløkka.",
+      "parkering": "Gateparkering i området.",
+      "kollektiv": "Trikk til Nybrua/Ankerbrua, T-bane Grünerløkka."
+    },
+    {
+      "navn": "Oslo Konserthus",
+      "by": "Oslo",
+      "kapasitet": 1400,
+      "kapasitet_tekst": "ca. 1 400 (hovedsal)",
+      "adresse": "Munkedamsveien 14, 0250 Oslo",
+      "nettside": "https://www.oslokonserthus.no",
+      "slug": "oslo-konserthus",
+      "beskrivelse": "Konserthus for klassisk musikk og orkester. Oslos viktigste konserthus.",
+      "parkering": "Parkeringshus under/bygget. Gateparkering begrenset.",
+      "kollektiv": "T-bane Nationaltheatret, trikk og buss."
+    },
+    {
+      "navn": "Operaen",
+      "by": "Oslo",
+      "kapasitet": 1364,
+      "kapasitet_tekst": "1 364 (hovedscenen)",
+      "adresse": "Kirsten Flagstads plass 1, 0150 Oslo",
+      "nettside": "https://www.operaen.no",
+      "slug": "operaen",
+      "beskrivelse": "Opera og store konserter i Operahuset på Bjørvika.",
+      "parkering": "Parkeringshus under Operahuset.",
+      "kollektiv": "T-bane Jernbanetorget, trikk og buss til Dronning Eufemias gate."
+    },
+    {
+      "navn": "Grieghallen",
+      "by": "Bergen",
+      "kapasitet": 1500,
+      "kapasitet_tekst": "ca. 1 500 (storsalen)",
+      "adresse": "Edvard Griegs plass 1, 5015 Bergen",
+      "nettside": "https://www.grieghallen.no",
+      "slug": "grieghallen",
+      "beskrivelse": "Bergens konserthus. Klassisk, konserter og store arrangementer.",
+      "parkering": "Parkering i nærheten. Kollektiv anbefales.",
+      "kollektiv": "Buss og Bybanen til sentrum."
+    },
+    {
+      "navn": "Ole Bull Scene",
+      "by": "Bergen",
+      "kapasitet": 350,
+      "kapasitet_tekst": "ca. 350",
+      "adresse": "Øvre Ole Bulls plass 1, 5012 Bergen",
+      "nettside": "",
+      "slug": "ole-bull-scene",
+      "beskrivelse": "Konsert- og teaterscene i Bergen sentrum.",
+      "parkering": "Gateparkering og parkeringshus i sentrum.",
+      "kollektiv": "Sentrum. Buss og Bybanen."
+    },
+    {
+      "navn": "USF Verftet",
+      "by": "Bergen",
+      "kapasitet": 800,
+      "kapasitet_tekst": "ca. 800 (varierer)",
+      "adresse": "Georgernes verft 12, 5011 Bergen",
+      "nettside": "https://www.usf.no",
+      "slug": "usf-verftet",
+      "beskrivelse": "Kulturhus og konsertsted på Nøstet.",
+      "parkering": "Begrenset. Kollektiv anbefales.",
+      "kollektiv": "Buss og gangavstand fra sentrum."
+    },
+    {
+      "navn": "Olavshallen",
+      "by": "Trondheim",
+      "kapasitet": 1200,
+      "kapasitet_tekst": "ca. 1 200",
+      "adresse": "Prinsens gate 2, 7012 Trondheim",
+      "nettside": "https://www.olavshallen.no",
+      "slug": "olavshallen",
+      "beskrivelse": "Konsert- og arrangementsarena i Trondheim sentrum.",
+      "parkering": "Parkeringshus og gateparkering i nærheten.",
+      "kollektiv": "Sentrum. Buss og gangavstand."
+    },
+    {
+      "navn": "Trondheim Spektrum",
+      "by": "Trondheim",
+      "kapasitet": 4000,
+      "kapasitet_tekst": "ca. 4 000 (konsert)",
+      "adresse": "Klæbuveien 125, 7031 Trondheim",
+      "nettside": "https://www.trondheimspektrum.no",
+      "slug": "trondheim-spektrum",
+      "beskrivelse": "Stor innendørs arena for konserter og arrangementer.",
+      "parkering": "Parkering ved anlegget.",
+      "kollektiv": "Buss fra sentrum."
+    },
+    {
+      "navn": "Stavanger Konserthus",
+      "by": "Stavanger",
+      "kapasitet": 1200,
+      "kapasitet_tekst": "ca. 1 200",
+      "adresse": "Sølvberggata 2, 4006 Stavanger",
+      "nettside": "https://www.stavanger-konserthus.no",
+      "slug": "stavanger-konserthus",
+      "beskrivelse": "Stavangers konserthus for klassisk og store konserter.",
+      "parkering": "Parkeringshus i nærheten.",
+      "kollektiv": "Sentrum. Buss og gangavstand."
+    },
+    {
+      "navn": "DNB Arena",
+      "by": "Stavanger",
+      "kapasitet": 11500,
+      "kapasitet_tekst": "ca. 11 500 (konsert)",
+      "adresse": "Idrettsveien 2, 4020 Stavanger",
+      "nettside": "https://www.dnbarena.no",
+      "slug": "dnb-arena",
+      "beskrivelse": "Stor innendørs arena. Konserter og idrett.",
+      "parkering": "Stor parkeringsplass.",
+      "kollektiv": "Buss fra Stavanger sentrum."
+    }
+  ]
+}

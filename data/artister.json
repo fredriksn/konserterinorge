@@ -1,0 +1,17 @@
+{
+  "meta": { "beskrivelse": "Artister som søkes ofte – utvides med egne sider", "totalt": 12 },
+  "artister": [
+    { "navn": "Kygo", "slug": "kygo" },
+    { "navn": "Alan Walker", "slug": "alan-walker" },
+    { "navn": "Sigrid", "slug": "sigrid" },
+    { "navn": "Aurora", "slug": "aurora" },
+    { "navn": "Dua Lipa", "slug": "dua-lipa" },
+    { "navn": "Ed Sheeran", "slug": "ed-sheeran" },
+    { "navn": "Coldplay", "slug": "coldplay" },
+    { "navn": "Sting", "slug": "sting" },
+    { "navn": "Kaizers Orchestra", "slug": "kaizers-orchestra" },
+    { "navn": "Röyksopp", "slug": "royksopp" },
+    { "navn": "Dimmu Borgir", "slug": "dimmu-borgir" },
+    { "navn": "Kvelertak", "slug": "kvelertak" }
+  ]
+}
