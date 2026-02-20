@@ -24,7 +24,7 @@ const BY_TO_SLUG = {
 };
 
 const BASE = 'https://www.konserterinorge.no';
-const VENUE_LINE = (bySlug, slug) => `  <url><loc>${BASE}/byer/${bySlug}/${slug}/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>`;
+const VENUE_LINE = (bySlug, slug) => `  <url><loc>${BASE}/byer/${bySlug}/${slug}/</loc><lastmod>${new Date().toISOString().slice(0, 10)}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>`;
 
 function main() {
   let arenaer = [];

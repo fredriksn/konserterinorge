@@ -44,13 +44,19 @@
     var arenaer = data.arenaer || [];
     arenaer.forEach(function (a) {
       var url = getArenaUrl(a);
-      var card = document.createElement('article');
-      card.className = 'card';
+      var card = document.createElement('a');
+      card.href = escapeHtml(url);
+      card.className = 'info-card info-card--link';
+      
       var cap = a.kapasitet_tekst || (a.kapasitet ? 'ca. ' + Number(a.kapasitet).toLocaleString('nb-NO') : '');
-      var byLabel = a.by ? ' · ' + escapeHtml(a.by) : '';
+      var byLabel = a.by ? escapeHtml(a.by) : '';
+      
       card.innerHTML =
-        '<h3><a href="' + escapeHtml(url) + '">' + escapeHtml(a.navn) + '</a></h3>' +
-        '<p>' + escapeHtml(a.beskrivelse || '') + (cap ? ' Kapasitet: ' + escapeHtml(cap) : '') + byLabel + '.</p>';
+        '<div class="info-card-icon">🏟️</div>' +
+        '<div class="info-card-body">' +
+        '  <strong>' + escapeHtml(a.navn) + '</strong>' +
+        '  <p>' + escapeHtml(a.beskrivelse || '') + (cap ? ' Kapasitet: ' + escapeHtml(cap) + '.' : '') + (byLabel ? ' (' + byLabel + ')' : '') + '</p>' +
+        '</div>';
       listEl.appendChild(card);
     });
   };

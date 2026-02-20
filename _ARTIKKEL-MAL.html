@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<!--
+  ╔══════════════════════════════════════════════════════════════════╗
+  ║  KONSERTERINORGE – UNIVERSELL ARTIKKELMAL (v2)                  ║
+  ║  Gjenbrukbar for alle venues og alle typer støtteartikler        ║
+  ║──────────────────────────────────────────────────────────────────║
+  ║  PLASSHOLDERE som må byttes ut:                                  ║
+  ║    {{VENUE}}          → "Unity Arena", "Oslo Spektrum" osv.      ║
+  ║    {{VENUE_SLUG}}     → "unity-arena", "oslo-spektrum" osv.      ║
+  ║    {{ARTIKKEL_SLUG}}  → "transport", "hotell", "historikk" osv.  ║
+  ║    {{TITTEL}}         → Full artikkeltittel                      ║
+  ║    {{META_DESC}}      → 150–160 tegn metabeskrivelse             ║
+  ║    {{LEAD}}           → Ingressavsnitt under hero-tittelen       ║
+  ║    {{BILDE_URL}}      → Wikimedia Commons full-size URL          ║
+  ║    {{BILDE_ALT}}      → Beskrivende alt-tekst                    ║
+  ║    {{BILDE_ATTR}}     → "Fotografnavn / CC BY-SA 4.0"            ║
+  ║    {{BILDE_WIKI_URL}} → Wikimedia Commons filside-URL            ║
+  ║    {{DATO}}           → "2026-02-20T08:00:00+01:00" ISO 8601     ║
+  ║    {{CHIPS}}          → 3–5 venue-chips (se eksempel)            ║
+  ║    {{SEKSJONER}}      → Innhold (se kommentarer inni)            ║
+  ╠══════════════════════════════════════════════════════════════════╣
+  ║  UX-REGLER (følg alltid disse):                                  ║
+  ║  • kollektiv-cards: Bruk til lister (alltid én kolonne = bra)   ║
+  ║  • tips-grid: Kun ved 3+ kortinnhold med kort tekst              ║
+  ║  • info-cards: Alltid et PARTALL (2, 4, 6) for 2×n-grid         ║
+  ║  • tips-hack: For viktige praktiske tips/advarsler               ║
+  ║  • faq-list: 5–8 spørsmål med åpne/lukk-accordion               ║
+  ║  • Schema.org: BreadcrumbList + Article + FAQPage = alltid       ║
+  ╚══════════════════════════════════════════════════════════════════╝
+-->
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{META_DESC}}">
+  <meta name="robots" content="index, follow">
+  <title>{{TITTEL}} | Konserter i Norge</title>
+  <!-- REGEL: canonical peker alltid til den faktiske URL-en med trailing slash -->
+  <link rel="canonical" href="https://www.konserterinorge.no/byer/oslo/{{VENUE_SLUG}}/{{ARTIKKEL_SLUG}}/">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://www.konserterinorge.no/byer/oslo/{{VENUE_SLUG}}/{{ARTIKKEL_SLUG}}/">
+  <meta property="og:title" content="{{TITTEL}}">
+  <meta property="og:description" content="{{META_DESC}}">
+  <meta property="og:image" content="{{BILDE_URL}}">
+  <meta property="og:site_name" content="Konserter i Norge">
+  <meta property="og:locale" content="nb_NO">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{TITTEL}}">
+  <meta name="twitter:description" content="{{META_DESC}}">
+  <meta name="twitter:image" content="{{BILDE_URL}}">
+
+  <!-- Fonter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- REGEL: CSS-sti er alltid relativ – juster antall ../ etter mappenivå -->
+  <!-- Nivå 4 (byer/oslo/venue/artikkel/): ../../../../css/style.css -->
+  <link rel="stylesheet" href="../../../../css/style.css">
+
+  <!-- ──────────────────────────────────────────
+       SCHEMA.ORG – ALLTID TRE BLOKKER:
+       1. Article  2. BreadcrumbList  3. FAQPage
+       ────────────────────────────────────────── -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{TITTEL}}",
+    "description": "{{META_DESC}}",
+    "image": "{{BILDE_URL}}",
+    "author": { "@type": "Person", "name": "Henrik", "url": "https://www.konserterinorge.no/om-oss/" },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Konserter i Norge",
+      "logo": { "@type": "ImageObject", "url": "https://www.konserterinorge.no/images/logo.png" }
+    },
+    "datePublished": "{{DATO}}",
+    "dateModified": "{{DATO}}"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Hjem",           "item": "https://www.konserterinorge.no/"},
+      {"@type": "ListItem", "position": 2, "name": "Byer",           "item": "https://www.konserterinorge.no/byer/"},
+      {"@type": "ListItem", "position": 3, "name": "Oslo",           "item": "https://www.konserterinorge.no/byer/oslo/"},
+      {"@type": "ListItem", "position": 4, "name": "{{VENUE}}",      "item": "https://www.konserterinorge.no/byer/oslo/{{VENUE_SLUG}}/"},
+      {"@type": "ListItem", "position": 5, "name": "{{ARTIKKEL_TITTEL_KORT}}", "item": "https://www.konserterinorge.no/byer/oslo/{{VENUE_SLUG}}/{{ARTIKKEL_SLUG}}/"}
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "{{FAQ_Q1}}",
+        "acceptedAnswer": { "@type": "Answer", "text": "{{FAQ_A1}}" }
+      },
+      {
+        "@type": "Question",
+        "name": "{{FAQ_Q2}}",
+        "acceptedAnswer": { "@type": "Answer", "text": "{{FAQ_A2}}" }
+      }
+      /* Legg til 5–8 spørsmål totalt */
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ══════ HEADER (identisk på alle sider) ══════ -->
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a href="../../../../index.html" class="logo">Konserter<span>iNorge</span>.no</a>
+      <nav class="nav-main" aria-label="Hovednavigasjon">
+        <a href="../../../../index.html">Hjem</a>
+        <a href="../../../../byer/">Byer</a>
+        <a href="../../../../festivaler/">Festivaler</a>
+        <a href="../../../../billettselskaper/">Billettselskaper</a>
+        <a href="../../../../turneer/">Turneer</a>
+        <a href="../../../../artister/">Artister</a>
+      </nav>
+      <button type="button" class="nav-toggle" aria-label="Åpne meny" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <!-- ══════ HERO ══════
+       REGEL Bilder: Alltid fra Wikimedia Commons med CC-lisens.
+       Søk på: https://commons.wikimedia.org/wiki/Category:{{VENUE}}
+       Velg bilder med: CC BY 3.0, CC BY-SA 3.0, CC BY-SA 4.0 (IKKE Copyright)
+       REGEL Bildestørrelse: Bruk 1280px-thumb-URL fra Wikimedia, ikke original (for ytelse).
+       ════════════════ -->
+  <div class="venue-page-hero">
+    <img
+      src="{{BILDE_URL}}"
+      alt="{{BILDE_ALT}}"
+      class="venue-hero-bg"
+      fetchpriority="high">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Brødsmule">
+        <a href="../../../../index.html">Hjem</a>
+        <span>/</span>
+        <a href="../../../../byer/">Byer</a>
+        <span>/</span>
+        <a href="../../">Oslo</a>
+        <span>/</span>
+        <a href="../">{{VENUE}}</a>
+        <span>/</span>
+        <span>{{ARTIKKEL_TITTEL_KORT}}</span>
+      </nav>
+      <h1>{{TITTEL}}</h1>
+      <div class="venue-hero-meta">
+        <span class="badge-verified">✓ Oppdatert: {{MAANED_AAR}}</span>
+        <span class="read-time">⏱️ {{LESETID}} min lesetid</span>
+      </div>
+      <p class="lead">{{LEAD}}</p>
+      <div class="venue-chips">
+        <!-- 3–5 chips – korte faktasetninger. Eksempler: -->
+        {{CHIPS}}
+        <!-- Eksempel:
+        <span class="venue-chip">📍 Fornebu, Bærum</span>
+        <span class="venue-chip">🚌 Buss 31 fra sentrum</span>
+        <span class="venue-chip">🚗 1 500 p-plasser</span>
+        -->
+      </div>
+      <div class="venue-hero-scroll" aria-hidden="true">
+        Scroll
+        <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+    </div>
+    <!-- ALLTID bildeattribusjon i bunnen av hero -->
+    <p class="venue-hero-attribution">Foto: <a href="{{BILDE_WIKI_URL}}" target="_blank" rel="noopener">{{BILDE_ATTR}}</a> · {{BILDE_BESKRIVELSE}}</p>
+  </div>
+
+  <!-- ══════ STICKY QUICKNAV ══════
+       REGEL: Maks 6–7 lenker. Siste lenke alltid tilbake til venue-siden.
+       ════════════════════════════ -->
+  <div class="venue-quicknav-bar">
+    <div class="container">
+      <nav class="venue-quicknav" aria-label="Hopp til seksjon">
+        <a href="#seksjon1">Seksjonstekst</a>
+        <a href="#seksjon2">Seksjonstekst</a>
+        <a href="#seksjon3">Seksjonstekst</a>
+        <a href="#faq">FAQ</a>
+        <a href="../">← {{VENUE}}</a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- ══════ MAIN CONTENT ══════ -->
+  <main id="main-content" role="main">
+    <div class="container page-content">
+
+      <!--
+      ╔═══════════════════════════════════════════════════════════════╗
+      ║  SEKSJONSTYPE-GUIDE – velg riktig komponent:                 ║
+      ╠═══════════════════════════════════════════════════════════════╣
+      ║  kollektiv-cards │ Lange lister med ikon + tittel + tekst    ║
+      ║                  │ Antall: ubegrenset · Alltid 1 kolonne     ║
+      ╠═══════════════════════════════════════════════════════════════╣
+      ║  info-cards      │ Kategorier/features med ikon + kort tekst ║
+      ║                  │ Antall: PARTALL (2, 4, 6) for 2×n-grid   ║
+      ║                  │ Kollapser til 1 kol. på mobil (≤680px)   ║
+      ╠═══════════════════════════════════════════════════════════════╣
+      ║  tips-grid       │ 3+ kort med tittel, badge og kortere tekst║
+      ║  + tips-card     │ Kollapser til 1 kol. på mobil (≤560px)   ║
+      ║                  │ Bruk tips-badge til å markere kategorier  ║
+      ╠═══════════════════════════════════════════════════════════════╣
+      ║  tips-hack       │ Fremhevet enkelt tips/advarsel            ║
+      ║                  │ Maks 1–2 per seksjon                      ║
+      ╠═══════════════════════════════════════════════════════════════╣
+      ║  faq-list        │ Alltid sist i artikkelen                  ║
+      ║  + faq-item      │ 5–8 spørsmål · Accordion-stil            ║
+      ╚═══════════════════════════════════════════════════════════════╝
+      -->
+
+      <!-- ─── SEKSJON 1 (kollektiv-cards eksempel) ─── -->
+      <section class="venue-fakta" id="seksjon1" aria-labelledby="seksjon1-heading">
+        <span class="section-badge">Seksjonstema</span>
+        <h2 id="seksjon1-heading">Overskrift for seksjonen</h2>
+        <p>Innledende avsnitt. Skriv klart og konsist. Ett poeng per setning. Maks 3–4 setninger.</p>
+
+        <!-- kollektiv-cards: BESTE VALG for lister med mye tekst per punkt -->
+        <div class="kollektiv-cards">
+          <div class="kollektiv-card">
+            <div class="kollektiv-icon">🚌</div>
+            <div>
+              <strong>Kortkorttittel</strong>
+              <p>Detaljert beskrivelse. Kan inkludere lenker, priser og praktisk informasjon. Bruk <strong>bold</strong> for å fremheve nøkkeltall.</p>
+              <p class="tips-meta">Faktaoppsummering · Nøkkeltall · Kildehenvisning</p>
+            </div>
+          </div>
+          <!-- Legg til flere .kollektiv-card etter behov -->
+        </div>
+
+        <!-- tips-hack: Fremhevet tips etter kortene -->
+        <div class="tips-hack">
+          <span class="tips-hack-icon">💡</span>
+          <div>
+            <strong>Fremhevet tips.</strong> Skriv ett konkret handlingsrettede råd. Gjerne med et "fordi" – folk forstår bedre hva de bør gjøre og hvorfor.
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── SEKSJON 2 (info-cards eksempel – ALLTID PARTALL) ─── -->
+      <section class="venue-fakta" id="seksjon2" aria-labelledby="seksjon2-heading">
+        <span class="section-badge">Seksjonstema</span>
+        <h2 id="seksjon2-heading">Overskrift for seksjonen</h2>
+        <p>Innledende avsnitt for seksjonen.</p>
+
+        <!-- info-cards: ALLTID PARTALL antall kort (2, 4, 6) -->
+        <div class="info-cards">
+          <div class="info-card">
+            <div class="info-card-icon">🎫</div>
+            <div class="info-card-body">
+              <strong>Korttittel</strong>
+              <p>Kort beskrivelse. Info-cards er best for kategorier med ikon + tittel + 1–3 setninger.</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">🎵</div>
+            <div class="info-card-body">
+              <strong>Korttittel</strong>
+              <p>Kort beskrivelse av et annet aspekt.</p>
+            </div>
+          </div>
+          <!-- Legg til par med .info-card (total: 2, 4 eller 6) -->
+        </div>
+      </section>
+
+      <!-- ─── SEKSJON 3 (tips-grid eksempel – for 3 balanserte kort) ─── -->
+      <section class="venue-fakta" id="seksjon3" aria-labelledby="seksjon3-heading">
+        <span class="section-badge">Seksjonstema</span>
+        <h2 id="seksjon3-heading">Overskrift for seksjonen</h2>
+        <p>Innledende avsnitt.</p>
+
+        <!-- tips-grid: for 3+ kort med tittel, badge og kortere tekst -->
+        <div class="tips-grid">
+          <div class="tips-card">
+            <div class="tips-card-header">
+              <strong>Korttittel</strong>
+              <span class="tips-badge tips-badge--green">Anbefalt</span>
+            </div>
+            <p>Kortere tekst – dette er best for tips/anbefalinger med badge-kategorisering.</p>
+            <p class="tips-meta">Faktaoppsummering · Nøkkeltall</p>
+          </div>
+          <div class="tips-card">
+            <div class="tips-card-header">
+              <strong>Korttittel</strong>
+              <span class="tips-badge">Info</span>
+            </div>
+            <p>Kortere tekst for dette tipset.</p>
+            <p class="tips-meta">Nøkkeltall</p>
+          </div>
+          <div class="tips-card">
+            <div class="tips-card-header">
+              <strong>Korttittel</strong>
+              <span class="tips-badge tips-badge--orange">Obs</span>
+            </div>
+            <p>Kortere tekst for dette tipset.</p>
+            <p class="tips-meta">Nøkkeltall</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ─── FAQ – ALLTID SIST ─── -->
+      <section class="venue-faq" id="faq" aria-labelledby="faq-heading">
+        <span class="section-badge">Vanlige spørsmål</span>
+        <h2 id="faq-heading">Spørsmål og svar om [{{ARTIKKEL_SLUG}}] på {{VENUE}}</h2>
+        <dl class="faq-list">
+
+          <div class="faq-item">
+            <dt><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-1" id="faq-q-1">{{FAQ_Q1}}</button></dt>
+            <dd id="faq-1" role="region" aria-labelledby="faq-q-1">{{FAQ_A1}}</dd>
+          </div>
+
+          <div class="faq-item">
+            <dt><button type="button" class="faq-question" aria-expanded="false" aria-controls="faq-2" id="faq-q-2">{{FAQ_Q2}}</button></dt>
+            <dd id="faq-2" role="region" aria-labelledby="faq-q-2">{{FAQ_A2}}</dd>
+          </div>
+
+          <!-- Legg til 5–8 .faq-item totalt -->
+
+        </dl>
+      </section>
+
+      <!-- ─── FORFATTERBOKS ─── -->
+      <div class="author-bio-box">
+        <img src="../../../../images/author-henrik.webp" alt="Henrik" class="author-avatar"
+          onerror="this.src='https://ui-avatars.com/api/?name=Henrik&background=FFC107&color=1a1a1a&size=128'">
+        <div class="author-info">
+          <span class="author-role">Skrevet av lokal ekspertise</span>
+          <strong>Henrik fra Konserter i Norge</strong>
+          <p>{{FORFATTER_BIO}} Kildene er {{KILDER}}.</p>
+          <a href="../../../../om-oss/">Les mer om oss →</a>
+        </div>
+      </div>
+
+      <!-- ─── RELATERTE ARTIKLER – ALLTID SIST ─── -->
+      <section aria-labelledby="relatert-heading" style="margin-top:4rem;padding-top:2rem;border-top:1px solid var(--border);">
+        <span class="section-badge">Les også</span>
+        <h2 id="relatert-heading">Andre guider om {{VENUE}}</h2>
+        <div class="card-grid">
+          <!-- Inkluder alltid lenke tilbake til hoveddokumentet + 3–5 relaterte -->
+          <article class="card"><h3><a href="../">{{VENUE}} – komplett guide</a></h3><p class="card-meta">Parkering, transport, tips og VIP</p></article>
+          <article class="card"><h3><a href="../transport/">Transport til {{VENUE}}</a></h3><p class="card-meta">Buss, tog og kollektivt</p></article>
+          <article class="card"><h3><a href="../hotell/">Hotell nær {{VENUE}}</a></h3><p class="card-meta">Best plasserte hoteller</p></article>
+          <!-- Bytt ut og legg til relevante artikler -->
+        </div>
+      </section>
+
+      <p class="venue-cta"><a href="../" class="btn btn-secondary">← Tilbake til {{VENUE}}</a></p>
+    </div>
+  </main>
+
+  <!-- ══════ FOOTER (identisk på alle sider) ══════ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../../../../index.html" class="logo">Konserter<span>iNorge</span>.no</a>
+          <p>Oversikt over konsertscener, festivaler og arrangementer i Norge.</p>
+        </div>
+        <div>
+          <h4>Nettside</h4>
+          <ul>
+            <li><a href="../../../../index.html">Hjem</a></li>
+            <li><a href="../../../../byer/">Byer</a></li>
+            <li><a href="../../../../festivaler/">Festivaler</a></li>
+            <li><a href="../../../../billettselskaper/">Billettselskaper</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Informasjon</h4>
+          <ul>
+            <li><a href="../../../../om-oss/">Om oss</a></li>
+            <li><a href="../../../../kontakt/">Kontakt</a></li>
+            <li><a href="../../../../personvern/">Personvern</a></li>
+            <li><a href="../../../../vilkar/">Vilkår</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>© Konserter i Norge. Konsertscener, festivaler og arrangementer i Norge.</p></div>
+    </div>
+  </footer>
+
+  <button type="button" class="scroll-top" aria-label="Scroll til toppen">↑</button>
+  <!-- REGEL JS-sti: Juster ../ etter mappenivå -->
+  <script src="../../../../js/main.js"></script>
+</body>
+</html>
+
+<!--
+╔═══════════════════════════════════════════════════════════════════════╗
+║  PROSESS FOR NYE STØTTEARTIKLER – gjøres i rekkefølge               ║
+╠═══════════════════════════════════════════════════════════════════════╣
+║  1. MAPPESTRUKTUR                                                     ║
+║     mkdir konserterinorge/byer/oslo/{{VENUE_SLUG}}/{{ARTIKKEL_SLUG}} ║
+║                                                                       ║
+║  2. KEYWORD-RESEARCH (PowerShell-script via Skill)                    ║
+║     → Kjør longtail-script for venue + artikkeltype                   ║
+║     → Identifiser hvilke keywords som skal dekkes                     ║
+║                                                                       ║
+║  3. BILDE FRA WIKIMEDIA COMMONS                                       ║
+║     → Søk: commons.wikimedia.org/wiki/Category:{{VENUE}}              ║
+║     → Sjekk lisens: CC BY 3.0 / CC BY-SA 3.0 / CC BY-SA 4.0 OK      ║
+║     → Bruk 1280px-thumbnail-URL fra Wikimedia                        ║
+║     → Lagre: Filnavn, Forfatter, Lisensnavn                           ║
+║                                                                       ║
+║  4. SKRIV ARTIKKELEN                                                   ║
+║     → Kopier denne malen                                              ║
+║     → Bytt ut alle {{PLASSHOLDERE}}                                   ║
+║     → Velg riktige komponenter (se seksjonstype-guide ovenfor)        ║
+║     → Inkluder alle identifiserte keywords naturlig i teksten         ║
+║                                                                       ║
+║  5. LENK FRA HOVEDDOKUMENTET                                          ║
+║     → Legg til lenke i "Dybdeguider" på venue-siden                  ║
+║     → Oppdater alle andre relevante støtteartikler (kryss-lenking)   ║
+║                                                                       ║
+║  6. SJEKKLISTE FØR PUBLISERING                                        ║
+║     □ canonical-URL riktig                                            ║
+║     □ Schema.org: Article + BreadcrumbList + FAQPage                  ║
+║     □ Hero-bilde: fri lisens, attribution i footer av hero            ║
+║     □ info-cards: partall antall (2, 4, 6)                            ║
+║     □ tips-grid: kun ved 3+ kort                                      ║
+║     □ faq-list: 5–8 spørsmål – matchende Schema.org FAQPage          ║
+║     □ Alle keywords dekket naturlig i teksten                         ║
+║     □ Alle lenker fungerer (relativ stier)                            ║
+║     □ Forfatterboks inkludert                                         ║
+║     □ "Les også"-seksjon med lenke til hoveddokument                  ║
+╚═══════════════════════════════════════════════════════════════════════╝
+-->
