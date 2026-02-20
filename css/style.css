@@ -1024,7 +1024,7 @@ p:last-child {
 
 .venue-fakta .section-badge,
 .venue-faq .section-badge {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .venue-fakta h2,
@@ -1910,4 +1910,737 @@ p:last-child {
   display: inline-flex;
   align-items: center;
   gap: 8px;
+}
+
+/* ============================================
+   VENUE STATS STRIP – nøkkeltall under h1
+   ============================================ */
+.venue-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  margin: 16px 0 28px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  background: var(--bg-card);
+}
+
+.venue-stat {
+  flex: 1;
+  min-width: 120px;
+  padding: 16px 20px;
+  border-right: 1px solid var(--border);
+  text-align: center;
+}
+
+.venue-stat:last-child {
+  border-right: none;
+}
+
+.venue-stat strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--text);
+  line-height: 1.1;
+}
+
+.venue-stat span {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-top: 4px;
+}
+
+@media (max-width: 600px) {
+  .venue-stat {
+    flex: 1 1 50%;
+    border-bottom: 1px solid var(--border);
+  }
+  .venue-stat:nth-child(2n) { border-right: none; }
+  .venue-stat:last-child,
+  .venue-stat:nth-last-child(2):nth-child(odd) { border-bottom: none; }
+}
+
+/* ============================================
+   VENUE QUICK NAV – ankerlenker til seksjoner
+   ============================================ */
+.venue-quicknav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0 4px;
+  padding: 16px 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.venue-quicknav a {
+  display: inline-block;
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+
+.venue-quicknav a:hover {
+  color: var(--text);
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+/* ============================================
+   TIPS GRID – parkering, mat etc.
+   ============================================ */
+.tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  margin: 28px 0;
+}
+
+@media (max-width: 560px) {
+  .tips-grid { grid-template-columns: 1fr; gap: 12px; }
+}
+
+.tips-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.tips-card:hover {
+  border-color: var(--accent-soft);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+
+@media (max-width: 480px) {
+  .tips-card { padding: 18px; }
+}
+
+.tips-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.tips-card-header strong {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  color: var(--text);
+  font-weight: 700;
+}
+
+.tips-card > strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  color: var(--text);
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.tips-card p {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.tips-card p:last-child { margin-bottom: 0; }
+
+.tips-meta {
+  font-size: 0.82rem !important;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+  padding-top: 12px;
+  margin-top: 14px !important;
+}
+
+.tips-badge {
+  display: inline-block;
+  padding: 5px 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 999px;
+  background: var(--bg-elevated);
+  color: var(--text-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+  letter-spacing: 0.02em;
+}
+
+.tips-badge--green {
+  background: rgba(46, 125, 50, 0.12);
+  color: var(--success);
+}
+
+/* ============================================
+   HACK-BOKS – fremhevet tips
+   ============================================ */
+.tips-hack {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  padding: 24px 28px;
+  background: var(--accent-soft);
+  border-left: 4px solid var(--accent);
+  border-radius: 0 var(--radius-lg) var(--radius-lg) 0;
+  margin: 32px 0 8px;
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.tips-hack strong { color: var(--text); }
+
+.tips-hack-icon {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+  line-height: 1.4;
+}
+
+/* ============================================
+   TIPS-LISTE – insidertips nummerert
+   ============================================ */
+.tips-list {
+  list-style: none;
+  padding: 0;
+  margin: 28px 0;
+  counter-reset: tips;
+}
+
+.tips-list li {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 24px 0;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  counter-increment: tips;
+  line-height: 1.65;
+}
+
+.tips-list li:first-child { padding-top: 0; }
+.tips-list li:last-child { border-bottom: none; padding-bottom: 0; }
+
+.tips-list li::before {
+  content: counter(tips);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: var(--text);
+  font-family: var(--font-display);
+  font-size: 0.9rem;
+  font-weight: 800;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+
+.tips-list li strong {
+  display: block;
+  color: var(--text);
+  font-size: 1.02rem;
+  margin-bottom: 6px;
+}
+
+/* ============================================
+   KOLLEKTIVTRANSPORT-KORT
+   ============================================ */
+.kollektiv-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  margin: 28px 0;
+}
+
+@media (max-width: 560px) {
+  .kollektiv-cards { grid-template-columns: 1fr; gap: 12px; }
+}
+
+.kollektiv-card {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.kollektiv-card:hover {
+  border-color: var(--accent-soft);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+
+@media (max-width: 480px) {
+  .kollektiv-card { padding: 18px; gap: 12px; }
+}
+
+.kollektiv-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius);
+  background: var(--bg-elevated);
+  flex-shrink: 0;
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.kollektiv-card strong {
+  display: block;
+  font-family: var(--font-display);
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.kollektiv-card p {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin: 0;
+  color: var(--text-muted);
+}
+
+/* ============================================
+   SITTEPLASSGUIDE – kort med rangeringer
+   ============================================ */
+.sitteplasser-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+  margin: 28px 0;
+}
+
+@media (max-width: 560px) {
+  .sitteplasser-grid { grid-template-columns: 1fr; gap: 12px; }
+}
+
+.sitteplasser-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  border-top: 4px solid var(--border);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.sitteplasser-card:hover {
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+
+@media (max-width: 480px) {
+  .sitteplasser-card { padding: 18px; }
+}
+
+.sitteplasser-card--top    { border-top-color: var(--success); }
+.sitteplasser-card--good   { border-top-color: var(--accent); }
+.sitteplasser-card--ok     { border-top-color: #aaa; }
+.sitteplasser-card--avoid  { border-top-color: #c0392b; }
+
+.sitteplasser-rating {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.sitteplasser-card strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+
+.sitteplasser-card p {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin: 0;
+  color: var(--text-muted);
+}
+
+/* ============================================
+   VENUE PAGE HERO – mørkt med bakgrunnsbilde
+   ============================================ */
+.venue-page-hero {
+  position: relative;
+  padding: 48px 0 36px;
+  background-color: #0d0d14;
+  background-size: cover;
+  background-position: center 40%;
+  color: #fff;
+  overflow: hidden;
+}
+
+.venue-page-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, rgba(0,0,0,0.82) 40%, rgba(0,0,0,0.50) 100%);
+  pointer-events: none;
+}
+
+.venue-page-hero .container {
+  position: relative;
+  z-index: 1;
+  max-width: 860px;
+}
+
+.venue-page-hero .breadcrumb {
+  color: rgba(255,255,255,0.45);
+  padding-top: 0;
+  margin-bottom: 8px;
+}
+
+.venue-page-hero .breadcrumb a {
+  color: rgba(255,255,255,0.45);
+}
+
+.venue-page-hero .breadcrumb a:hover {
+  color: rgba(255,255,255,0.8);
+}
+
+.venue-page-hero .breadcrumb span {
+  color: rgba(255,255,255,0.2);
+}
+
+.venue-page-hero h1 {
+  color: #fff;
+  font-size: clamp(2.4rem, 5.5vw, 3.8rem);
+  margin-bottom: 8px;
+  margin-top: 8px;
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+}
+
+.venue-hero-meta {
+  font-size: 0.82rem;
+  color: rgba(255,255,255,0.4);
+  margin: 0 0 16px;
+}
+
+.venue-page-hero .lead {
+  color: rgba(255,255,255,0.78);
+  font-size: 1.05rem;
+  max-width: 600px;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.venue-page-hero .venue-stats {
+  background: rgba(255,255,255,0.07);
+  border: 1px solid rgba(255,255,255,0.10);
+  border-radius: var(--radius-lg);
+  display: flex;
+  max-width: 600px;
+  width: 100%;
+}
+
+.venue-page-hero .venue-stat {
+  border-right-color: rgba(255,255,255,0.1);
+  min-width: 0;
+  padding: 14px 16px;
+}
+
+.venue-page-hero .venue-stat strong {
+  color: var(--accent);
+  font-size: 1.2rem;
+}
+
+.venue-page-hero .venue-stat span {
+  color: rgba(255,255,255,0.45);
+}
+
+@media (max-width: 600px) {
+  .venue-page-hero .venue-stats {
+    flex-wrap: wrap;
+    max-width: 100%;
+  }
+  .venue-page-hero .venue-stat {
+    flex: 1 1 45%;
+    border-right-color: rgba(255,255,255,0.1);
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+  }
+  .venue-page-hero .venue-stat:nth-child(2n) {
+    border-right: none;
+  }
+  .venue-page-hero .venue-stat:nth-last-child(-n+2):nth-child(odd),
+  .venue-page-hero .venue-stat:last-child {
+    border-bottom: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .venue-page-hero {
+    padding: 32px 0 28px;
+  }
+  .venue-page-hero h1 {
+    font-size: clamp(1.7rem, 8vw, 2.6rem);
+  }
+  .venue-page-hero .lead {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+  }
+  .venue-page-hero .venue-stat {
+    padding: 12px;
+  }
+  .venue-page-hero .venue-stat strong {
+    font-size: 1rem;
+  }
+  .venue-page-hero .venue-stat span {
+    font-size: 0.65rem;
+  }
+}
+
+.venue-hero-attribution {
+  position: absolute;
+  bottom: 8px;
+  right: 12px;
+  font-size: 0.68rem;
+  color: rgba(255,255,255,0.28);
+  z-index: 2;
+}
+
+.venue-hero-attribution a {
+  color: rgba(255,255,255,0.35);
+  text-decoration: underline;
+}
+
+/* Quicknav som en sticky bar under hero */
+.venue-quicknav-bar {
+  background: var(--bg);
+  border-bottom: 1px solid var(--border);
+  position: sticky;
+  top: 64px;
+  z-index: 90;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.venue-quicknav-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.venue-quicknav-bar .container {
+  min-width: max-content;
+  padding-right: 20px;
+}
+
+.venue-quicknav-bar .venue-quicknav {
+  margin: 0;
+  padding: 10px 0;
+  border: none;
+  flex-wrap: nowrap;
+  gap: 6px;
+}
+
+.venue-quicknav a {
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* ============================================
+   VENUE SECTION SPACING – generøs, magasinaktig
+   ============================================ */
+.venue-fakta {
+  margin-top: 56px !important;
+  padding-top: 48px !important;
+}
+
+.venue-faq {
+  margin-top: 56px !important;
+  padding-top: 48px !important;
+}
+
+.venue-fakta h2,
+.venue-faq h2 {
+  font-size: clamp(1.4rem, 3vw, 2rem) !important;
+  margin-bottom: 20px !important;
+  letter-spacing: -0.02em;
+}
+
+.venue-fakta > p,
+.venue-faq > p {
+  max-width: 680px;
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+.page-content {
+  padding-top: 8px !important;
+  padding-bottom: 72px !important;
+}
+
+.page-content > .venue-fakta:first-child {
+  border-top: none !important;
+  margin-top: 24px !important;
+  padding-top: 0 !important;
+}
+
+@media (max-width: 640px) {
+  .venue-fakta,
+  .venue-faq {
+    margin-top: 36px !important;
+    padding-top: 28px !important;
+  }
+  .venue-fakta > p,
+  .venue-faq > p {
+    margin-bottom: 20px;
+  }
+  .tips-hack {
+    padding: 18px 20px;
+    gap: 12px;
+  }
+  .tips-list li {
+    gap: 14px;
+    padding: 18px 0;
+  }
+  .tips-list li::before {
+    min-width: 30px;
+    height: 30px;
+    font-size: 0.82rem;
+  }
+  .venue-map-full {
+    height: 200px;
+  }
+  .page-content {
+    padding-bottom: 48px !important;
+  }
+}
+
+/* ============================================
+   INFO CARDS – store kort med ikon + tekst
+   ============================================ */
+.info-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin: 28px 0;
+}
+
+@media (max-width: 680px) {
+  .info-cards { grid-template-columns: 1fr; gap: 12px; }
+}
+
+.info-card {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  padding: 24px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.info-card:hover {
+  border-color: var(--accent-soft);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+}
+
+@media (max-width: 480px) {
+  .info-card { padding: 18px; gap: 12px; }
+}
+
+.info-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius);
+  background: var(--accent-soft);
+  flex-shrink: 0;
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.info-card-body {
+  min-width: 0;
+}
+
+.info-card-body strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 6px;
+}
+
+.info-card-body p {
+  font-size: 0.92rem;
+  line-height: 1.6;
+  margin: 0;
+  color: var(--text-muted);
+}
+
+.info-card-body a {
+  color: var(--accent-dark);
+  font-weight: 500;
+}
+
+.info-card-body a:hover {
+  text-decoration: underline;
+}
+
+/* ============================================
+   VENUE MAP – fullbredde med rounded corners
+   ============================================ */
+.venue-map-full {
+  margin: 32px 0 12px;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  height: 260px;
+  background: var(--bg-card);
+}
+
+.venue-map-full iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.venue-map-full + .venue-map-link {
+  display: block;
+  text-align: right;
+  font-size: 0.85rem;
+  margin-top: 8px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.venue-map-full + .venue-map-link:hover {
+  color: var(--accent-dark);
+}
+
+@media (max-width: 640px) {
+  .venue-map-full { height: 200px; }
 }
