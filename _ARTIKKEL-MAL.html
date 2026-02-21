@@ -8,7 +8,7 @@
   ║    {{VENUE}}          → "Unity Arena", "Oslo Spektrum" osv.      ║
   ║    {{VENUE_SLUG}}     → "unity-arena", "oslo-spektrum" osv.      ║
   ║    {{ARTIKKEL_SLUG}}  → "transport", "hotell", "historikk" osv.  ║
-  ║    {{TITTEL}}         → Full artikkeltittel                      ║
+  ║    {{TITTEL}}         → Full artikkeltittel (Maks 60 tegn inkludert brand) ║
   ║    {{META_DESC}}      → 150–160 tegn metabeskrivelse             ║
   ║    {{LEAD}}           → Ingressavsnitt under hero-tittelen       ║
   ║    {{BILDE_URL}}      → Wikimedia Commons full-size URL          ║
@@ -72,7 +72,12 @@
     "@type": "Article",
     "headline": "{{TITTEL}}",
     "description": "{{META_DESC}}",
-    "image": "{{BILDE_URL}}",
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{BILDE_URL}}",
+      "width": 1280,
+      "height": 853
+    },
     "author": { "@type": "Person", "name": "Henrik", "url": "https://www.konserterinorge.no/om-oss/" },
     "publisher": {
       "@type": "Organization",
@@ -431,6 +436,9 @@
 ║                                                                       ║
 ║  6. SJEKKLISTE FØR PUBLISERING                                        ║
 ║     □ canonical-URL riktig                                            ║
+║     □ Title-tag: Maks 60 tegn inkludert " | Konserter i Norge"        ║
+║     □ H1 i hoveddokumentet: Må inneholde bynavnet (f.eks. "i Oslo")   ║
+║     □ Schema.org Article: ImageObject med url, width og height        ║
 ║     □ Schema.org: Article + BreadcrumbList + FAQPage                  ║
 ║     □ Hero-bilde: fri lisens, attribution i footer av hero            ║
 ║     □ info-cards: partall antall (2, 4, 6)                            ║

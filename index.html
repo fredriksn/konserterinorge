@@ -2,6 +2,14 @@
 <html lang="no">
 <head>
   <meta charset="UTF-8">
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Finn konserter, festivaler og arrangementer i Norge. Konsertscener etter by, billettselskaper, turneer og tips for å komme seg til Oslo Spektrum, Unity Arena og flere.">
   <meta name="robots" content="index, follow">
@@ -59,10 +67,10 @@
       <nav class="nav-main" aria-label="Hovednavigasjon">
         <a href="index.html" aria-current="page">Hjem</a>
         <a href="byer/">Byer</a>
-        <a href="festivaler/">Festivaler</a>
-        <a href="billettselskaper/">Billettselskaper</a>
-        <a href="turneer/">Turneer</a>
-        <a href="artister/">Artister</a>
+        <a href="festivaler/" class="draft" rel="nofollow">Festivaler</a>
+        <a href="billettselskaper/" class="draft" rel="nofollow">Billettselskaper</a>
+        <a href="turneer/" class="draft" rel="nofollow">Turneer</a>
+        <a href="artister/" class="draft" rel="nofollow">Artister</a>
       </nav>
       <button type="button" class="nav-toggle" aria-label="Åpne meny" aria-expanded="false">☰</button>
     </div>
@@ -89,8 +97,8 @@
           <div class="venue-chips">
             <a href="byer/oslo/oslo-spektrum/" class="venue-chip">🔥 Oslo Spektrum</a>
             <a href="byer/oslo/unity-arena/" class="venue-chip">🏟️ Unity Arena</a>
-            <a href="festivaler/" class="venue-chip">🎪 480+ Festivaler</a>
-            <a href="byer/bergen/bergenhus-festning/" class="venue-chip">🏰 Bergenhus Festning</a>
+            <a href="festivaler/" class="venue-chip draft" rel="nofollow">🎪 480+ Festivaler</a>
+            <a href="byer/bergen/bergenhus-festning/" class="venue-chip draft" rel="nofollow">🏰 Bergenhus Festning</a>
           </div>
         </div>
       </div>
@@ -104,7 +112,7 @@
           <div class="stat-num-item"><strong>Gratis</strong><span>oversikt</span></div>
           <div class="stat-num-item"><strong>Uavhengig</strong><span>redaksjon</span></div>
         </div>
-        <p class="stat-strip-trust">Billetter via: <a href="billettselskaper/ticketmaster/">Ticketmaster</a> · <a href="billettselskaper/eventim/">Eventim</a> · <a href="billettselskaper/ticketco/">Ticketco</a> · <a href="billettselskaper/tikkio/">Tikkio</a></p>
+        <p class="stat-strip-trust draft">Billetter via: <a href="billettselskaper/ticketmaster/" rel="nofollow">Ticketmaster</a> · <a href="billettselskaper/eventim/" rel="nofollow">Eventim</a> · <a href="billettselskaper/ticketco/" rel="nofollow">Ticketco</a> · <a href="billettselskaper/tikkio/" rel="nofollow">Tikkio</a></p>
       </div>
     </div>
 
@@ -144,10 +152,10 @@
       <div class="topic-pills">
         <a href="byer/">Byer</a>
         <a href="byer/oslo/">Oslo</a>
-        <a href="byer/bergen/">Bergen</a>
-        <a href="festivaler/">Festivaler</a>
-        <a href="billettselskaper/">Billetter</a>
-        <a href="turneer/">Turneer</a>
+        <a href="byer/bergen/" class="draft" rel="nofollow">Bergen</a>
+        <a href="festivaler/" class="draft" rel="nofollow">Festivaler</a>
+        <a href="billettselskaper/" class="draft" rel="nofollow">Billetter</a>
+        <a href="turneer/" class="draft" rel="nofollow">Turneer</a>
       </div>
       <section class="page-content" aria-labelledby="byer-heading">
         <span class="section-badge">Byer og arenaer</span>
@@ -160,21 +168,21 @@
               <p>Oslo Spektrum, Unity Arena, Sentrum Scene, Rockefeller, Parkteatret m.fl.</p>
             </div>
           </a>
-          <a href="byer/bergen/" class="info-card info-card--link">
+          <a href="byer/bergen/" class="info-card info-card--link draft" rel="nofollow">
             <div class="info-card-icon">☔</div>
             <div class="info-card-body">
               <strong>Bergen</strong>
               <p>Grieghallen, Ole Bull Scene, Koengen, USF Verftet, Kvarteret.</p>
             </div>
           </a>
-          <a href="byer/trondheim/" class="info-card info-card--link">
+          <a href="byer/trondheim/" class="info-card info-card--link draft" rel="nofollow">
             <div class="info-card-icon">🎸</div>
             <div class="info-card-body">
               <strong>Trondheim</strong>
               <p>Olavshallen, Havet, Byscenen, Trondheim Spektrum, Samfundet.</p>
             </div>
           </a>
-          <a href="byer/stavanger/" class="info-card info-card--link">
+          <a href="byer/stavanger/" class="info-card info-card--link draft" rel="nofollow">
             <div class="info-card-icon">🛢️</div>
             <div class="info-card-body">
               <strong>Stavanger</strong>
@@ -185,7 +193,7 @@
         <p class="venue-cta" style="margin-top:24px"><a href="byer/" class="btn btn-secondary">Se alle byer</a></p>
       </section>
 
-    <section class="feature-block reverse" aria-labelledby="festival-feature-heading">
+    <section class="feature-block reverse draft" aria-labelledby="festival-feature-heading">
       <div class="container">
         <div class="feature-block-img">
           <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=520&h=390&fit=crop" width="520" height="390" alt="Musikkfestival utendørs med scene og publikum – Unsplash" loading="lazy">
@@ -212,7 +220,7 @@
             </div>
           </div>
           
-          <a href="festivaler/største/" class="btn btn-primary">Utforsk festivaler</a>
+          <a href="festivaler/største/" class="btn btn-primary" rel="nofollow">Utforsk festivaler</a>
         </div>
       </div>
     </section>
@@ -223,7 +231,7 @@
         <div class="info-cards" id="arenaer-list"></div>
       </section>
 
-      <section class="page-content" aria-labelledby="festivaler-heading">
+      <section class="page-content draft" aria-labelledby="festivaler-heading">
         <span class="section-badge">Festivaler</span>
         <h2 id="festivaler-heading">Festivaler etter sjanger</h2>
         <p>Fra Øyafestivalen og Slottsfjell til Tons of Rock, Bergenfest og jazzfestivaler over hele landet.</p>
@@ -266,7 +274,7 @@
         </div>
       </section>
 
-      <section class="page-content" aria-labelledby="billett-heading">
+      <section class="page-content draft" aria-labelledby="billett-heading">
         <span class="section-badge">Billetter</span>
         <h2 id="billett-heading">Billettselskaper</h2>
         <p>Kjøp billetter trygt via Norges anerkjente og offisielle selskaper.</p>
@@ -302,14 +310,14 @@
         </div>
       </section>
 
-      <section class="page-content" aria-labelledby="turneer-heading">
+      <section class="page-content draft" aria-labelledby="turneer-heading">
         <span class="section-badge">Turneer</span>
         <h2 id="turneer-heading">Turneer og sesongkonserter</h2>
         <p>Julekonserter, sommerkonserter og andre turnéer i Norge – samlet på ett sted.</p>
         <p><a href="turneer/" class="btn btn-secondary btn-sm">Se alle turneer</a></p>
       </section>
 
-      <section class="page-content" aria-labelledby="artister-heading">
+      <section class="page-content draft" aria-labelledby="artister-heading">
         <span class="section-badge">Artister</span>
         <h2 id="artister-heading">Artister i Norge</h2>
         <p>Norske og internasjonale artister som spiller konsert i Norge.</p>
@@ -442,10 +450,10 @@
           <ul>
             <li><a href="index.html">Hjem</a></li>
             <li><a href="byer/">Byer</a></li>
-            <li><a href="festivaler/">Festivaler</a></li>
-            <li><a href="billettselskaper/">Billettselskaper</a></li>
-            <li><a href="turneer/">Turneer</a></li>
-            <li><a href="artister/">Artister</a></li>
+            <li class="draft"><a href="festivaler/" rel="nofollow">Festivaler</a></li>
+            <li class="draft"><a href="billettselskaper/" rel="nofollow">Billettselskaper</a></li>
+            <li class="draft"><a href="turneer/" rel="nofollow">Turneer</a></li>
+            <li class="draft"><a href="artister/" rel="nofollow">Artister</a></li>
           </ul>
         </div>
         <div>
@@ -453,7 +461,7 @@
           <ul>
             <li><a href="om-oss/">Om oss</a></li>
             <li><a href="kontakt/">Kontakt</a></li>
-            <li><a href="blogg/">Blogg</a></li>
+            <li class="draft"><a href="blogg/" rel="nofollow">Blogg</a></li>
             <li><a href="sok/">Søk</a></li>
             <li><a href="personvern/">Personvern</a></li>
             <li><a href="vilkar/">Vilkår</a></li>

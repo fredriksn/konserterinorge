@@ -120,9 +120,21 @@
     onScroll();
   }
 
+  /* Dev-mode: vis draft-innhold lokalt */
+  function initDevMode() {
+    var host = location.hostname;
+    if (host === 'localhost' || host === '127.0.0.1') {
+      document.body.classList.add('dev-mode');
+    }
+  }
+
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', initThemeToggle);
+    document.addEventListener('DOMContentLoaded', function () {
+      initThemeToggle();
+      initDevMode();
+    });
   } else {
     initThemeToggle();
+    initDevMode();
   }
 })();

@@ -2,6 +2,14 @@
 <html lang="no">
 <head>
   <meta charset="UTF-8">
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Konsertscener i Oslo – Oslo Spektrum, Unity Arena, Rockefeller, Sentrum Scene, Parkteateret, Blå, Konserthuset, Operaen. Kapasitet, parkering og billetter.">
   <meta name="robots" content="index, follow">
@@ -30,10 +38,10 @@
       <nav class="nav-main" aria-label="Hovednavigasjon">
         <a href="../../index.html">Hjem</a>
         <a href="../index.html" aria-current="page">Byer</a>
-        <a href="../../festivaler/">Festivaler</a>
-        <a href="../../billettselskaper/">Billettselskaper</a>
-        <a href="../../turneer/">Turneer</a>
-        <a href="../../artister/">Artister</a>
+        <a href="../../festivaler/" class="draft" rel="nofollow">Festivaler</a>
+        <a href="../../billettselskaper/" class="draft" rel="nofollow">Billettselskaper</a>
+        <a href="../../turneer/" class="draft" rel="nofollow">Turneer</a>
+        <a href="../../artister/" class="draft" rel="nofollow">Artister</a>
       </nav>
       <button type="button" class="nav-toggle" aria-label="Åpne meny" aria-expanded="false">☰</button>
     </div>
@@ -71,36 +79,40 @@
             <p class="card-meta">Fornebu – store konserter og arrangementer</p>
           </article>
           <article class="card">
-            <h3><a href="rockefeller/">Rockefeller</a></h3>
-            <p class="card-meta">Konsertklubb</p>
+            <h3><a href="rockefeller/">Rockefeller Music Hall</a></h3>
+            <p class="card-meta">Kapasitet: 1 300 · Balkong og gulv · Torggata</p>
           </article>
           <article class="card">
             <h3><a href="sentrum-scene/">Sentrum Scene</a></h3>
             <p class="card-meta">Kapasitet: 1 750 · Galleri og gulv · Oslo sentrum</p>
           </article>
           <article class="card">
-            <h3><a href="parkteateret/">Parkteateret</a></h3>
-            <p class="card-meta">Teater og konserter</p>
+            <h3><a href="john-dee/">John Dee Live Club &amp; Pub</a></h3>
+            <p class="card-meta">Kapasitet: 500 · Intimscene · Mariboes gate</p>
+          </article>
+          <article class="card">
+            <h3><a href="parkteateret/">Parkteatret</a></h3>
+            <p class="card-meta">Kapasitet: 500 · Intim historisk scene · Grünerløkka</p>
           </article>
           <article class="card">
             <h3><a href="bla/">Blå</a></h3>
-            <p class="card-meta">Jazz og konserter</p>
+            <p class="card-meta">Kapasitet: 350 · Jazz og elektronisk · Akerselva</p>
           </article>
           <article class="card">
             <h3><a href="oslo-konserthus/">Oslo Konserthus</a></h3>
-            <p class="card-meta">Klassisk og orkester</p>
+            <p class="card-meta">Kapasitet: ca. 1 600 · Vika · Klassisk og akustisk</p>
           </article>
           <article class="card">
             <h3><a href="operaen/">Operaen</a></h3>
-            <p class="card-meta">Opera og konserter</p>
+            <p class="card-meta">Kapasitet: ca. 1 360 · Bjørvika · Opera, Ballett & Konsert</p>
           </article>
           <article class="card">
-            <h3><a href="valle-hovin/">Valle Hovin</a></h3>
-            <p class="card-meta">Historisk utendørsarena</p>
+            <h3><a href="bjerke-travbane/">Bjerke Travbane</a></h3>
+            <p class="card-meta">Kapasitet: ca. 40 000 · Bydel Bjerke · Utendørs konsertarena</p>
           </article>
           <article class="card">
             <h3><a href="voldslokka/">Voldsløkka</a></h3>
-            <p class="card-meta">Utendørs – utfordringer og løsninger</p>
+            <p class="card-meta">Kapasitet: ca. 50 000+ · Sagene/Bjølsen · Stor utendørsarena</p>
           </article>
         </div>
       </div>
@@ -119,10 +131,10 @@
           <ul>
             <li><a href="../../index.html">Hjem</a></li>
             <li><a href="../index.html">Byer</a></li>
-            <li><a href="../../festivaler/">Festivaler</a></li>
-            <li><a href="../../billettselskaper/">Billettselskaper</a></li>
-            <li><a href="../../turneer/">Turneer</a></li>
-            <li><a href="../../artister/">Artister</a></li>
+            <li class="draft"><a href="../../festivaler/" rel="nofollow">Festivaler</a></li>
+            <li class="draft"><a href="../../billettselskaper/" rel="nofollow">Billettselskaper</a></li>
+            <li class="draft"><a href="../../turneer/" rel="nofollow">Turneer</a></li>
+            <li class="draft"><a href="../../artister/" rel="nofollow">Artister</a></li>
           </ul>
         </div>
         <div>
@@ -130,7 +142,7 @@
           <ul>
             <li><a href="../../om-oss/">Om oss</a></li>
             <li><a href="../../kontakt/">Kontakt</a></li>
-            <li><a href="../../blogg/">Blogg</a></li>
+            <li class="draft"><a href="../../blogg/" rel="nofollow">Blogg</a></li>
             <li><a href="../../sok/">Søk</a></li>
             <li><a href="../../personvern/">Personvern</a></li>
             <li><a href="../../vilkar/">Vilkår</a></li>

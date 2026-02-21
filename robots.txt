@@ -1,0 +1,18 @@
+User-agent: *
+
+Disallow: /billettselskaper/
+Disallow: /festivaler/
+Disallow: /turneer/
+Disallow: /artister/
+Disallow: /byer/bergen/
+Disallow: /byer/trondheim/
+Disallow: /byer/stavanger/
+Disallow: /byer/tonsberg/
+Disallow: /byer/alesund/
+Disallow: /byer/tromso/
+Disallow: /byer/kristiansand/
+Disallow: /blogg/
+
+Allow: /
+
+Sitemap: https://www.konserterinorge.no/sitemap.xml

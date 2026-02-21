@@ -2960,3 +2960,11 @@ a.info-card--link:hover strong {
     gap: 16px;
   }
 }
+
+/* === Draft-innhold: skjult på live, synlig lokalt via dev-mode === */
+.draft { display: none; }
+.dev-mode .draft { display: block; }
+.dev-mode a.draft { display: inline; }
+.dev-mode li.draft { display: list-item; }
+.dev-mode section.draft { display: block; }
+.dev-mode .feature-block.draft { display: grid; }
