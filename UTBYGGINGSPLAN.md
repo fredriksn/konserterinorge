@@ -1,6 +1,6 @@
 # Utbyggingsplan – Konserter i Norge
 
-**Sist oppdatert:** 22. februar 2026 (By-gullstandard etablert, alle Oslo/Bergen venues ferdig med støtteartikler)  
+**Sist oppdatert:** 22. februar 2026 (Oslo-tabellfikser, alle Bergen-venues bekreftet ferdig + sitemap komplett)  
 **Prosjektmappe:** `c:\Users\Fredrik\.cursor-tutor\konserterinorge\`
 
 ---
@@ -28,8 +28,8 @@ Disse gjelder **alle** nye sider og skal sjekkes mot `_ARTIKKEL-MAL.html`:
 
 ```
 FASE 1:  Oslo – Venues          ✅ FERDIG
-FASE 2:  Bergen – Venues        ← PÅGÅR NÅ
-FASE 3:  Billettselskaper
+FASE 2:  Bergen – Venues        ✅ FERDIG
+FASE 3:  Billettselskaper       ← NESTE
 FASE 4:  Festivaler
 FASE 5:  Turneer
 FASE 6:  Artister
@@ -90,7 +90,7 @@ Basert på sammenligning av `byer/oslo/index.html` (859 linjer, 8 FAQ) og `byer/
 
 | Venue | Hoveddok | Støtteartikler |
 |---|---|---|
-| Oslo Spektrum | ✅ | salkart/, transport/ (basert på filstruktur) |
+| Oslo Spektrum | ✅ | – (kun hoveddokument) |
 | Unity Arena | ✅ | salkart/, transport/, hotell/, historikk/, handball/, priser/ |
 | Rockefeller Music Hall | ✅ | salkart/, transport/, hotell/, teknikk/ |
 | Sentrum Scene | ✅ | salkart/, transport/, hotell/ |
@@ -110,15 +110,21 @@ Basert på sammenligning av `byer/oslo/index.html` (859 linjer, 8 FAQ) og `byer/
 
 ---
 
-## FASE 2 – Bergen Venues ← PÅGÅR NÅ
+## FASE 2 – Bergen Venues ✅ FERDIG
 
-### Venues i Bergen (prioritert rekkefølge)
+### Ferdige Bergen-venues med støtteartikler
 
-| Venue | Kapasitet | Status | Mappe |
+| Venue | Kapasitet | Status | Støtteartikler |
 |---|---|---|---|
-| Grieghallen | 1 638 | ✅ Ferdig | `byer/bergen/grieghallen/` – salkart/, parkering/, historikk/, transport/ |
-| Ole Bull Scene | ~800 | 🔨 Under arbeid | `byer/bergen/ole-bull-scene/` |
-| USF Verftet | ~600 | 🔨 Under arbeid | `byer/bergen/usf-verftet/` |
+| Grieghallen | 1 638 | ✅ Ferdig | salkart/, parkering/, historikk/, transport/ |
+| Ole Bull Scene | ~800 | ✅ Ferdig | salkart/, transport/ |
+| USF Verftet | ~600 | ✅ Ferdig | salkart/, transport/, parkering/ |
+| Håkonshallen | ~6 000 | ✅ Ferdig | salkart/, transport/ |
+| Hulen | ~250 | ✅ Ferdig | salkart/, transport/ |
+| Koengen | ~50 000 | ✅ Ferdig | transport/, hotell/, praktisk/ |
+| Åsane Arena | ~5 200 | ✅ Ferdig | salkart/, transport/ |
+| Kvarteret | ~600 | ✅ Ferdig | salkart/, transport/, parkering/ |
+| Forum Scene | ~1 200 | ✅ Ferdig | salkart/, transport/, parkering/, hotell/ |
 
 ### Workflow for Bergen-venues
 Bruk samme tilnærming som Oslo:
