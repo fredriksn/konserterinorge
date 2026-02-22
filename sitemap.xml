@@ -98,11 +98,23 @@
     <loc>https://www.konserterinorge.no/byer/oslo/john-dee/salkart/</loc>
     <lastmod>2026-02-21</lastmod>
   </url>
+  <url>
+    <loc>https://www.konserterinorge.no/byer/oslo/john-dee/transport/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.konserterinorge.no/byer/oslo/john-dee/hotell/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
 
   <!-- Parkteateret -->
   <url>
     <loc>https://www.konserterinorge.no/byer/oslo/parkteateret/</loc>
     <lastmod>2026-02-21</lastmod>
+  </url>
+  <url>
+    <loc>https://www.konserterinorge.no/byer/oslo/parkteateret/salkart/</loc>
+    <lastmod>2026-02-22</lastmod>
   </url>
   <url>
     <loc>https://www.konserterinorge.no/byer/oslo/parkteateret/transport/</loc>
@@ -150,6 +162,10 @@
     <loc>https://www.konserterinorge.no/byer/oslo/operaen/dresscode/</loc>
     <lastmod>2026-02-21</lastmod>
   </url>
+  <url>
+    <loc>https://www.konserterinorge.no/byer/oslo/operaen/parkering/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
 
   <!-- Bjerke Travbane -->
   <url>
@@ -174,4 +190,85 @@
     <loc>https://www.konserterinorge.no/byer/oslo/voldslokka/transport/</loc>
     <lastmod>2026-02-21</lastmod>
   </url>
+
+  <!-- Bergen -->
+  <url>
+    <loc>https://www.konserterinorge.no/byer/bergen/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+
+  <!-- Grieghallen -->
+  <url>
+    <loc>https://www.konserterinorge.no/byer/bergen/grieghallen/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.konserterinorge.no/byer/bergen/grieghallen/salkart/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.konserterinorge.no/byer/bergen/grieghallen/parkering/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.konserterinorge.no/byer/bergen/grieghallen/historikk/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.konserterinorge.no/byer/bergen/grieghallen/transport/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+  <url><loc>https://www.konserterinorge.no/byer/bergen/ole-bull-scene/</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url>
+    <loc>https://www.konserterinorge.no/byer/bergen/ole-bull-scene/salkart/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.konserterinorge.no/byer/bergen/ole-bull-scene/transport/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+  <url><loc>https://www.konserterinorge.no/byer/bergen/usf-verftet/</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url>
+    <loc>https://www.konserterinorge.no/byer/bergen/usf-verftet/salkart/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.konserterinorge.no/byer/bergen/usf-verftet/transport/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.konserterinorge.no/byer/bergen/usf-verftet/parkering/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.konserterinorge.no/byer/bergen/hakonshallen/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.konserterinorge.no/byer/bergen/hulen/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.konserterinorge.no/byer/bergen/koengen/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.konserterinorge.no/byer/bergen/asane-arena/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.konserterinorge.no/byer/bergen/kvarteret/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+  <url>
+    <loc>https://www.konserterinorge.no/byer/bergen/forum-scene/</loc>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+  <url><loc>https://www.konserterinorge.no/byer/trondheim/olavshallen/</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.konserterinorge.no/byer/trondheim/trondheim-spektrum/</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.konserterinorge.no/byer/stavanger/stavanger-konserthus/</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.konserterinorge.no/byer/stavanger/dnb-arena/</loc><lastmod>2026-02-22</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+    <lastmod>2026-02-22</lastmod>
+  </url>
+
 </urlset>

@@ -1,6 +1,6 @@
 # Utbyggingsplan – Konserter i Norge
 
-**Sist oppdatert:** 21. februar 2026  
+**Sist oppdatert:** 22. februar 2026 (By-gullstandard etablert, alle Oslo/Bergen venues ferdig med støtteartikler)  
 **Prosjektmappe:** `c:\Users\Fredrik\.cursor-tutor\konserterinorge\`
 
 ---
@@ -27,12 +27,60 @@ Disse gjelder **alle** nye sider og skal sjekkes mot `_ARTIKKEL-MAL.html`:
 ## Faserekkefølge
 
 ```
-FASE 1: Oslo – Venues        ← FERDIG
-FASE 2: Billettselskaper     ← NESTE
-FASE 3: Festivaler
-FASE 4: Turneer
-FASE 5: Artister
+FASE 1:  Oslo – Venues          ✅ FERDIG
+FASE 2:  Bergen – Venues        ← PÅGÅR NÅ
+FASE 3:  Billettselskaper
+FASE 4:  Festivaler
+FASE 5:  Turneer
+FASE 6:  Artister
 ```
+
+---
+
+## By-Gullstandard – Felles krav for alle bysider
+
+Basert på sammenligning av `byer/oslo/index.html` (859 linjer, 8 FAQ) og `byer/bergen/index.html` (806 linjer, 10 FAQ) i feb 2026. Begge sider er strukturelt identiske og anses som gullstandarden.
+
+### Obligatorisk seksjonsrekkefølge (alle bysider)
+
+1. **Intro** (`section-badge` + H2 om byens konsertscene) – 2–3 avsnitt + stats
+2. **Oversikt** – Alle konsertscener med cards (kapasitet, sjanger, adresse i meta)
+3. **Sammenligning** – Tabell med kapasitet, pris, sesong, kjøretid fra sentrum
+4. **Sjanger** – Scener gruppert etter musikksjanger (minst 4 sjangre)
+5. **Transport** – Kollektivtransport generelt + parkeringstips for byen
+6. **Insidertips** – 10 insidertips i `insider-grid` (alltid 10, partall)
+7. **Barn og unge** – Familievennlige venues og tips
+8. **Gratis konserter** – Gratis konsertmuligheter i byen
+9. **FAQ** – Minimum 8 spørsmål i FAQPage-schema
+
+### Obligatoriske schema-typer (alle bysider)
+
+- `FAQPage` med min. 8 spørsmål
+- `Article` med `ImageObject` (url + width + height)
+- `BreadcrumbList` (Hjem → Byer → [By])
+
+### Faste krav
+
+- **Title-tag:** Maks 60 tegn inkl. " | Konserter i Norge". Format: "Konserter i [By] – [X] scener og tips | Konserter i Norge"
+- **H1:** Skal inneholde bynavnet + "konsert" e.l. (lokal SEO)
+- **Meta description:** 150–160 tegn med antall scener og nøkkelfakta
+- **Forfatterboks:** Alltid inkludert (EEAT)
+- **Verified badge + lesetid** i hero-seksjonen
+- **Insider-grid:** Alltid 10 tips (10 = partall ✓)
+- **Canonical URL:** Alltid satt
+
+### Avvik mellom Oslo og Bergen (per feb 2026)
+
+| Krav | Oslo | Bergen |
+|---|---|---|
+| Seksjoner | 9 ✅ | 9 ✅ |
+| FAQPage | 8 ✅ | 10 ✅ Bergen har 2 ekstra |
+| Article schema | ✅ | ✅ |
+| BreadcrumbList | ✅ | ✅ |
+| Forfatterboks | ✅ | ✅ |
+| Linjer | 859 | 806 |
+
+**Konklusjon:** Bergen-siden er litt kortere (53 linjer), men har litt mer i FAQ-schema. Begge anses som godkjente etter gullstandarden over. For fremtidige byer: bruk Bergen-siden som mal (nyere kode + litt mer FAQ).
 
 ---
 
@@ -46,11 +94,11 @@ FASE 5: Artister
 | Unity Arena | ✅ | salkart/, transport/, hotell/, historikk/, handball/, priser/ |
 | Rockefeller Music Hall | ✅ | salkart/, transport/, hotell/, teknikk/ |
 | Sentrum Scene | ✅ | salkart/, transport/, hotell/ |
-| John Dee Live Club | ✅ | salkart/ |
-| Parkteatret | ✅ | transport/, hotell/ |
+| John Dee Live Club | ✅ | salkart/, transport/, hotell/ |
+| Parkteatret | ✅ | salkart/, transport/, hotell/ |
 | Blå | ✅ | – |
 | Oslo Konserthus | ✅ | salkart/, transport/ |
-| Operaen | ✅ | salkart/, transport/, dresscode/ |
+| Operaen | ✅ | salkart/, transport/, parkering/, dresscode/ |
 | Bjerke Travbane | ✅ | salkart/, transport/ |
 | Voldsløkka | ✅ | transport/ |
 
@@ -62,7 +110,34 @@ FASE 5: Artister
 
 ---
 
-## FASE 2 – Billettselskaper ← NESTE FASE
+## FASE 2 – Bergen Venues ← PÅGÅR NÅ
+
+### Venues i Bergen (prioritert rekkefølge)
+
+| Venue | Kapasitet | Status | Mappe |
+|---|---|---|---|
+| Grieghallen | 1 638 | ✅ Ferdig | `byer/bergen/grieghallen/` – salkart/, parkering/, historikk/, transport/ |
+| Ole Bull Scene | ~800 | 🔨 Under arbeid | `byer/bergen/ole-bull-scene/` |
+| USF Verftet | ~600 | 🔨 Under arbeid | `byer/bergen/usf-verftet/` |
+
+### Workflow for Bergen-venues
+Bruk samme tilnærming som Oslo:
+1. Les `_ARTIKKEL-MAL.html` og `konserterinorge-design.mdc`
+2. Gullstandard: `byer/oslo/sentrum-scene/index.html` (hoveddok) og `byer/oslo/john-dee/salkart/index.html` (støtteartikkel)
+3. Longtail keyword research: seed "[venue] bergen" og "[venue] konsert"
+4. Opprett mappe under `byer/bergen/[venue-slug]/`
+5. Bygg `hoveddokument/index.html` + `innholdsplan.md`
+6. **Bygg støtteartikler umiddelbart** – alle søkeordklynger fra innholdsplanen som bekrefter søkeintensjon skal ha en støtteartikkel. Ikke utsett til neste chat. Typiske kandidater per venue: `salkart/`, `parkering/`, `historikk/`, `transport/`
+7. Kjør standard sjekkliste (tittel maks 60 tegn, H1 med "Bergen", partall info-cards osv.)
+
+### Når en Bergen-venue er ferdig – oppdater disse filene:
+1. **`robots.txt`** – Bergen er **IKKE blokkert** (verifisert feb 2026). Ingen `Disallow: /byer/bergen/` i robots.txt. Bergen er allerede åpen for crawling. ✅ Ingen handling nødvendig.
+2. **`sitemap.xml`** – Legg til URL-er for Bergen-sider med `<lastmod>`.
+3. **`byer/bergen/index.html`** – Oppdater venue-kortet med korrekt kapasitet og beskrivelse.
+
+---
+
+## FASE 3 – Billettselskaper
 
 ### Status
 Det finnes allerede mapper og delvis innhold fra en tidligere runde:
@@ -94,7 +169,7 @@ Bruk samme tilnærming som Parkteatret:
 
 ---
 
-## FASE 3 – Festivaler
+## FASE 4 – Festivaler
 
 ### Status
 Det finnes allerede en `festivaler/`-mappe med mange festivaler (ser ut til å være auto-generert med eldre format). **Kvaliteten er sannsynligvis ikke god nok og bør erstattes.**
@@ -106,7 +181,7 @@ Det finnes allerede en `festivaler/`-mappe med mange festivaler (ser ut til å v
 
 ---
 
-## FASE 4 – Turneer
+## FASE 5 – Turneer
 
 ### Status
 `turneer/index.html` eksisterer. Innhold ukjent.
@@ -117,7 +192,7 @@ Det finnes allerede en `festivaler/`-mappe med mange festivaler (ser ut til å v
 
 ---
 
-## FASE 5 – Artister
+## FASE 6 – Artister
 
 ### Status
 `artister/index.html` eksisterer. Innhold ukjent.
@@ -128,13 +203,11 @@ Det finnes allerede en `festivaler/`-mappe med mange festivaler (ser ut til å v
 
 ---
 
-## Andre byer (Fremtiden – ikke prioritert ennå)
-
-Disse byene finnes i mappestrukturen, men er ikke ferdig utbygd:
+## Andre byer (Fremtiden)
 
 | By | Status |
 |---|---|
-| Bergen | Delvis – Grieghallen, Ole Bull Scene, USF Verftet |
+| Bergen | 🔨 Under arbeid – se Fase 2 |
 | Trondheim | Delvis – Trondheim Spektrum, Olavshallen |
 | Stavanger | Delvis – DNB Arena, Stavanger Konserthus |
 | Tønsberg | Tom mappe |

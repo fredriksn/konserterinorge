@@ -865,6 +865,23 @@ p:last-child {
 }
 
 
+.skip-to-content {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  z-index: 9999;
+  padding: 0.75rem 1.25rem;
+  background: var(--color-accent, #FFC107);
+  color: #000;
+  font-weight: 700;
+  border-radius: 0 0 6px 6px;
+  text-decoration: none;
+  transition: top 0.15s;
+}
+.skip-to-content:focus {
+  top: 0;
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -1918,7 +1935,8 @@ p:last-child {
 .faq-item.is-open .faq-question::after {
   transform: rotate(180deg);
 }
-.faq-list dd {
+.faq-list dd,
+.faq-answer {
   margin: 0;
   padding: 0 18px;
   color: var(--text-muted);
@@ -1930,21 +1948,25 @@ p:last-child {
   opacity: 0;
   transition: max-height 0.3s ease, visibility 0.2s, opacity 0.2s, padding 0.2s;
 }
-.faq-item:not(.is-open) dd {
+.faq-item:not(.is-open) dd,
+.faq-item:not(.is-open) .faq-answer {
   padding-top: 0;
   padding-bottom: 0;
 }
-.faq-item.is-open dd {
+.faq-item.is-open dd,
+.faq-item.is-open .faq-answer {
   max-height: 30em;
   padding: 0 18px 18px 18px;
   visibility: visible;
   opacity: 1;
 }
-.faq-list dd a {
+.faq-list dd a,
+.faq-answer a {
   color: var(--accent-dark);
   font-weight: 500;
 }
-.faq-list dd a:hover {
+.faq-list dd a:hover,
+.faq-answer a:hover {
   text-decoration: underline;
 }
 
@@ -2887,7 +2909,8 @@ a.info-card--link:hover strong {
 /* ============================================
    FORFATTER / AUTHOR BIO (EEAT)
    ============================================ */
-.author-bio-box {
+.author-bio-box,
+.author-box {
   display: flex;
   gap: 24px;
   align-items: flex-start;
@@ -2900,13 +2923,22 @@ a.info-card--link:hover strong {
 }
 
 .author-avatar {
-  width: 80px;
-  height: 80px;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
   object-fit: cover;
   flex-shrink: 0;
   border: 3px solid var(--bg);
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  /* Når brukt som div med initialbokstav */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent);
+  color: var(--text);
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 
 .author-info {
@@ -2952,7 +2984,8 @@ a.info-card--link:hover strong {
 }
 
 @media (max-width: 600px) {
-  .author-bio-box {
+  .author-bio-box,
+  .author-box {
     flex-direction: column;
     align-items: center;
     text-align: center;

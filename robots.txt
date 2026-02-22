@@ -4,7 +4,6 @@ Disallow: /billettselskaper/
 Disallow: /festivaler/
 Disallow: /turneer/
 Disallow: /artister/
-Disallow: /byer/bergen/
 Disallow: /byer/trondheim/
 Disallow: /byer/stavanger/
 Disallow: /byer/tonsberg/

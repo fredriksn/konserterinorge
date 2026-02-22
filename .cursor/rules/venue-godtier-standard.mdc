@@ -1,0 +1,55 @@
+---
+description: Håndhever God-Tier-standarden for alle konsertscene-sider under byer/
+globs: byer/**/*.html
+alwaysApply: false
+---
+
+# God-Tier Venue Standard – Konserter i Norge
+
+Gjelder alle sider under `byer/{by}/{venue}/`. Les alltid gullstandarden FØR du skriver HTML:
+- `byer/oslo/sentrum-scene/index.html` (hoveddok-mal)
+
+## Obligatorisk rekkefølge
+
+**Steg 1 – Longtail research (4 søk)**
+Kjør `fetch-keywords.ps1` med: venue-navn, venue + by, venue + parkering, venue + billetter.
+Grupper evergreen-klynger. Disse styrer hva du skriver – ikke snarveier.
+
+**Steg 2 – Faktasjekk (WebSearch)**
+Bekreft: eksakt kapasitet per sal, adresse + koordinater, kollektivtransport (konkrete linjenumre og avstand i meter), nærmeste P-hus med navn, ølpris (0,4-liters), aldersgrense, veskeregler, historikk.
+
+**Steg 3 – Bilde**
+Wikimedia Commons CC-lisensiert bilde. Verifiser URL med WebFetch FØR den skrives inn.
+
+**Steg 4 – Bygg index.html (800+ linjer)**
+Alle 12 seksjoner i denne rekkefølgen – ingen kan utelates:
+1. Hero (bilde, breadcrumb, H1 med bynavn, lead, 5+ chips, attributering)
+2. Sticky quicknav
+3. Adresse og adkomst (4 info-cards + Maps iframe)
+4. Kollektivtransport (4 .kollektiv-card + tips-hack + lenke til transport/)
+5. Parkering (3 .tips-card + tips-hack)
+6. Salkart og sitteplasser (4 info-cards + tips-hack + lenke til salkart/)
+7. 10 insidertips (.insider-grid med NØYAKTIG 10 .insider-card, min. 3 venue-spesifikke)
+8. Mat og drikke (3 .tips-card)
+9. Garderobe og regler (6 info-cards)
+10. Historikk (4 info-cards)
+11. FAQ (min. 10 spørsmål, 100% match med Schema.org FAQPage)
+12. Bunn-seksjon (forfatter-boks, silo, andre scener i samme by, tilbake-knapp)
+
+**Steg 5 – Bygg salkart/index.html** (ekte HTML, ikke innholdsplan.md)
+
+**Steg 6 – Bygg parkering/index.html** (ekte HTML, ikke innholdsplan.md)
+
+## Faste krav (alle filer)
+- Title: MAKS 60 tegn inkl. ` | Konserter i Norge` – tell tegn!
+- Schema.org: FAQPage, MusicVenue (med geo + capacity), BreadcrumbList, Article (ImageObject med url/width/height)
+- info-cards alltid partall (2, 4 eller 6)
+- Øl omtales alltid som "0,4-liters", aldri "halvliter"
+- Nav: Festivaler, Billettselskaper, Turneer, Artister → `class="draft" rel="nofollow"`
+- CSS/JS-stier: `../../../css/style.css` (venue), `../../../../css/style.css` (støtteartikkel)
+
+## ❌ Forbudt
+- Lage `innholdsplan.md` i stedet for ekte HTML-støtteartikler
+- Hoppe over seksjoner fordi det "ikke er relevant"
+- Skrive støtteartikler uten faktisk å lagre dem til disk
+- Avslutte uten å kjøre gjennom hele sjekklisten

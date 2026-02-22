@@ -1,0 +1,745 @@
+﻿<!DOCTYPE html>
+<!--
+  ========================================================
+  BY-MAL – Konserter i Norge
+  ========================================================
+  Bruk denne malen for byer-sider (f.eks. byer/bergen/, byer/trondheim/).
+  Erstatt alle {{PLACEHOLDER}}-verdier med faktisk innhold.
+
+  SJEKKLISTE FØR PUBLISERING:
+  - [ ] Title-tag: MAKS 60 tegn inkl. " | Konserter i Norge"
+        Format: "Konserter i {{BY}} – {{ANTALL}} scener og tips | Konserter i Norge"
+        Eksempel (59 tegn): "Konserter i Oslo – 11 scener og tips | Konserter i Norge"
+  - [ ] H1 inneholder bynavnet ("Konserter i {{BY}}")
+  - [ ] Meta description: bruk tall + "Finn riktig scene på 30 sekunder" for CTR
+        Format: "{{ANTALL}} konsertscener i {{BY}} – fra {{STORSTE_SCENE}} ({{STORSTE_KAP}}) til
+        {{MINSTE_SCENE}} ({{MINSTE_KAP}}). Adresse, billetter, parkering og insidertips.
+        Finn riktig scene på 30 sekunder."
+  - [ ] Canonical URL er korrekt
+  - [ ] Schema.org: Article med ImageObject (url, width, height) – aldri bare string-URL
+  - [ ] Schema.org: FAQPage med min. 10 spørsmål (inkl. hip hop, blues/country, metal)
+  - [ ] Schema.org: ItemList med alle venues og URL-er
+  - [ ] Schema.org: BreadcrumbList med korrekte URLs
+  - [ ] Hero-bilde: CC-lisens fra Wikimedia Commons med korrekt attributt
+        Søk: "[BY] konsert wikimedia commons" – hent faktisk concert-bilde om mulig
+        Verifiser URL med WebFetch FØR du skriver den inn (ikke gjett på filnavn!)
+  - [ ] Hero: To CTA-knapper ("Finn kommende konserter" → Ticketmaster + "Se alle scener")
+  - [ ] Sammenligningstabell med alle venues, sortert etter kapasitet (størst øverst)
+  - [ ] Quicknav: inkluder "Sammenlign"-lenke
+  - [ ] Alle info-cards: ALLTID partall (2, 4, 6)
+  - [ ] insider-grid: ALLTID 8 eller 10 kort
+  - [ ] FAQ: min. 10 spørsmål (rock, jazz, klassisk, hip hop, blues/country, metal = 6 sjangre)
+  - [ ] Forfatterboks inkludert
+  - [ ] Alle lenker er relative stier
+  - [ ] Øl refereres alltid som "0,4-liters" – aldri "halvliter"
+  - [ ] draft-klasse og rel="nofollow" på uferdige nav-lenker
+
+  KEYWORD RESEARCH (kjør FØR du skriver innhold):
+  & "C:\Users\Fredrik\.cursor\skills\longtail-keyword-research\scripts\fetch-keywords.ps1" -Keyword "konserter i {{by}}"
+  & "C:\Users\Fredrik\.cursor\skills\longtail-keyword-research\scripts\fetch-keywords.ps1" -Keyword "gratis konserter {{by}}"
+  & "C:\Users\Fredrik\.cursor\skills\longtail-keyword-research\scripts\fetch-keywords.ps1" -Keyword "konserter {{by}} barn"
+  & "C:\Users\Fredrik\.cursor\skills\longtail-keyword-research\scripts\fetch-keywords.ps1" -Keyword "konsertarena {{by}}"
+  Husk required_permissions: ["all"]
+
+  OBLIGATORISKE SEKSJONER (i denne rekkefølgen):
+  1.  Hero med chips + 2 CTA-knapper (Finn konserter + Se alle scener)
+  2.  Sticky quicknav (inkl. Sammenlign)
+  3.  Intro med 4 info-cards
+  4.  Venue-grid (card-grid) med alle venues og reelle beskrivelser
+  5.  Sammenligningstabell (sortert størst → minst)
+  6.  Scener etter sjanger – 4 info-cards
+  7.  Transport – 4 kollektiv-cards + tips-hack
+  8.  Insider-grid – 10 kort
+  9.  Barn og unge – 4 info-cards
+  10. Gratis konserter – 4 info-cards
+  11. FAQ – min. 10 spørsmål (matche schema.org)
+  12. Forfatterboks
+  ========================================================
+-->
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <!-- Google Analytics 4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N41HVB8EBR"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-N41HVB8EBR');
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--
+    Meta description: bruk tall + tidsløfte for høyere CTR.
+    Maks ~155 tegn. Format:
+    "{{ANTALL}} konsertscener i {{BY}} – fra {{STORSTE_SCENE}} ({{STORSTE_KAP}}) til
+    {{MINSTE_SCENE}} ({{MINSTE_KAP}}). Adresse, billetter, parkering og insidertips.
+    Finn riktig scene på 30 sekunder."
+  -->
+  <meta name="description" content="{{ANTALL}} konsertscener i {{BY}} – fra {{STORSTE_SCENE}} ({{STORSTE_KAP}}) til {{MINSTE_SCENE}} ({{MINSTE_KAP}}). Adresse, billetter, parkering og insidertips. Finn riktig scene på 30 sekunder.">
+  <meta name="robots" content="index, follow">
+  <!--
+    Title: MAKS 60 tegn inkl. " | Konserter i Norge" (17 tegn).
+    Bruk tall for synlighet i SERP: "Konserter i {{BY}} – {{ANTALL}} scener og tips"
+    Tell tegn nøye. "Konserter i Oslo – 11 scener og tips | Konserter i Norge" = 59 tegn ✅
+  -->
+  <title>Konserter i {{BY}} – {{ANTALL}} scener og tips | Konserter i Norge</title>
+  <link rel="canonical" href="https://www.konserterinorge.no/byer/{{by-slug}}/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.konserterinorge.no/byer/{{by-slug}}/">
+  <meta property="og:title" content="Konserter i {{BY}} – {{ANTALL}} konsertscener og tips">
+  <meta property="og:description" content="{{ANTALL}} konsertscener i {{BY}}. Fra {{STORSTE_SCENE}} ({{STORSTE_KAP}}) til {{MINSTE_SCENE}} ({{MINSTE_KAP}}). Adresse, kapasitet, parkering og insidertips.">
+  <!-- Husk: verifiser at bildeURL faktisk fungerer (WebFetch) FØR du legger den inn -->
+  <meta property="og:image" content="{{WIKIMEDIA_BILDE_URL_1280}}">
+  <meta property="og:image:width" content="{{BILDE_BREDDE}}">
+  <meta property="og:image:height" content="{{BILDE_HOYDE}}">
+  <meta property="og:site_name" content="Konserter i Norge">
+  <meta property="og:locale" content="nb_NO">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Konserter i {{BY}} – {{ANTALL}} scener og tips">
+  <meta name="twitter:description" content="{{ANTALL}} konsertscener i {{BY}}. Kapasitet fra {{MINSTE_KAP}} til {{STORSTE_KAP}}. Adresse, parkering, transport og insidertips.">
+  <meta name="twitter:image" content="{{WIKIMEDIA_BILDE_URL_1280}}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+  <!-- CSS-sti: juster ../ antall basert på mappenivå (byer/oslo/ = ../../css/style.css) -->
+  <link rel="stylesheet" href="../../css/style.css">
+
+  <!-- SCHEMA 1: FAQPage – min. 10 spørsmål. Dekk alle sjangre: rock, jazz, klassisk,
+       hip hop/rap, blues/country og metal/punk. Tekst MÅ matche HTML-FAQ-listen. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Hvilken konsertarena er størst i {{BY}}?",
+        "acceptedAnswer": {"@type": "Answer", "text": "{{SVAR_STORST}}"}
+      },
+      {
+        "@type": "Question",
+        "name": "Hvilke konserter i {{BY}} er gratis?",
+        "acceptedAnswer": {"@type": "Answer", "text": "{{SVAR_GRATIS}}"}
+      },
+      {
+        "@type": "Question",
+        "name": "Er det konserter i {{BY}} for barn?",
+        "acceptedAnswer": {"@type": "Answer", "text": "{{SVAR_BARN}}"}
+      },
+      {
+        "@type": "Question",
+        "name": "Hva er aldersgrensen på konserter i {{BY}}?",
+        "acceptedAnswer": {"@type": "Answer", "text": "{{SVAR_ALDER}}"}
+      },
+      {
+        "@type": "Question",
+        "name": "Hvilke konsertscener i {{BY}} passer for rock og pop?",
+        "acceptedAnswer": {"@type": "Answer", "text": "{{SVAR_ROCK}}"}
+      },
+      {
+        "@type": "Question",
+        "name": "Hvilke konsertscener i {{BY}} passer for jazz og elektronisk musikk?",
+        "acceptedAnswer": {"@type": "Answer", "text": "{{SVAR_JAZZ}}"}
+      },
+      {
+        "@type": "Question",
+        "name": "Hvilke konsertscener i {{BY}} passer for klassisk musikk?",
+        "acceptedAnswer": {"@type": "Answer", "text": "{{SVAR_KLASSISK}}"}
+      },
+      {
+        "@type": "Question",
+        "name": "Hvilke konsertscener i {{BY}} passer for hip hop og rap?",
+        "acceptedAnswer": {"@type": "Answer", "text": "{{SVAR_HIPHOP}}"}
+      },
+      {
+        "@type": "Question",
+        "name": "Er det blues- og countrykonserter i {{BY}}?",
+        "acceptedAnswer": {"@type": "Answer", "text": "{{SVAR_BLUES_COUNTRY}}"}
+      },
+      {
+        "@type": "Question",
+        "name": "Hvilke konsertscener i {{BY}} passer for metal og punk?",
+        "acceptedAnswer": {"@type": "Answer", "text": "{{SVAR_METAL}}"}
+      },
+      {
+        "@type": "Question",
+        "name": "Hvor kjøper jeg billetter til konserter i {{BY}}?",
+        "acceptedAnswer": {"@type": "Answer", "text": "{{SVAR_BILLETTER}}"}
+      },
+      {
+        "@type": "Question",
+        "name": "Hva er den beste måten å komme seg til konserter i {{BY}}?",
+        "acceptedAnswer": {"@type": "Answer", "text": "{{SVAR_TRANSPORT}}"}
+      },
+      {
+        "@type": "Question",
+        "name": "Er det parkering ved konsertscenene i {{BY}}?",
+        "acceptedAnswer": {"@type": "Answer", "text": "{{SVAR_PARKERING}}"}
+      },
+      {
+        "@type": "Question",
+        "name": "Hva koster øl på konsertscener i {{BY}}?",
+        "acceptedAnswer": {"@type": "Answer", "text": "{{SVAR_OL}}"}
+      },
+      {
+        "@type": "Question",
+        "name": "Når er det mest konserter i {{BY}}?",
+        "acceptedAnswer": {"@type": "Answer", "text": "{{SVAR_SESONG}}"}
+      }
+    ]
+  }
+  </script>
+
+  <!-- SCHEMA 2: ItemList – hjelper Google forstå at dette er en strukturert liste.
+       Legg til ett element per venue, i rekkefølge (størst kapasitet øverst). -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Konsertscener i {{BY}}",
+    "description": "Oversikt over alle konsertscener i {{BY}} med kapasitet, adresse og sjanger.",
+    "numberOfItems": {{ANTALL}},
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "{{VENUE_1_NAVN}}", "url": "https://www.konserterinorge.no/byer/{{by-slug}}/{{venue-1-slug}}/"}
+      // Gjenta per venue – husk å fjerne denne kommentaren og avslutte med ]
+    ]
+  }
+  </script>
+
+  <!-- SCHEMA 3: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Hjem", "item": "https://www.konserterinorge.no/"},
+      {"@type": "ListItem", "position": 2, "name": "Byer", "item": "https://www.konserterinorge.no/byer/"},
+      {"@type": "ListItem", "position": 3, "name": "{{BY}}", "item": "https://www.konserterinorge.no/byer/{{by-slug}}/"}
+    ]
+  }
+  </script>
+
+  <!-- SCHEMA 4: Article – image MÅ alltid være ImageObject med url, width og height -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Konserter i {{BY}} – Guide til alle konsertscener",
+    "description": "Komplett guide til konsertscener i {{BY}}: adresse, kapasitet, parkering og billetter.",
+    "image": {
+      "@type": "ImageObject",
+      "url": "{{WIKIMEDIA_BILDE_URL_1280}}",
+      "width": {{BILDE_BREDDE}},
+      "height": {{BILDE_HOYDE}}
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Henrik",
+      "url": "https://www.konserterinorge.no/om-oss/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Konserter i Norge",
+      "logo": {"@type": "ImageObject", "url": "https://www.konserterinorge.no/images/logo.png"}
+    },
+    "datePublished": "{{ISO_DATO}}T08:00:00+01:00",
+    "dateModified": "{{ISO_DATO}}T08:00:00+01:00"
+  }
+  </script>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#1a1a1a">
+</head>
+<body>
+  <a href="#main-content" class="skip-to-content">Hopp til innhold</a>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <!-- Logo-lenke: juster ../ antall basert på mappenivå -->
+      <a href="../../index.html" class="logo">Konserter<span>iNorge</span>.no</a>
+      <nav class="nav-main" aria-label="Hovednavigasjon">
+        <a href="../../index.html">Hjem</a>
+        <a href="../index.html" aria-current="page">Byer</a>
+        <a href="../../festivaler/" class="draft" rel="nofollow">Festivaler</a>
+        <a href="../../billettselskaper/" class="draft" rel="nofollow">Billettselskaper</a>
+        <a href="../../turneer/" class="draft" rel="nofollow">Turneer</a>
+        <a href="../../artister/" class="draft" rel="nofollow">Artister</a>
+      </nav>
+      <button type="button" class="nav-toggle" aria-label="Åpne meny" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <!--
+    HERO – Bilde fra Wikimedia Commons med CC-lisens.
+    VIKTIG: Verifiser at bildeURL fungerer med WebFetch FØR du skriver den inn.
+    Søk etter konsertbilde eller bybilde: "[BY] konsert wikimedia commons"
+    Kopier korrekt fotograf og lisens fra Wikimedia-siden.
+    Eksempel URL-format: https://upload.wikimedia.org/wikipedia/commons/thumb/[hash]/1280px-[filnavn].jpg
+  -->
+  <div class="venue-page-hero">
+    <img
+      src="{{WIKIMEDIA_BILDE_URL_1280}}"
+      alt="{{BILDE_ALT_TEKST}}"
+      class="venue-hero-bg"
+      width="{{BILDE_BREDDE}}" height="{{BILDE_HOYDE}}"
+      fetchpriority="high">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Brødsmule">
+        <a href="../../index.html">Hjem</a>
+        <span>/</span>
+        <a href="../index.html">Byer</a>
+        <span>/</span>
+        <span>{{BY}}</span>
+      </nav>
+      <!-- H1: MÅ inneholde bynavnet -->
+      <h1>Konserter i <span class="highlight">{{BY}}</span></h1>
+      <div class="venue-hero-meta">
+        <span class="badge-verified">✓ Oppdatert: {{MAANED_AAR}}</span>
+        <span class="read-time">⏱️ 7 min lesetid</span>
+      </div>
+      <p class="lead">{{BY}}s beste konsertguide. Her finner du komplett oversikt over alle {{ANTALL}} konsertscener – med adresse, kapasitet, transport, parkering og insidertips.</p>
+      <div class="venue-chips">
+        <span class="venue-chip">🎤 {{ANTALL}} konsertscener</span>
+        <span class="venue-chip">👥 {{MINSTE_KAP}} – {{STORSTE_KAP}} kapasitet</span>
+        <span class="venue-chip">🚇 {{KOLLEKTIV_KORT}}</span>
+        <span class="venue-chip">🎸 {{SJANGRE_KORT}}</span>
+        <span class="venue-chip">📅 Helårs konserttilbud</span>
+      </div>
+      <!-- CTA-knapper: alltid med i hero. Første knapp → Ticketmaster/billetter, andre → anker -->
+      <div class="hero-actions" style="margin-top:1.5rem">
+        <a href="{{TICKETMASTER_BY_URL}}" target="_blank" rel="noopener" class="btn btn-primary">Finn kommende konserter i {{BY}} →</a>
+        <a href="#scener" class="btn btn-secondary">Se alle {{ANTALL}} scener</a>
+      </div>
+      <div class="venue-hero-scroll" aria-hidden="true">
+        Scroll
+        <svg viewBox="0 0 24 24" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+    </div>
+    <!-- Attributt: hent korrekt fotografnavn og lisens fra Wikimedia-siden -->
+    <p class="venue-hero-attribution">Foto: <a href="{{WIKIMEDIA_BILDESIDEN_URL}}" target="_blank" rel="noopener">{{FOTOGRAF}} / {{LISENS}}</a> via Wikimedia Commons</p>
+  </div>
+
+  <!-- STICKY QUICKNAV – inkluder alltid Sammenlign -->
+  <div class="venue-quicknav-bar">
+    <div class="container">
+      <nav class="venue-quicknav" aria-label="Hopp til seksjon">
+        <a href="#scener">Alle scener</a>
+        <a href="#sammenlign">Sammenlign</a>
+        <a href="#sjanger">Sjanger</a>
+        <a href="#transport">Kom deg dit</a>
+        <a href="#insidertips">Insidertips</a>
+        <a href="#barn">Barn og unge</a>
+        <a href="#gratis">Gratis</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </div>
+  </div>
+
+  <main id="main-content" role="main">
+    <div class="container page-content">
+
+      <!-- =====================
+           INTRO – 4 info-cards (ALLTID partall)
+      ===================== -->
+      <section class="venue-fakta" aria-labelledby="intro-heading">
+        <span class="section-badge">{{BY}} – Konsertbyen</span>
+        <h2 id="intro-heading">{{BY}}s konsertscener</h2>
+        <p>{{INTRO_AVSNITT_1}}</p>
+        <p>{{INTRO_AVSNITT_2}}</p>
+
+        <div class="info-cards">
+          <div class="info-card">
+            <div class="info-card-icon">🎤</div>
+            <div class="info-card-body">
+              <strong>{{ANTALL}} konsertscener</strong>
+              <p>{{INFO_ANTALL_TEKST}}</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">👥</div>
+            <div class="info-card-body">
+              <strong>{{MINSTE_KAP}} – {{STORSTE_KAP}} kapasitet</strong>
+              <p>{{INFO_KAPASITET_TEKST}}</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">🎸</div>
+            <div class="info-card-body">
+              <strong>Alle sjangre</strong>
+              <p>{{INFO_SJANGER_TEKST}}</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">📅</div>
+            <div class="info-card-body">
+              <strong>Helårs tilbud</strong>
+              <p>{{INFO_SESONG_TEKST}}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================
+           ALLE SCENER – KORTGRID
+           Legg til ett kort per venue med reell, unik beskrivelse – ikke bare kapasitet.
+      ===================== -->
+      <section class="venue-fakta" id="scener" aria-labelledby="scener-heading">
+        <span class="section-badge">Oversikt</span>
+        <h2 id="scener-heading">Alle konsertscener i {{BY}}</h2>
+        <p>Klikk på en scene for full guide med adresse, kapasitet, transport, parkering, salkart og insidertips.</p>
+
+        <div class="card-grid" aria-label="Konsertscener i {{BY}}">
+          <!-- Gjenta dette kortet per venue. Beskrivelsen skal være unik per scene. -->
+          <article class="card">
+            <h3><a href="{{venue-slug}}/">{{VENUE_NAVN}}</a></h3>
+            <p class="card-meta">Kapasitet: {{KAPASITET}} · {{BYDEL}} · {{KARAKTER}}</p>
+            <p>{{VENUE_KORT_BESKRIVELSE}}</p>
+          </article>
+          <!-- /Gjenta -->
+        </div>
+      </section>
+
+      <!-- =====================
+           SAMMENLIGNINGSTABELL
+           Sortert størst → minst kapasitet. Bruk inline style (tabellen er selvstendig).
+           Hjelper brukere velge scene raskt og gir Google strukturert informasjon.
+      ===================== -->
+      <section class="venue-fakta" id="sammenlign" aria-labelledby="sammenlign-heading">
+        <span class="section-badge">Sammenligning</span>
+        <h2 id="sammenlign-heading">Sammenlign alle konsertscener i {{BY}}</h2>
+        <p>Usikker på hvilken scene du skal til? Tabellen under gir deg full oversikt på ett sted.</p>
+
+        <div style="overflow-x:auto;-webkit-overflow-scrolling:touch;margin-top:1.5rem">
+          <table style="width:100%;border-collapse:collapse;font-size:0.92rem;min-width:640px">
+            <thead>
+              <tr style="background:var(--accent);color:#1a1a1a">
+                <th style="padding:12px 14px;text-align:left;font-weight:700">Scene</th>
+                <th style="padding:12px 14px;text-align:right;font-weight:700">Kapasitet</th>
+                <th style="padding:12px 14px;text-align:left;font-weight:700">Sjanger</th>
+                <th style="padding:12px 14px;text-align:left;font-weight:700">Bydel</th>
+                <th style="padding:12px 14px;text-align:center;font-weight:700">Innendørs</th>
+                <th style="padding:12px 14px;text-align:left;font-weight:700">Guide</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Gjenta denne raden per venue, alternerende bakgrunn: odde = hvit, par = var(--bg-card) -->
+              <tr style="border-bottom:1px solid var(--border)">
+                <td style="padding:11px 14px;font-weight:600">{{VENUE_NAVN}}</td>
+                <td style="padding:11px 14px;text-align:right;color:var(--text-muted)">{{KAPASITET}}</td>
+                <td style="padding:11px 14px;color:var(--text-muted)">{{SJANGER_KORT}}</td>
+                <td style="padding:11px 14px;color:var(--text-muted)">{{BYDEL}}</td>
+                <td style="padding:11px 14px;text-align:center">{{INNENDORS_EMOJI}}</td><!-- ✅ innendørs / ☀️ utendørs -->
+                <td style="padding:11px 14px"><a href="{{venue-slug}}/">Les guide →</a></td>
+              </tr>
+              <!-- /Gjenta -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- =====================
+           SCENER ETTER SJANGER – 4 info-cards (ALLTID partall)
+           NB: "Etter størrelse"-seksjonen er fjernet – erstattet av sammenligningsTabellen.
+      ===================== -->
+      <section class="venue-fakta" id="sjanger" aria-labelledby="sjanger-heading">
+        <span class="section-badge">Sjanger</span>
+        <h2 id="sjanger-heading">Konsertscener etter musikksjanger</h2>
+        <p>{{BY}} har scener for de fleste musikksjangre. Finn riktig scene for din musikksmak.</p>
+
+        <div class="info-cards">
+          <div class="info-card">
+            <div class="info-card-icon">🎸</div>
+            <div class="info-card-body">
+              <strong>Rock, pop, hip hop og urban musikk</strong>
+              <p>{{SJANGER_ROCK_HIPHOP_TEKST}}</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">🎷</div>
+            <div class="info-card-body">
+              <strong>Jazz, blues og elektronisk musikk</strong>
+              <p>{{SJANGER_JAZZ_BLUES_TEKST}}</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">🎻</div>
+            <div class="info-card-body">
+              <strong>Klassisk musikk, opera og country</strong>
+              <p>{{SJANGER_KLASSISK_COUNTRY_TEKST}}</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">☀️</div>
+            <div class="info-card-body">
+              <strong>Utendørs- og sommerkonserter</strong>
+              <p>{{SJANGER_UTENDORS_TEKST}}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================
+           TRANSPORT – 4 kollektiv-cards
+      ===================== -->
+      <section class="venue-fakta" id="transport" aria-labelledby="transport-heading">
+        <span class="section-badge">Transport</span>
+        <h2 id="transport-heading">Kom deg til konserter i {{BY}}</h2>
+        <p>{{TRANSPORT_INTRO}}</p>
+
+        <div class="kollektiv-cards">
+          <div class="kollektiv-card">
+            <div class="kollektiv-icon">🚇</div>
+            <div>
+              <strong>{{KOLLEKTIV_1_NAVN}}</strong>
+              <p>{{KOLLEKTIV_1_TEKST}}</p>
+            </div>
+          </div>
+          <div class="kollektiv-card">
+            <div class="kollektiv-icon">🚋</div>
+            <div>
+              <strong>{{KOLLEKTIV_2_NAVN}}</strong>
+              <p>{{KOLLEKTIV_2_TEKST}}</p>
+            </div>
+          </div>
+          <div class="kollektiv-card">
+            <div class="kollektiv-icon">🚌</div>
+            <div>
+              <strong>{{KOLLEKTIV_3_NAVN}}</strong>
+              <p>{{KOLLEKTIV_3_TEKST}}</p>
+            </div>
+          </div>
+          <div class="kollektiv-card">
+            <div class="kollektiv-icon">🚗</div>
+            <div>
+              <strong>Bil og parkering i {{BY}}</strong>
+              <p>{{PARKERING_TEKST}}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tips-hack">
+          <span class="tips-hack-icon">💡</span>
+          <div>
+            <strong>{{TRANSPORT_TIP_TITTEL}}</strong> {{TRANSPORT_TIP_TEKST}}
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================
+           INSIDERTIPS – 10 kort (ALLTID partall: 8 eller 10)
+           Tips 01–06 og 08, 10 er generiske (bruk som-er).
+           Tips 03, 07, 09 MÅ tilpasses byens lokale kollektiv og nabolag.
+      ===================== -->
+      <section class="venue-fakta" id="insidertips" aria-labelledby="insider-heading">
+        <span class="section-badge">Insidertips</span>
+        <h2 id="insider-heading">10 insidertips for konserter i {{BY}}</h2>
+
+        <div class="insider-grid">
+          <div class="insider-card">
+            <div class="insider-num">01</div>
+            <strong>Bruk digitale billetter</strong>
+            <p>Alle store scener aksepterer mobilbillett. Skjermskudd holder ikke – du trenger den levende animasjonen. Last ned billettselgerens app.</p>
+          </div>
+          <div class="insider-card">
+            <div class="insider-num">02</div>
+            <strong>Kom 45 min tidlig</strong>
+            <p>Sikkerhetssjekk, garderobe og bar tar tid. Kom minst 45 minutter før showstart på store arenaer.</p>
+          </div>
+          <div class="insider-card">
+            <div class="insider-num">03</div>
+            <strong>Ta kollektivt – alltid</strong>
+            <p>{{TIP_KOLLEKTIV}}</p><!-- Tilpass: nevn konkret linje/stopp og fordel -->
+          </div>
+          <div class="insider-card">
+            <div class="insider-num">04</div>
+            <strong>Sjekk veskereglene</strong>
+            <p>De fleste scener tillater kun vesker som er A4-format eller mindre. En liten beltebag er ideell – slipp garderobekø og inngangsstopp.</p>
+          </div>
+          <div class="insider-card">
+            <div class="insider-num">05</div>
+            <strong>Ta med ørepropper</strong>
+            <p>Musikerørepropper (25–150 kr) reduserer dB uten å drukne lyden. Hørselen takker deg – spesielt på elektronika og metallkonserter.</p>
+          </div>
+          <div class="insider-card">
+            <div class="insider-num">06</div>
+            <strong>Fysisk ID – alltid</strong>
+            <p>Digital BankID godtas ikke for alkoholkjøp. Ta alltid med fysisk pass, førerkort eller nasjonalt ID-kort.</p>
+          </div>
+          <div class="insider-card">
+            <div class="insider-num">07</div>
+            <strong>{{TIP_LOKAL_1_TITTEL}}</strong>
+            <p>{{TIP_LOKAL_1_TEKST}}</p><!-- Lokalt tips: nabolag, barer, restauranter e.l. -->
+          </div>
+          <div class="insider-card">
+            <div class="insider-num">08</div>
+            <strong>Øl koster 100–135 kr</strong>
+            <p>En 0,4-liters øl koster rundt 100–135 kr på de fleste scener. Alle scener er kontantfrie – betal med kort eller Vipps.</p>
+          </div>
+          <div class="insider-card">
+            <div class="insider-num">09</div>
+            <strong>{{TIP_LOKAL_2_TITTEL}}</strong>
+            <p>{{TIP_LOKAL_2_TEKST}}</p><!-- Lokalt tips: nattbuss, taxi-situasjon, togtider e.l. -->
+          </div>
+          <div class="insider-card">
+            <div class="insider-num">10</div>
+            <strong>Presale via nyhetsbrev</strong>
+            <p>Meld deg på artistens nyhetsbrev eller Ticketmaster/Eventim-apper for presale-koder 24–48 timer før offentlig salg starter.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================
+           BARN OG UNGE – 4 info-cards (ALLTID partall)
+      ===================== -->
+      <section class="venue-fakta" id="barn" aria-labelledby="barn-heading">
+        <span class="section-badge">Barn og unge</span>
+        <h2 id="barn-heading">Konserter i {{BY}} for barn og ungdom</h2>
+        <p>{{BY}} har konserter og forestillinger for barn, ungdom og familier. Her er de viktigste scenene og tipsene.</p>
+
+        <div class="info-cards">
+          <div class="info-card">
+            <div class="info-card-icon">🎼</div>
+            <div class="info-card-body">
+              <strong>{{BARN_SCENE_1}} – barneprogram</strong>
+              <p>{{BARN_SCENE_1_TEKST}}</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">🎭</div>
+            <div class="info-card-body">
+              <strong>{{BARN_SCENE_2}} – familieforestillinger</strong>
+              <p>{{BARN_SCENE_2_TEKST}}</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">🔞</div>
+            <div class="info-card-body">
+              <strong>Under 18 på klubbscener</strong>
+              <p>{{UNDER_18_TEKST}}</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">🎵</div>
+            <div class="info-card-body">
+              <strong>Store arenaer uten aldersgrense</strong>
+              <p>{{STORSCENE_BARN_TEKST}}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================
+           GRATIS KONSERTER – 4 info-cards (ALLTID partall)
+      ===================== -->
+      <section class="venue-fakta" id="gratis" aria-labelledby="gratis-heading">
+        <span class="section-badge">Gratis konserter</span>
+        <h2 id="gratis-heading">Gratis konsertopplevelser i {{BY}}</h2>
+        <p>{{BY}} har gratis konserter – særlig om sommeren. Her er de beste stedene.</p>
+
+        <div class="info-cards">
+          <div class="info-card">
+            <div class="info-card-icon">⛪</div>
+            <div class="info-card-body">
+              <strong>{{GRATIS_STED_1}}</strong>
+              <p>{{GRATIS_STED_1_TEKST}}</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">☀️</div>
+            <div class="info-card-body">
+              <strong>{{GRATIS_STED_2}}</strong>
+              <p>{{GRATIS_STED_2_TEKST}}</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">📚</div>
+            <div class="info-card-body">
+              <strong>{{GRATIS_STED_3}}</strong>
+              <p>{{GRATIS_STED_3_TEKST}}</p>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">🏛️</div>
+            <div class="info-card-body">
+              <strong>{{GRATIS_STED_4}}</strong>
+              <p>{{GRATIS_STED_4_TEKST}}</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =====================
+           FAQ – min. 15 spørsmål. Tekst MÅ matche schema.org FAQPage EKSAKT.
+           Dekk alle sjangre: rock/pop, jazz/blues, klassisk/opera, hip hop/rap,
+           country, metal/punk + praktiske (billetter, transport, parkering, øl, sesong).
+      ===================== -->
+      <section class="venue-fakta" id="faq" aria-labelledby="faq-heading">
+        <span class="section-badge">Vanlige spørsmål</span>
+        <h2 id="faq-heading">Spørsmål og svar om konserter i {{BY}}</h2>
+
+        <div class="faq-list">
+          <!-- Gjenta denne blokken per FAQ-spørsmål.
+               Spørsmålstekst MÅ matche schema.org FAQPage "name" eksakt. -->
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false">{{FAQ_SPORSMAAL}}</button>
+            <div class="faq-answer"><p>{{FAQ_SVAR}}</p></div>
+          </div>
+          <!-- /Gjenta -->
+        </div>
+      </section>
+
+      <!-- =====================
+           FORFATTERBOKS
+      ===================== -->
+      <section class="author-box" aria-label="Om forfatteren">
+        <div class="author-avatar" aria-hidden="true">H</div>
+        <div class="author-info">
+          <strong>Henrik</strong>
+          <span class="author-role">Redaktør, Konserter i Norge</span>
+          <p>Har besøkt konsertscenene i {{BY}} og skrevet grundige guider for hver av dem. Denne siden er bygget på faktasjekket informasjon om kapasitet, transport og praktisk info – oppdatert {{MAANED_AAR}}.</p>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="../../index.html" class="logo">Konserter<span>iNorge</span>.no</a>
+          <p>Oversikt over konsertscener, festivaler og arrangementer i Norge. Finn arenaer, parkering og billetter.</p>
+        </div>
+        <div>
+          <h4>{{BY}} – Scener</h4>
+          <ul>
+            <!-- Legg til lenke per venue -->
+            <li><a href="{{venue-slug}}/">{{VENUE_NAVN}}</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Informasjon</h4>
+          <ul>
+            <li><a href="../../om-oss/">Om oss</a></li>
+            <li><a href="../../kontakt/">Kontakt</a></li>
+            <li><a href="../../personvern/">Personvern</a></li>
+            <li><a href="../../vilkar/">Vilkår</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-gallery" aria-label="Bilder fra konserter">
+        <img src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?w=280&h=180&fit=crop" width="280" height="180" alt="Konsert med scenelys" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=280&h=180&fit=crop" width="280" height="180" alt="Livekonsert – tett publikum og scene" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=280&h=180&fit=crop" width="280" height="180" alt="Konsertpublikum og scene" loading="lazy">
+        <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=280&h=180&fit=crop" width="280" height="180" alt="Festival med scene – sommer" loading="lazy">
+      </div>
+      <div class="footer-bottom">
+        <p>© Konserter i Norge · <a href="../../personvern/">Personvern</a> · <a href="../../vilkar/">Vilkår</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <button type="button" class="scroll-top" aria-label="Scroll til toppen" title="Scroll til toppen">↑</button>
+  <script src="../../js/main.js"></script>
+</body>
+</html>
