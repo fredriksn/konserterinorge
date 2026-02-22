@@ -3,7 +3,7 @@
   "short_name": "KN",
   "description": "Finn konsertscener, festivaler og billetter i Norge",
   "start_url": "/",
-  "display": "standalone",
+  "display": "browser",
   "background_color": "#1a1a1a",
   "theme_color": "#1a1a1a",
   "icons": [
