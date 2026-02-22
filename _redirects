@@ -1,3 +1,7 @@
 # Netlify redirects
+
+# Favicon fallback – browsers request /favicon.ico by default
+/favicon.ico  /favicon.svg  301
+
 # Serve custom 404 for all unmatched routes
 /*    /404.html   404
